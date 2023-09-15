@@ -6,5 +6,5 @@
 @section('style')
 @endsection
 @section('content')
-
+<p>Helloo World</p>
 @endsection
