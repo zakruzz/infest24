@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('slug');
             $table->longText('body');
-            $table->longText('image')->nullable();
+            $table->longText('image');
             $table->longText('image_alt');
             $table->timestamps();
         });
