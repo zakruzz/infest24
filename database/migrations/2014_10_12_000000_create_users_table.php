@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->longText('image')->default('default.png');
+            $table->longText('image')->nullable();
             $table->enum('type', ['superadmin', 'admin']);
             $table->boolean('is_darkmode')->default(0);
             $table->rememberToken();
