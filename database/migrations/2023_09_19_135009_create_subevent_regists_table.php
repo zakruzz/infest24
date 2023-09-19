@@ -22,8 +22,8 @@ return new class extends Migration
             $table->timestamps();
 
             $table->foreign("subevent_id")
-                ->on("subevents")
                 ->references("id")
+                ->on("subevents")
                 ->onDelete("cascade");
         });
     }
