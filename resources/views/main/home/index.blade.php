@@ -548,7 +548,7 @@
                             <div class="swiper-slide">
                                 <div class="project-box">
                                     <div class="image">
-                                        <img class="mask" src="./assets/images/common/project_1.png" alt="">
+                                        <img class="mask" src="{{ asset('assets/images/common/project_1.png') }}" alt="">
                                         <div class="shape">
                                             <img src="{{ asset('assets/images/common/shape.png') }}" alt="">
                                         </div>
@@ -667,7 +667,7 @@
                 <div class="project-box-style2_wrapper">
                     <div class="project-box-style2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
                         <div class="image">
-                            <img src="./assets/images/common/project_5.png" alt="">
+                            <img src="{{ asset('assets/images/common/project_5.png') }}" alt="">
                         </div>
                         <div class="content">
                             <h5>Submit KYC</h5>
@@ -712,7 +712,7 @@
 
 <section class="tf-section tf-token">
     <div class="overlay">
-        <img src="./assets/images/backgroup/bg_project2.png" alt="">
+        <img src="{{ asset('assets/images/backgroup/bg_project2.png') }}" alt="">
     </div>
     <div class="container">
         <div class="row">
@@ -728,7 +728,7 @@
                     <div class="counter_wrapper">
                         <div class="box">
                             <div class="image">
-                                <img src="./assets/images/common/counter_1.png" alt="">
+                                <img src="{{ asset('assets/images/common/counter_1.png') }}" alt="">
                             </div>
                             <div class="content">
                                 <p class="desc">Funded Projects</p>
@@ -742,7 +742,7 @@
                         </div>
                         <div class="box">
                             <div class="image">
-                                <img src="./assets/images/common/counter_2.png" alt="">
+                                <img src="{{ asset('assets/images/common/counter_2.png') }}" alt="">
                             </div>
                             <div class="content">
                                 <p class="desc">Unique Participants</p>
@@ -756,7 +756,7 @@
                         </div>
                         <div class="box">
                             <div class="image">
-                                <img src="./assets/images/common/counter_3.png" alt="">
+                                <img src="{{ asset('assets/images/common/counter_3.png') }}" alt="">
                             </div>
                             <div class="content">
                                 <p class="desc">Raised Capital</p>
@@ -770,7 +770,7 @@
                         </div>
                         <div class="box">
                             <div class="image">
-                                <img src="./assets/images/common/counter_4.png" alt="">
+                                <img src="{{ asset('assets/images/common/counter_4.png') }}" alt="">
                             </div>
                             <div class="content">
                                 <p class="desc">Initial Market Cap</p>
@@ -786,49 +786,49 @@
                     <div class="char_wrapper">
                         <ul class="describe_chart">
                             <li>
-                                <img src="./assets/images/chart/color_1.png" alt="">
+                                <img src="{{ asset('assets/images/chart/color_1.png') }}" alt="">
                                 <div class="desc">
                                     <p class="name">Team</p>
                                     <p class="number">7.5%</p>
                                 </div>
                             </li>
                             <li>
-                                <img src="./assets/images/chart/color_2.png" alt="">
+                                <img src="{{ asset('assets/images/chart/color_2.png') }}" alt="">
                                 <div class="desc">
                                     <p class="name">Staking</p>
                                     <p class="number">9.5%</p>
                                 </div>
                             </li>
                             <li>
-                                <img src="./assets/images/chart/color_3.png" alt="">
+                                <img src="{{ asset('assets/images/chart/color_3.png') }}" alt="">
                                 <div class="desc">
                                     <p class="name">Advisors</p>
                                     <p class="number">10.0%</p>
                                 </div>
                             </li>
                             <li>
-                                <img src="./assets/images/chart/color_4.png" alt="">
+                                <img src="{{ asset('assets/images/chart/color_4.png') }}" alt="">
                                 <div class="desc">
                                     <p class="name">Liquidity</p>
                                     <p class="number">12.0%</p>
                                 </div>
                             </li>
                             <li>
-                                <img src="./assets/images/chart/color_5.png" alt="">
+                                <img src="{{ asset('assets/images/chart/color_5.png') }}" alt="">
                                 <div class="desc">
                                     <p class="name">Ecosystem</p>
                                     <p class="number">16.33%</p>
                                 </div>
                             </li>
                             <li>
-                                <img src="./assets/images/chart/color_6.png" alt="">
+                                <img src="{{ asset('assets/images/chart/color_6.png') }}" alt="">
                                 <div class="desc">
                                     <p class="name">Marketing</p>
                                     <p class="number">16.33%</p>
                                 </div>
                             </li>
                             <li>
-                                <img src="./assets/images/chart/color_7.png" alt="">
+                                <img src="{{ asset('assets/images/chart/color_7.png') }}" alt="">
                                 <div class="desc">
                                     <p class="name">Private Sale</p>
                                     <p class="number">30.0%</p>
@@ -837,7 +837,7 @@
                         </ul>
                         <div class="chart_inner" data-aos="fade-up" data-aos-duration="800">
                             <div class="content_inner">
-                                <img src="./assets//images/chart/subtract.png" alt="">
+                                <img src="{{ asset('assets/images/chart/subtract.png') }}" alt="">
                                 <p>Statistics token</p>
                             </div>
                             <div id="container"></div>
@@ -872,9 +872,9 @@
                     <div class="project-box-style3" data-aos="fade-in" data-aos-duration="800">
                         <div class="header_project">
                             <div class="image">
-                                <img class="mask" src="./assets/images/common/project_8.png" alt="">
+                                <img class="mask" src="{{ asset('assets/images/common/project_8.png') }}" alt="">
                                 <div class="shape">
-                                    <img src="./assets/images/common/shape_2.png" alt="">
+                                    <img src="{{ asset('assets/images/common/shape_2.png') }} " alt="">
                                 </div>
                             </div>
                             <h5 class="heading"><a href="project-list.html">Zombie plant 2</a></h5>
@@ -954,9 +954,9 @@
                     <div class="project-box-style3" data-aos="fade-in" data-aos-duration="800">
                         <div class="header_project">
                             <div class="image">
-                                <img class="mask" src="./assets/images/common/project_9.png" alt="">
+                                <img class="mask" src="{{ asset('assets/images/common/project_9.png') }}" alt="">
                                 <div class="shape">
-                                    <img src="./assets/images/common/shape_2.png" alt="">
+                                    <img src="{{ asset('assets/images/common/shape_2.png') }}" alt="">
                                 </div>
                             </div>
                             <h5 class="heading"><a href="project-list.html">Codyfight IGO</a></h5>
@@ -1036,9 +1036,9 @@
                     <div class="project-box-style3" data-aos="fade-in" data-aos-duration="800">
                         <div class="header_project">
                             <div class="image">
-                                <img class="mask" src="./assets/images/common/project_10.png" alt="">
+                                <img class="mask" src="{{ asset('assets/images/common/project_10.png') }}" alt="">
                                 <div class="shape">
-                                    <img src="./assets/images/common/shape_2.png" alt="">
+                                    <img src="{{ asset('assets/images/common/shape_2.png') }}" alt="">
                                 </div>
                             </div>
                             <h5 class="heading"><a href="project-list.html">Asphalt 9: Legends</a></h5>
@@ -1118,9 +1118,9 @@
                     <div class="project-box-style3" data-aos="fade-in" data-aos-duration="800">
                         <div class="header_project">
                             <div class="image">
-                                <img class="mask" src="./assets/images/common/project_11.png" alt="">
+                                <img class="mask" src="{{ asset('assets/images/common/project_11.png') }}" alt="">
                                 <div class="shape">
-                                    <img src="./assets/images/common/shape_2.png" alt="">
+                                    <img src="{{ asset('assets/images/common/shape_2.png') }}" alt="">
                                 </div>
                             </div>
                             <h5 class="heading"><a href="project-list.html">Garena Free Fire MAX</a></h5>
