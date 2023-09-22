@@ -344,6 +344,8 @@
                             <ul class="sub-menu">
                                 <li class="menu-item"><a href="/event">INSKILL</a></li>
                                 <li class="menu-item"><a href="/event">INSHOW</a></li>
+                                <li class="menu-item"><a href="/event">INSPECTION</a></li>
+                                <li class="menu-item"><a href="/event">INSTRAINING</a></li>
                             </ul>
                         </li>
                        
