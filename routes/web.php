@@ -32,7 +32,11 @@ Route::get('superuser/logout', [\App\Http\Controllers\Auth\LoginController::clas
 //}else{
 
     Route::get('/', [\App\Http\Controllers\Core\MainController::class, 'index'])->name('home');
-
+    Route::get('/event', [\App\Http\Controllers\Core\MainController::class, 'event'])->name('event');
+    Route::get('/loginuser', [\App\Http\Controllers\Core\MainController::class, 'loginuser'])->name('loginuser');
+    Route::get('/registeruser', [\App\Http\Controllers\Core\MainController::class, 'registeruser'])->name('registeruser');
+    Route::get('/contact', [\App\Http\Controllers\Core\MainController::class, 'contact'])->name('contact');
+    Route::get('/forgetpassword', [\App\Http\Controllers\Core\MainController::class, 'forgetpassword'])->name('forgetpassword');
 //}
 
 Route::group(['middleware' => 'auth', 'prefix' => 'superuser', 'as' => 'superuser.'], function () {

@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="footer-logo">
                     <div class="logo_footer">
-                        <img src="{{ asset('assets/main/images/logo/logo2@2x.png') }}" alt="">
+                        <img src="{{ asset('assets/images/logo/logo2@2x.png') }}" alt="">
                     </div>
                     <p>A one-stop destination for web3 gaming.</p>
                 </div>

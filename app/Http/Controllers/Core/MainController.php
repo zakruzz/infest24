@@ -25,5 +25,20 @@ class MainController extends Controller{
     public function underMaintenance(){
         return view('errors.maintenance');
     }
+    public function event(){
+        return view('main.event.index');
+    }
+    public function loginuser(){
+        return view('main.loginuser.index');
+    }
+    public function registeruser(){
+        return view('main.loginuser.register');
+    }
+    public function contact(){
+        return view('main.contact.index');
+    }
+    public function forgetpassword(){
+        return view('main.loginuser.forgotpassword');
+    }
 
 }

@@ -19,4 +19,6 @@
   <script src="{{ asset('assets/main/app/js/count-down.js') }}"></script>
   <script src="{{ asset('assets/main/app/js/countto.js') }}"></script>
   <script src="{{ asset('assets/main/app/js/chart.js') }}"></script>
+  <script src="{{ asset('assets/main/app/js/plugin.js') }}"></script>
+
 </html>

@@ -663,13 +663,6 @@ form button {
 .header #site-header-inner .tf-button {
     margin-left: auto;
 }
-.header .main-nav {
-    position: absolute;
-    left: 37%;
-    top: 50%;
-    transform: translateY(-50%);
-    padding-left: 10px;
-}
 
 #main-nav .menu {
     display: flex;
@@ -1773,93 +1766,6 @@ form button {
     left: 14px;
 }
 
-.team-details {
-    background-color: #1e2835;
-    border-radius: 20px;
-    padding: 30px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    border: 2px solid rgba(255, 255, 255, 0.0784313725);
-}
-.team-details .image_wrapper {
-    width: 194px;
-    margin-right: 30px;
-}
-.team-details .image {
-    z-index: 999;
-    background: url("./../../assets/images/backgroup/bg_img_team_4.png") center
-        center no-repeat;
-    width: 194px;
-    height: 220px;
-    min-width: 194px;
-    position: relative;
-    margin-bottom: 15px;
-}
-.team-details .image img {
-    width: 194px;
-    height: 220px;
-    -webkit-mask-image: url("./../../assets/images/backgroup/bg_img_team_4.png");
-    mask-image: url("./../../assets/images/backgroup/bg_img_team_4.png");
-    -webkit-mask-position: center center;
-    mask-position: center center;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    overflow: hidden;
-}
-.team-details .content .name {
-    font-size: 24px;
-    margin-bottom: 0;
-}
-.team-details .content .position {
-    font-weight: bold;
-    font-family: "resobot-bold";
-    font-size: 16px;
-    line-height: 1.4;
-    margin-bottom: 20px;
-}
-.team-details .content p {
-    margin-bottom: 14px;
-}
-.team-details .content p.position {
-    margin-bottom: 20px;
-}
-.team-details .content .spacing {
-    position: relative;
-    height: 1px;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.1);
-    margin: 25px 0;
-}
-.team-details .content .box .title {
-    margin-bottom: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 16px;
-}
-.team-details .content .box .title svg {
-    margin-right: 6px;
-}
-.team-details .content .box ul li {
-    margin-bottom: 4px;
-    position: relative;
-    padding-left: 6px;
-}
-.team-details .content .box ul li:last-child {
-    margin-bottom: 0;
-}
-.team-details .content .box ul li::before {
-    width: 4px;
-    height: 4px;
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 8px;
-    background-color: #999999;
-    border-radius: 50%;
-}
-
 .contact-info {
     display: flex;
     align-items: flex-start;
@@ -2696,10 +2602,6 @@ form button {
 }
 .project-info-form .checkbox label.icon::before {
     margin-right: 5px;
-}
-
-.login-page .page-title {
-    min-height: 335px;
 }
 .login-page .project-info {
     transform: translateY(-115px);
@@ -3606,95 +3508,6 @@ form button {
     fill: #09121d;
 }
 
-.team-box-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.team-box {
-    width: calc((100% - 90px) / 4);
-    position: relative;
-    margin-bottom: 20px;
-}
-.team-box .shape {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 4px;
-    z-index: 9;
-    margin-left: 106px;
-    opacity: 1;
-    visibility: visible;
-    transition: all 0.3s ease;
-}
-.team-box .shape_ecfect {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 4px;
-    z-index: 9;
-    margin-left: 106px;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
-}
-.team-box .image {
-    z-index: 999;
-    background: url("./../../assets/images/backgroup/bg_img_team.png") center
-        center no-repeat;
-    width: 156px;
-    height: 176px;
-    margin: 0 auto;
-    position: relative;
-}
-.team-box .image img {
-    width: 156px;
-    height: 176px;
-    -webkit-mask-image: url("./../../assets/images/backgroup/bg_img_team.png");
-    mask-image: url("./../../assets/images/backgroup/bg_img_team.png");
-    -webkit-mask-position: center center;
-    mask-position: center center;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    overflow: hidden;
-}
-.team-box .content {
-    width: 100%;
-    text-align: center;
-    padding: 112px 20px 42px;
-    margin-top: -102px;
-    border-radius: 20px;
-    position: relative;
-    -webkit-mask-image: url("./../../assets/images/backgroup/bg_team.png");
-    mask-image: url("./../../assets/images/backgroup/bg_team.png");
-    -webkit-mask-position: center center;
-    mask-position: center center;
-    -webkit-mask-repeat: no-repeat;
-    background: url("./../../assets/images/backgroup/bg_team.png");
-    background-position: center, center;
-    background-size: cover;
-    z-index: 99;
-}
-.team-box .content .name {
-    font-size: 24px;
-    line-height: 1.4;
-    margin-bottom: 0;
-}
-.team-box .content .position {
-    font-size: 14px;
-    line-height: 1.4;
-    margin-bottom: 20px;
-}
-.team-box:hover .shape {
-    opacity: 0;
-    visibility: hidden;
-}
-.team-box:hover .shape_ecfect {
-    opacity: 1;
-    visibility: visible;
-}
-
 .partner-wrapper {
     display: flex;
     align-items: center;
@@ -3749,26 +3562,7 @@ form button {
     max-width: 350px;
     margin: 0 auto;
 }
-.icon-box .top {
-    text-align: center;
-    -webkit-mask-image: url("./../../assets/images/backgroup/bg_box_1.png");
-    mask-image: url("./../../assets/images/backgroup/bg_box_1.png");
-    -webkit-mask-position: center center;
-    mask-position: center center;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    background: url("./../../assets/images/backgroup/bg_box_1.png");
-    background-position: center, center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    max-height: 352px;
-    height: 100%;
-    padding: 58px 30px 33px;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-}
+
 .icon-box .top .icon {
     margin-bottom: 12px;
 }
@@ -3816,8 +3610,8 @@ form button {
     justify-content: center;
     width: 46px;
     height: 41px;
-    background: url("./../../assets/images/backgroup/bg_num_box1.png") center
-        center no-repeat;
+    background: url("assets/images/backgroup/bg_num_box1.png") center center
+        no-repeat;
     background-size: contain;
     left: 50%;
     transform: translateX(-50%);
