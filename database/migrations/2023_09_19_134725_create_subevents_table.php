@@ -19,6 +19,8 @@ return new class extends Migration
             $table->string("name");
             $table->string("slug");
             $table->longText("desc");
+            $table->longText("guide_book");
+            $table->longText("poster");
             $table->longText("logo");
             $table->longText("background");
             $table->timestamp("regist_open")->nullable();

@@ -12,9 +12,9 @@ use Jantinnerezo\LivewireAlert\LivewireAlert;
 use Livewire\Component;
 
 class BlogContent extends Component{
-    use LivewireAlert;
-    use FileUploadTrait;
     use BlogCategoryTrait;
+    use FileUploadTrait;
+    use LivewireAlert;
 
     public $rules = [
         'blog.blog_category_id'   => 'required',

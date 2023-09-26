@@ -52,6 +52,18 @@ Route::group(['middleware' => 'auth', 'prefix' => 'superuser', 'as' => 'superuse
         Route::get('komentar', \App\Http\Livewire\Superuser\Blog\BlogComments::class)->name('comments');
     });
 
+    Route::group(['prefix' => 'event', 'as' => 'event.'], function () {
+        Route::get('/', \App\Http\Livewire\Superuser\Event\EventIndex::class)->name('index');
+        Route::get('buat', \App\Http\Livewire\Superuser\Event\EventContent::class)->name('create');
+        Route::get('sunting/{id}', \App\Http\Livewire\Superuser\Event\EventContent::class)->name('edit');
+    });
+
+    Route::group(['prefix' => 'subevent', 'as' => 'subevent.'], function () {
+        Route::get('/', \App\Http\Livewire\Superuser\Event\SubeventIndex::class)->name('index');
+        Route::get('buat', \App\Http\Livewire\Superuser\Event\SubeventContent::class)->name('create');
+        Route::get('sunting/{id}', \App\Http\Livewire\Superuser\Event\SubeventContent::class)->name('edit');
+    });
+
     Route::get('admin', \App\Http\Livewire\Superuser\Admin\AdminIndex::class)->name('admin');
 
     Route::group(['prefix' => 'statistik', 'as' => 'statistics.'], function () {
