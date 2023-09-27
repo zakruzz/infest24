@@ -25,7 +25,7 @@ class SubeventIndex extends Component
     }
 
     public function delete($id){
-        $this->confirm('Apakah anda yakin menghapus event ini?', [
+        $this->confirm('Apakah anda yakin menghapus Subevent ini?', [
             'onConfirmed' => 'confirmDelete',
         ]);
         $this->subevent = Subevent::find($id);

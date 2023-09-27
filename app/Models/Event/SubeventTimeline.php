@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Models;
+namespace App\Models\Event;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Faq extends Model
+class SubeventTimeline extends Model
 {
     use HasFactory;
 }

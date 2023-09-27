@@ -64,6 +64,18 @@ Route::group(['middleware' => 'auth', 'prefix' => 'superuser', 'as' => 'superuse
         Route::get('sunting/{id}', \App\Http\Livewire\Superuser\Event\SubeventContent::class)->name('edit');
     });
 
+    Route::group(['prefix' => 'timeline', 'as' => 'timeline.'], function () {
+        Route::get('/', \App\Http\Livewire\Superuser\Event\TimelineIndex::class)->name('index');
+        Route::get('buat', \App\Http\Livewire\Superuser\Event\TimelineContent::class)->name('create');
+        Route::get('sunting/{id}', \App\Http\Livewire\Superuser\Event\TimelineContent::class)->name('edit');
+    });
+
+    Route::group(['prefix' => 'faq', 'as' => 'faq.'], function () {
+        Route::get('/', \App\Http\Livewire\Superuser\FAQ\FaqIndex::class)->name('index');
+        Route::get('buat', \App\Http\Livewire\Superuser\FAQ\FaqContent::class)->name('create');
+        Route::get('sunting/{id}', \App\Http\Livewire\Superuser\FAQ\FaqContent::class)->name('edit');
+    });
+
     Route::get('admin', \App\Http\Livewire\Superuser\Admin\AdminIndex::class)->name('admin');
 
     Route::group(['prefix' => 'statistik', 'as' => 'statistics.'], function () {

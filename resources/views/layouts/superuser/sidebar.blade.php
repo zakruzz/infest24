@@ -95,6 +95,21 @@
                                 </a>
                             </li>
                         </ul>
+                        <ul class="nav-main-submenu">
+                            <li class="nav-main-item">
+                                <a class="nav-main-link {{ (request()->is('superuser/event') || request()->is('superuser/event/timeline')) ? 'active' : '' }}"
+                                   href="{{ route('superuser.timeline.index') }}">
+                                    <span class="nav-main-link-name">Timeline</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-main-item">
+                        <a class="nav-main-link {{ (request()->is('superuser/faq') || request()->is('superuser/faq/*')) ? 'active' : '' }}"
+                           href="{{ route('superuser.faq.index') }}">
+                            <i class="nav-main-link-icon fa fa-comment"></i>
+                            <span class="nav-main-link-name">FAQ</span>
+                        </a>
                     </li>
                     <li class="nav-main-heading">Lainnya</li>
                     <li class="nav-main-item">

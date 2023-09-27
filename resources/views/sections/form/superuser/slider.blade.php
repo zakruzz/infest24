@@ -10,8 +10,8 @@
         <small class="text-muted"> <i class="fa fa-info-circle"></i> Maksimum gambar 5MB (.jpeg/.jpg/.png)</small>
         @error('imageSlider')
         <span class="invalid-feedback">
-                        {{ $message }}
-                    </span>
+            {{ $message }}
+        </span>
         @enderror
     </div>
 
