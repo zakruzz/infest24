@@ -2,7 +2,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Risebot - Metaverse Web3 IGO Launchpad HTML Template</title>
+    <title>INFEST 2024</title>
     <link rel="stylesheet" href="{{ asset('assets/main/app/bootstrap/css/bootstrap.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/main/app/swiper/swiper-bundle.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/main/app/dist/app.css') }}">
@@ -339,15 +339,21 @@
                         <li class="menu-item current-menu-item">
                             <a href="/">Home</a>
                         </li>
+
+                        <li class="menu-item menu-item-has-children"><a href="/inskill">INSKILL</a></li>
                         <li class="menu-item menu-item-has-children">
-                            <a href="#">Event</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="/event">INSKILL</a></li>
-                                <li class="menu-item"><a href="/event">INSHOW</a></li>
-                                <li class="menu-item"><a href="/event">INSPECTION</a></li>
-                                <li class="menu-item"><a href="/event">INSTRAINING</a></li>
-                            </ul>
+                            <a href="#">INSHOW</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <a href="/odl">One Day Lecture</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="/talkshow">Talk Show</a>
+                            </li>
+                        </ul>
                         </li>
+                        <li class="menu-item menu-item-has-children"><a href="/inspection">INSPECTION</a></li>
+                        <li class="menu-item menu-item-has-children"><a href="/instraining">INSTRAINING</a></li>
                        
                         <li class="menu-item ">
                             <a href="/contact">Contact</a> 
