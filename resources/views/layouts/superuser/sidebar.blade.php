@@ -112,10 +112,10 @@
                         </a>
                     </li>
                     <li class="nav-main-heading">Event</li>
-                    <li class="nav-main-item {{ (request()->is('superuser/odl') || request()->is('superuser/odl/*')) ? 'open' : '' }}">
+                    <li class="nav-main-item {{ (request()->is('superuser/odl_umum') || request()->is('superuser/odl_umum/*')) || (request()->is('superuser/odl_undangan') || request()->is('superuser/odl_undangan/*')) ? 'open' : '' }}">
                         <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu"
                            aria-haspopup="true" aria-expanded="true" href="#">
-                            <i class="nav-main-link-icon fa fa-calendar"></i>
+                            <i class="nav-main-link-icon fa fa-chalkboard"></i>
                             <span class="nav-main-link-name">ODL</span>
                         </a>
                         <ul class="nav-main-submenu">

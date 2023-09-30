@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="{{ asset('assets/main/app/dist/app.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/main/aset/font/font-awesome.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/main/aset/font/risebot.css') }}" />
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Favicon and Touch Icons  -->
     <link rel="shortcut icon" href="{{ asset('assets/main/images/favicon.png') }}">
     <link rel="apple-touch-icon-precomposed" href="{{ asset('assets/main/images/favicon.png') }}">
     <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <style>
         @font-face {
             font-family: "resobot-bold";
@@ -64,6 +67,7 @@
             margin-bottom: 0;
         }
 
+<<<<<<< HEAD
         .team-details .content .position {
             font-weight: bold;
             font-family: "resobot-bold";
@@ -347,6 +351,104 @@
             background-size: cover;
             opacity: 0.9;
         }
+=======
+.project-info-form.form-login {
+    background-image: url("{{ asset('assets/images/backgroup/bg_login.png') }}");
+    background-color: transparent;
+    border: none;
+    position: relative;
+    padding: 20px 30px 60px;
+}
+.project-info-form.form-login .title {
+    border: none;
+    font-size: 28px;
+    margin-bottom: 41px;
+    padding-bottom: 0;
+}
+.project-info-form.form-login .title a {
+    color: #798da3;
+}
+.project-info-form.form-login .title a:hover {
+    color: #86ff00;
+}
+.project-info-form.form-login .title.link {
+    margin-bottom: 0 !important;
+    height: 57px;
+    background-image: url("{{ asset('assets/images/backgroup/bg_link_1.png') }}");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15px;
+    left: 205px;
+    width: 237px;
+}
+.project-info-form.form-login fieldset.mb19 {
+    margin-bottom: 19px;
+}
+.project-info-form.form-login p {
+    margin-bottom: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.project-info-form.form-login .fogot-pass {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #fff;
+}
+.project-info-form.form-login .fogot-pass:hover {
+    color: #86ff00;
+}
+.project-info-form.form-login.style2 {
+    background-image: url("{{ asset('assets/images/backgroup/bg_login_2.png') }}");
+    padding: 20px 30px 35px;
+}
+.project-info-form.form-login.style2 .title.link {
+    background-image: url("{{ asset('assets/images/backgroup/bg_link_2.png') }}");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 196px;
+}
+.page-title {
+    min-height: 167px;
+}
+.page-title {
+    padding: 158px 0 115px;
+    position: relative;
+}
+.page-title .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+            180deg,
+            #09121d 3.92%,
+            rgba(9, 18, 29, 0) 36.79%,
+            #09121d 83.98%
+        ),
+        url("{{ asset('assets/images/backgroup/bg_pagetitle.png') }}"), center, center,
+        no-repeat;
+    mix-blend-mode: luminosity;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+.tf-section.tf_CTA .overlay {
+    /* background: url("{{ asset('assets/images/backgroup/CTA.png') }}"), center, center,
+        no-repeat; */
+    background-size: cover;
+    mix-blend-mode: luminosity;
+    opacity: 0.7;
+}
+>>>>>>> b8ececbb344b0191765fac19b0da2d5cfaab36e2
     </style>
 </head>
 
@@ -360,6 +462,7 @@
     <!-- /preload -->
     <div id="wrapper">
         <!-- Header -->
+<<<<<<< HEAD
         <header id="header_main" class="header">
             <div class="container">
                 <div id="site-header-inner">
@@ -370,6 +473,26 @@
                         <ul id="menu-primary-menu" class="menu">
                             <li class="menu-item current-menu-item">
                                 <a href="/">Home</a>
+=======
+    <header id="header_main" class="header">
+        <div class="container">
+            <div id="site-header-inner">
+                <div class="header__logo">
+                    <a href="/"><img src="{{ asset('assets/images/logo/logo@2x.png') }}" alt=""></a>
+                </div>
+                <nav id="main-nav" class="main-nav">
+                    <ul id="menu-primary-menu" class="menu">
+                        <li class="menu-item">
+                            <a href="/">Home</a>
+                        </li>
+
+                        <li class="menu-item menu-item-has-children"><a href="/inskill">INSKILL</a></li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#">INSHOW</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item">
+                                <a href="/odl">One Day Lecture</a>
+>>>>>>> b8ececbb344b0191765fac19b0da2d5cfaab36e2
                             </li>
                             {{-- <li class="menu-item menu-item-has-children"><a href="/inskill">INSKILL</a></li> --}}
                             <li class="menu-item menu-item-has-children">

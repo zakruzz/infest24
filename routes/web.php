@@ -34,6 +34,8 @@ Route::get('superuser/logout', [\App\Http\Controllers\Auth\LoginController::clas
     Route::get('/', [\App\Http\Controllers\Core\MainController::class, 'index'])->name('home');
     Route::get('/inskill', [\App\Http\Controllers\Core\MainController::class, 'inskill'])->name('inskill');
     Route::get('/odl', [\App\Http\Controllers\Core\MainController::class, 'odl'])->name('odl');
+    Route::get('/odlumum', [\App\Http\Controllers\Core\MainController::class, 'odlumum'])->name('odlumum');
+    Route::get('/odlundangan', [\App\Http\Controllers\Core\MainController::class, 'odlundangan'])->name('odlundangan');
     Route::get('/talkshow', [\App\Http\Controllers\Core\MainController::class, 'talkshow'])->name('talkshow');
     Route::get('/instraining', [\App\Http\Controllers\Core\MainController::class, 'instraining'])->name('instraining');
     Route::get('/inspection', [\App\Http\Controllers\Core\MainController::class, 'inspection'])->name('inspection');
@@ -82,14 +84,10 @@ Route::group(['middleware' => 'auth', 'prefix' => 'superuser', 'as' => 'superuse
 
     Route::group(['prefix' => 'odl_undangan', 'as' => 'odl_undangan.'], function () {
         Route::get('/', \App\Http\Livewire\Superuser\ODL\ODLUndanganIndex::class)->name('index');
-        // Route::get('buat', \App\Http\Livewire\Superuser\FAQ\FaqContent::class)->name('create');
-        // Route::get('sunting/{id}', \App\Http\Livewire\Superuser\FAQ\FaqContent::class)->name('edit');
     });
 
     Route::group(['prefix' => 'odl_umum', 'as' => 'odl_umum.'], function () {
         Route::get('/', \App\Http\Livewire\Superuser\ODL\ODLUmumIndex::class)->name('index');
-        // Route::get('buat', \App\Http\Livewire\Superuser\FAQ\FaqContent::class)->name('create');
-        // Route::get('sunting/{id}', \App\Http\Livewire\Superuser\FAQ\FaqContent::class)->name('edit');
     });
 
     Route::get('admin', \App\Http\Livewire\Superuser\Admin\AdminIndex::class)->name('admin');

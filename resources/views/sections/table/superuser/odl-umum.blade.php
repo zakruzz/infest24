@@ -5,19 +5,19 @@
 </div>
 <div class="row">
     <div class="col-lg-8 mb-3">
-        <input type="search" class="form-control w-100" wire:model="filterUndangan.query"
+        <input type="search" class="form-control w-100" wire:model="filterUmum.query"
                placeholder="Cari Data..." required>
     </div>
     <div class="col-lg-4 mb-3">
-        <select class="form-select w-100" wire:model="filterUndangan.order">
+        <select class="form-select w-100" wire:model="filterUmum.order">
             <option value="DESC">Urutkan dari Terbaru</option>
             <option value="ASC">Urutkan dari Terlama</option>
         </select>
     </div>
 
-    @if($this->filterUndangan)
+    @if($this->filterUmum)
         <div class="col-lg-12 mb-3">
-            <button type="button" class="btn btn-alt-primary w-100" wire:click="resetFilterUndangan">Reset Filter</button>
+            <button type="button" class="btn btn-alt-primary w-100" wire:click="resetFilterUmum">Reset Filter</button>
         </div>
     @endif
 </div>
@@ -35,31 +35,28 @@
         </thead>
         <tbody>
 
-        @if($invites->count() == 0)
+        @if($generals->count() == 0)
             <tr>
                 <td class="text-center" colspan="6">Data Tidak Ditemukan :(</td>
             </tr>
         @endif
-        @foreach($invites as $key => $undangan)
+        @foreach($generals as $key => $umum)
             <tr>
                 <td class="text-center fw-semibold">
                     <span>{{ $key + 1 }}</span>
                 </td>
                 <td class="fw-semibold">
-                    <span>{!! $undangan->nama !!}</span>
+                    <span>{!! $umum->nama !!}</span>
                 </td>
                 <td class="fw-semibold">
-                    <span>{!! $undangan->asal_sekolah !!}</span>
+                    <span>{!! $umum->no_wa !!}</span>
                 </td>
                 <td class="fw-semibold">
-                    <span>{!! $undangan->nama_guru !!}</span>
-                </td>
-                <td class="fw-semibold">
-                    <span>{!! $undangan->wa_guru !!}</span>
+                    <span>{!! $umum->asal_sekolah !!}</span>
                 </td>
             </tr>
         @endforeach
         </tbody>
     </table>
-    {{ $invites->links('components.pagination') }}
+    {{ $generals->links('components.pagination') }}
 </div>

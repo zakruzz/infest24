@@ -12,36 +12,12 @@ class ODLUndanganIndex extends Component
     use WithPagination;
     use LivewireAlert;
 
-    public $invitation;
+    public $undangan;
     public $filterUndangan;
     public $perPage = 10;
 
-    protected $listeners = [
-        'confirmDelete',
-    ];
-
     public function resetFilterUndangan(){
         $this->filterUndangan  = [];
-    }
-
-    public function delete($id){
-        $this->confirm('Apakah anda yakin menghapus Undangan ini?', [
-            'onConfirmed' => 'confirmDelete',
-        ]);
-        $this->undangan = SubeventODLUndangan::find($id);
-    }
-
-
-    public function confirmDelete(){
-        try {
-
-            $this->undangan->delete();
-            return $this->alert('success', 'Undangan berhasil dihapus');
-
-        }catch (\Exception $exception){
-            insert_errorlog('Delete Undangan', $exception->getMessage());
-            return $this->alert('error', 'Terjadi Kesalahan');
-        }
     }
 
     public function render()
