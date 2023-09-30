@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-lg-4 mb-3">
-        <button type="submit" class="btn btn-success w-50">Export Excel</button>
+        <a href="{{ route('odlUndangan.export') }}" class="btn btn-success w-50">Export Excel</a>
     </div>
 </div>
 <div class="row">
@@ -30,14 +30,13 @@
             <th class="text-center w-15">Asal Sekolah</th>
             <th class="text-center w-15">Nama Guru</th>
             <th class="text-center w-15">WA Guru</th>
-            <th class="text-center w-10">Aksi</th>
         </tr>
         </thead>
         <tbody>
 
         @if($invites->count() == 0)
             <tr>
-                <td class="text-center" colspan="6">Data Tidak Ditemukan :(</td>
+                <td class="text-center" colspan="5">Data Tidak Ditemukan :(</td>
             </tr>
         @endif
         @foreach($invites as $key => $undangan)
@@ -46,7 +45,9 @@
                     <span>{{ $key + 1 }}</span>
                 </td>
                 <td class="fw-semibold">
-                    <span>{!! $undangan->nama !!}</span>
+                    @foreach (json_decode($undangan->nama) as $key => $item)
+                        <span>{{ ++$key }}. {!! $item !!}</span> <br>
+                    @endforeach
                 </td>
                 <td class="fw-semibold">
                     <span>{!! $undangan->asal_sekolah !!}</span>

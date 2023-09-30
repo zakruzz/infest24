@@ -7,8 +7,9 @@
     <div class="container"> 
         <div class="row">
             <div class="col-md-12">
-                <form action="{{ route('odl.regist') }}">
+                <form action="{{ route('odl.regist') }}" method="POST">
                     @csrf
+                    <input type="hidden" name="tipe_pendaftaran" value="undangan">
                     <h3 class="my-5 text-center">Formulir One Day Lecture Umum</h3>
                     <div class="project-info-form">
                         <h6 class="title">Step 1 : Identitas Diri</h6>
@@ -147,7 +148,7 @@
                                 
                             </div>
 
-                            <p class="note">Note: Kita Hanya Mendukung File PNG/JPG dengan Max. 25 MB</p>
+                            <p class="note">Note: Kita Hanya Mendukung File PNG, JPG,  dan JPEG dengan Max. 25 MB</p>
                         </div>
                     </div>  
 
