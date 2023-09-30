@@ -9,5 +9,15 @@ class SubeventODLUmum extends Model
 {
     use HasFactory;
 
-    protected $table = "subevent_odl_undangan";
+    protected $table = "subevent_odl_umum";
+
+    protected $fillable = [
+        "nama",
+        "no_wa",
+        "asal_sekolah",
+        "image_ig",
+        "image_ic",
+        "image_sis",
+        "image_milab",
+    ];
 }

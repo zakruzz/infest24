@@ -7,7 +7,8 @@
     <div class="container"> 
         <div class="row">
             <div class="col-md-12">
-                <form action="#">
+                <form action="{{ route('odl.regist') }}">
+                    @csrf
                     <h3 class="my-5 text-center">Formulir One Day Lecture Umum</h3>
                     <div class="project-info-form">
                         <h6 class="title">Step 1 : Identitas Diri</h6>
@@ -16,139 +17,79 @@
                                 <label >
                                     Nama Peserta 1
                                 </label>
-                                <input type="text" placeholder="Silahkan Isi Dengan Nama Anda..." required>
+                                <input type="text" placeholder="Silahkan Isi Dengan Nama Anda..." name="nama[]" required>
                             </fieldset>
                             <fieldset>
                                 <label >
                                     Nomor WhatsApp Peserta 1
                                 </label>
-                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Anda..." required>
+                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Anda..." name="no_wa[]" required>
                             </fieldset>
                             <fieldset>
                                 <label >
                                     Nama Peserta 2
                                 </label>
-                                <input type="text" placeholder="Silahkan Isi Dengan Nama Anda..." required>
+                                <input type="text" placeholder="Silahkan Isi Dengan Nama Anda..." name="nama[]" required>
                             </fieldset>
                             <fieldset>
                                 <label >
                                     Nomor WhatsApp Peserta 2
                                 </label>
-                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Anda..." required>
+                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Anda..." name="no_wa[]" required>
                             </fieldset>
                             <fieldset>
                                 <label >
                                     Nama Peserta 3
                                 </label>
-                                <input type="text" placeholder="Silahkan Isi Dengan Nama Anda..." required>
+                                <input type="text" placeholder="Silahkan Isi Dengan Nama Anda..." name="nama[]" required>
                             </fieldset>
                             <fieldset>
                                 <label >
                                     Nomor WhatsApp Peserta 3
                                 </label>
-                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Anda..." required>
+                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Anda..." name="no_wa[]" required>
                             </fieldset>
                             <fieldset>
                                 <label >
                                     Nama Peserta 4
                                 </label>
-                                <input type="text" placeholder="Silahkan Isi Dengan Nama Anda..." required>
+                                <input type="text" placeholder="Silahkan Isi Dengan Nama Anda..." name="nama[]" required>
                             </fieldset>
                             <fieldset>
                                 <label >
                                     Nomor WhatsApp Peserta 4
                                 </label>
-                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Anda..." required>
+                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Anda..." name="no_wa[]" required>
                             </fieldset>
                             <fieldset>
                                 <label >
                                     Nama Peserta 5
                                 </label>
-                                <input type="text" placeholder="Silahkan Isi Dengan Nama Anda..." required>
+                                <input type="text" placeholder="Silahkan Isi Dengan Nama Anda..." name="nama[]" required>
                             </fieldset>
                             <fieldset>
                                 <label >
                                     Nomor WhatsApp Peserta 5
                                 </label>
-                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Anda..." required>
-                            </fieldset>
-                            <fieldset>
-                                <label >
-                                    Nama Peserta 6
-                                </label>
-                                <input type="text" placeholder="Silahkan Isi Dengan Nama Anda..." required>
-                            </fieldset>
-                            <fieldset>
-                                <label >
-                                    Nomor WhatsApp Peserta 6
-                                </label>
-                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Anda..." required>
-                            </fieldset>
-                            <fieldset>
-                                <label >
-                                    Nama Peserta 7
-                                </label>
-                                <input type="text" placeholder="Silahkan Isi Dengan Nama Anda..." required>
-                            </fieldset>
-                            <fieldset>
-                                <label >
-                                    Nomor WhatsApp Peserta 7
-                                </label>
-                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Anda..." required>
-                            </fieldset>
-                            <fieldset>
-                                <label >
-                                    Nama Peserta 8
-                                </label>
-                                <input type="text" placeholder="Silahkan Isi Dengan Nama Anda..." required>
-                            </fieldset>
-                            <fieldset>
-                                <label >
-                                    Nomor WhatsApp Peserta 8
-                                </label>
-                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Anda..." required>
-                            </fieldset>
-                            <fieldset>
-                                <label >
-                                    Nama Peserta 9
-                                </label>
-                                <input type="text" placeholder="Silahkan Isi Dengan Nama Anda..." required>
-                            </fieldset>
-                            <fieldset>
-                                <label >
-                                    Nomor WhatsApp Peserta 9
-                                </label>
-                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Anda..." required>
-                            </fieldset>
-                            <fieldset>
-                                <label >
-                                    Nama Peserta 10
-                                </label>
-                                <input type="text" placeholder="Silahkan Isi Dengan Nama Anda..." required>
-                            </fieldset>
-                            <fieldset>
-                                <label >
-                                    Nomor WhatsApp Peserta 10
-                                </label>
-                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Anda..." required>
+                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Anda..." name="no_wa[]" required>
                             </fieldset>
                             <fieldset>
                                 <label >
                                     Asal Sekolah
                                 </label>
-                                <input type="text" placeholder="Silahkan Isi Dengan Asal Sekolah Anda..." required>
+                                <input type="text" placeholder="Silahkan Isi Dengan Asal Sekolah Anda..." name="asal_sekolah" required>
                             </fieldset>
                             <fieldset>
                                 <label >
                                     Nama Guru Pendamping
                                 </label>
-                                <input type="text" placeholder="Silahkan Isi Dengan Nama Guru Pendamping Anda..." required>
+                                <input type="text" placeholder="Silahkan Isi Dengan Nama Guru Pendamping Anda..." name="nama_guru" required>
                             </fieldset>
                             <fieldset>
                                 <label >
                                     Nomor WhatsApp Guru Pendamping
                                 </label>
-                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Guru Pendamping Anda..." required>
+                                <input type="tel" placeholder="Silahkan Isi Dengan Nomor WhatsApp Guru Pendamping Anda..." name="wa_guru" required>
                             </fieldset>
                         </div> 
                     </div>
@@ -159,7 +100,7 @@
                             <div class="upload-img mb22">
                                 <div class="col img_1"> 
                                     <div class="box"> 
-                                        <input type="file" name="file-1[]" id="file-1" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="">
+                                        <input type="file" name="image_ig" id="file-1" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                         <label for="file-1">
                                             <img src="./assets/images/common/upload.png" alt="">
                                             <span>Drag and drop <br> images</span>
@@ -170,7 +111,7 @@
                                 </div>
                                 <div class="col img_2">
                                     <div class="box"> 
-                                        <input type="file" name="file-2[]" id="file-2" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="">
+                                        <input type="file" name="image_ic" id="file-2" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                         <label for="file-2">
                                             <img src="./assets/images/common/upload.png" alt="">
                                             <span>Drag and drop <br> images</span>
@@ -183,7 +124,7 @@
                             <div class="upload-img mb22">
                                         <div class="col img_3">
                                             <div class="box"> 
-                                                <input type="file" name="file-3[]" id="file-3" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="">
+                                                <input type="file" name="image_sis" id="file-3" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                                 <label for="file-3">
                                                     <img src="./assets/images/common/upload.png" alt="">
                                                     <span>Drag and drop <br> images</span>
@@ -194,7 +135,7 @@
                                         </div>
                                         <div class="col img_3">
                                             <div class="box"> 
-                                                <input type="file" name="file-4[]" id="file-4" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="">
+                                                <input type="file" name="image_milab" id="file-4" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                                 <label for="file-4">
                                                     <img src="./assets/images/common/upload.png" alt="">
                                                     <span>Drag and drop <br> images</span>

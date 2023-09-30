@@ -2,7 +2,7 @@
 
 namespace App\Http\Livewire\Superuser\ODL;
 
-use App\Models\ODL\SubeventODLUndangan;
+use App\Models\ODL\SubeventODLUmum;
 use Jantinnerezo\LivewireAlert\LivewireAlert;
 use Livewire\Component;
 use Livewire\WithPagination;
@@ -18,7 +18,7 @@ class ODLUmumIndex extends Component
 
     public function render()
     {
-        $generals = SubeventODLUndangan::query();
+        $generals = SubeventODLUmum::query();
 
         if ($this->filterUmum){
 

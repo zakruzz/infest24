@@ -27,17 +27,15 @@
         <tr>
             <th class="text-center w-10">No.</th>
             <th class="text-center w-15">Nama Peserta</th>
+            <th class="text-center w-10">No WhatsApp</th>
             <th class="text-center w-15">Asal Sekolah</th>
-            <th class="text-center w-15">Nama Guru</th>
-            <th class="text-center w-15">WA Guru</th>
-            <th class="text-center w-10">Aksi</th>
         </tr>
         </thead>
         <tbody>
 
         @if($generals->count() == 0)
             <tr>
-                <td class="text-center" colspan="6">Data Tidak Ditemukan :(</td>
+                <td class="text-center" colspan="4">Data Tidak Ditemukan :(</td>
             </tr>
         @endif
         @foreach($generals as $key => $umum)

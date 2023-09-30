@@ -29,6 +29,8 @@ class SubeventContent extends Component
     public $subevent;
     public $subeventLogo;
     public $subeventBackground;
+    public $subeventGuideBook;
+    public $subeventPoster;
     public $editMode = FALSE;
 
     public function mount($id = null){

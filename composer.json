@@ -14,6 +14,7 @@
         "laravel/tinker": "^2.7",
         "laravel/ui": "^4.1",
         "livewire/livewire": "^2.12",
+        "phpoffice/phpspreadsheet": "^1.29",
         "rap2hpoutre/laravel-log-viewer": "^2.3"
     },
     "require-dev": {
