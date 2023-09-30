@@ -458,7 +458,6 @@
     <!-- /preload -->
     <div id="wrapper">
         <!-- Header -->
-<<<<<<< HEAD
         <header id="header_main" class="header">
             <div class="container">
                 <div id="site-header-inner">
@@ -469,26 +468,6 @@
                         <ul id="menu-primary-menu" class="menu">
                             <li class="menu-item current-menu-item">
                                 <a href="/">Home</a>
-=======
-    <header id="header_main" class="header">
-        <div class="container">
-            <div id="site-header-inner">
-                <div class="header__logo">
-                    <a href="/"><img src="{{ asset('assets/images/logo/logo@2x.png') }}" alt=""></a>
-                </div>
-                <nav id="main-nav" class="main-nav">
-                    <ul id="menu-primary-menu" class="menu">
-                        <li class="menu-item">
-                            <a href="/">Home</a>
-                        </li>
-
-                        <li class="menu-item menu-item-has-children"><a href="/inskill">INSKILL</a></li>
-                        <li class="menu-item menu-item-has-children">
-                            <a href="#">INSHOW</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item">
-                                <a href="/odl">One Day Lecture</a>
->>>>>>> b8ececbb344b0191765fac19b0da2d5cfaab36e2
                             </li>
                             {{-- <li class="menu-item menu-item-has-children"><a href="/inskill">INSKILL</a></li> --}}
                             <li class="menu-item menu-item-has-children">
