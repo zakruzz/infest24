@@ -23,16 +23,16 @@
                             <div class="col-md-12">
                                 <div class="box-slider">
                                     <div class="content-box">
-                                        <h1 class="title" >Enter the gateway of Blockchain Gaming</h1>
-                                        <p class="sub-title">Visually and spatially connecting games in a seamless metaverse experience</p>
+                                        <h1 class="title" >Make Future <br> By Adventure.</h1>
+                                        <p class="sub-title">Ayo Membuat Masa Depan Cerah Dengan Berpetualang Di INFEST 2024</p>
                                         <div class="wrap-btn">
-                                            <a href="project-list.html" class="tf-button style2">
-                                                EXPLORE IGO
+                                            <a href="#event" class="tf-button style2">
+                                                Event-Event Kami
                                             </a>
                                         </div>
                                     </div>
                                     <div class="image">
-                                        <img class="img_main" src="{{ asset('assets/images/slider/Furore.png') }}" alt="">
+                                        <img class="img_main" src="{{ asset('assets/images/slider/Furore.png') }}" alt="" style="height: auto; width: 75%;">
                                         <div class="icon icon1">
                                             <img src="{{ asset('assets/images/slider/icon_1.png') }}" alt="">
                                         </div>
@@ -51,7 +51,7 @@
                     
                 </div>
             </div>
-            <div class="swiper-slide">
+            {{-- <div class="swiper-slide">
                 <div class="slider-st1">
                     <div class="overlay">
                         <img src="./assets/images//backgroup/bg-slider.png" alt="">
@@ -63,11 +63,11 @@
                                     <div class="content-box">
                                         <h1 class="title">Enter the gateway of Blockchain Gaming</h1>
                                         <p class="sub-title">Visually and spatially connecting games in a seamless metaverse experience</p>
-                                        <div class="wrap-btn">
+                                         <div class="wrap-btn">
                                             <a href="#" class="tf-button style2">
                                                 EXPLORE IGO
                                             </a>
-                                        </div>
+                                        </div> 
                                     </div>
                                     <div class="image">
                                         <img class="img_main" src="assets/images/slider/Furore.png" alt="">
@@ -88,15 +88,15 @@
                     </div>
                     
                 </div>
-            </div>
+            </div> --}}
         </div>
-        <div class="btn-next-main"><i class="far fa-angle-right"></i></div>
+        {{-- <div class="btn-next-main"><i class="far fa-angle-right"></i></div>
         <div class="btn-prev-main"><i class="far fa-angle-left"></i></div>
-        <div class="swiper-pagination"></div>
+        <div class="swiper-pagination"></div> --}}
     </div>
 </section>
 
-<section class="tf-section project">
+{{-- <section class="tf-section project">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -166,9 +166,68 @@
             </div>
         </div>
     </div>
+</section> --}}
+
+<section class="tf-section project_3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tf-title" data-aos="fade-up" data-aos-duration="800">
+                    <h2 class="title mt-5">
+                        Manfaat Mengikuti <br class="show-destop">  Petualangan Kami
+                    </h2>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="project-box-style2_wrapper">
+                    <div class="project-box-style2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+                        <div class="image">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"
+                            style="fill:#40C057;">
+                            <g fill="#40c057" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.683,0 -23,10.317 -23,23c0,12.683 10.317,23 23,23c12.683,0 23,-10.317 23,-23c0,-4.56 -1.33972,-8.81067 -3.63672,-12.38867l-1.36914,1.61719c1.895,3.154 3.00586,6.83148 3.00586,10.77148c0,11.579 -9.421,21 -21,21c-11.579,0 -21,-9.421 -21,-21c0,-11.579 9.421,-21 21,-21c5.443,0 10.39391,2.09977 14.12891,5.50977l1.30859,-1.54492c-4.085,-3.705 -9.5025,-5.96484 -15.4375,-5.96484zM43.23633,7.75391l-19.32227,22.80078l-8.13281,-7.58594l-1.36328,1.46289l9.66602,9.01563l20.67969,-24.40039z"></path></g></g>
+                            </svg>
+                        </div>
+                        <div class="content">
+                            <h5>Dapat Banyak <br> Relasi</h5>
+                            <p class="desc">Tentu Saja Kalian Akan Mendapatkan Banyak Sekali Relasi Saat Mengikuti Petualangan Dari Kami.</p>
+                            <p class="number">01</p>
+                        </div>
+
+                    </div>
+                    <div class="project-box-style2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+                        <div class="image">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"
+                            style="fill:#40C057;">
+                            <g fill="#40c057" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.683,0 -23,10.317 -23,23c0,12.683 10.317,23 23,23c12.683,0 23,-10.317 23,-23c0,-4.56 -1.33972,-8.81067 -3.63672,-12.38867l-1.36914,1.61719c1.895,3.154 3.00586,6.83148 3.00586,10.77148c0,11.579 -9.421,21 -21,21c-11.579,0 -21,-9.421 -21,-21c0,-11.579 9.421,-21 21,-21c5.443,0 10.39391,2.09977 14.12891,5.50977l1.30859,-1.54492c-4.085,-3.705 -9.5025,-5.96484 -15.4375,-5.96484zM43.23633,7.75391l-19.32227,22.80078l-8.13281,-7.58594l-1.36328,1.46289l9.66602,9.01563l20.67969,-24.40039z"></path></g></g>
+                            </svg>
+                        </div>
+                        <div class="content">
+                            <h5>Dapat Banyak Sertifikat</h5>
+                            <p class="desc">Kalau Ini Sudah Pasti Yaa, Kalian Akan Mendapatkan Sertifikat Setiap Mengikuti Petualangan Dari Kami.</p>
+                            <p class="number">02</p>
+                        </div>
+
+                    </div>
+                    <div class="project-box-style2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
+                        <div class="image">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"
+                            style="fill:#40C057;">
+                            <g fill="#40c057" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.683,0 -23,10.317 -23,23c0,12.683 10.317,23 23,23c12.683,0 23,-10.317 23,-23c0,-4.56 -1.33972,-8.81067 -3.63672,-12.38867l-1.36914,1.61719c1.895,3.154 3.00586,6.83148 3.00586,10.77148c0,11.579 -9.421,21 -21,21c-11.579,0 -21,-9.421 -21,-21c0,-11.579 9.421,-21 21,-21c5.443,0 10.39391,2.09977 14.12891,5.50977l1.30859,-1.54492c-4.085,-3.705 -9.5025,-5.96484 -15.4375,-5.96484zM43.23633,7.75391l-19.32227,22.80078l-8.13281,-7.58594l-1.36328,1.46289l9.66602,9.01563l20.67969,-24.40039z"></path></g></g>
+                            </svg>
+                        </div>
+                        <div class="content">
+                            <h5>Dapat Banyak <br> Ilmu</h5>
+                            <p class="desc">Akan Ada Banyakk Sekali Ilmu Yang Didapatkan Jika Kalian Mengikuti Petualangan Kami.</p>
+                            <p class="number">03</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section class="tf-section project_2">
+<section class="tf-section project_2" id="event">
     <div class="overlay">
         <img src="{{ asset('assets/images/backgroup/bg_project.png') }}" alt="">
     </div>
@@ -176,13 +235,13 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="tf-title" data-aos="fade-up" data-aos-duration="800">
-                    <h2 class="title">
-                        Projects that promise a lot <br class="show-destop"> of potential
+                    <h2 class="title" style="margin-top: 10%">
+                        Event-Event <br class="show-destop"> Kami
                     </h2>
                 </div>
             </div>
             <div class="col-md-12">
-                <div class="container_inner">
+                <div class="container_inner ">
                     <div class="swiper-container slider-2" data-aos="fade-in" data-aos-duration="1000">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -196,12 +255,11 @@
                                     <div class="content">
                                         <span class="boder"></span>
                                         <div class="content-inner">
-                                            <h5 class="heading"><a href="./project-list.html">Zombie plant 2</a></h5>
-                                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                                Praesent varius risus sed pellentesque</p>
+                                            <h5 class="heading"><a href="#">INSPECTION</a></h5>
+                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Karya Tulis Ilmiah Khusus Untuk Siswa SMK Berkelompok [3 Orang/Kelompok]</p>
                                         </div>
                                     </div>
-                                    <a href="project-list.html" class="tf-button style1">
+                                    <a href="#" class="tf-button style1">
                                         EXPLORE
                                     </a>
                                 </div>
@@ -217,12 +275,11 @@
                                     <div class="content">
                                         <span class="boder"></span>
                                         <div class="content-inner">
-                                            <h5 class="heading"><a href="./project-list.html">Zombie plant 2</a></h5>
-                                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                                Praesent varius risus sed pellentesque</p>
+                                            <h5 class="heading"><a href="#">INSKILL</a></h5>
+                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Lomba Programmable Logic Controller untuk Siswa/Siswi Yang Terampil</p>
                                         </div>
                                     </div>
-                                    <a href="project-list.html" class="tf-button style1">
+                                    <a href="#" class="tf-button style1">
                                         EXPLORE
                                     </a>
                                 </div>
@@ -230,7 +287,7 @@
                             <div class="swiper-slide">
                                 <div class="project-box">
                                     <div class="image">
-                                        <img class="mask" src="{{ asset('assets/images/common/project_1.png') }}" alt="">
+                                        <img class="mask" src="{{ asset('assets/images/common/project_2.png') }}" alt="">
                                         <div class="shape">
                                             <img src="{{ asset('assets/images/common/shape.png') }}" alt="">
                                         </div>
@@ -238,20 +295,20 @@
                                     <div class="content">
                                         <span class="boder"></span>
                                         <div class="content-inner">
-                                            <h5 class="heading"><a href="./project-list.html">Zombie plant 2</a></h5>
-                                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                                Praesent varius risus sed pellentesque</p>
+                                            <h5 class="heading"><a href="#">INSTRAINING</a></h5>
+                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Webinar-Webinar Dengan Narasumber Kompeten Seputar Teknik Instrumentasi</p>
+                                            
                                         </div>
                                     </div>
-                                    <a href="project-list.html" class="tf-button style1">
-                                        EXPLORE
-                                    </a>
+                                        <a href="#" class="tf-button style1">
+                                            EXPLORE
+                                        </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="project-box">
                                     <div class="image">
-                                        <img class="mask" src="{{ asset('assets/images/common/project_1.png') }}" alt="">
+                                        <img class="mask" src="{{ asset('assets/images/common/project_3.png') }}" alt="">
                                         <div class="shape">
                                             <img src="{{ asset('assets/images/common/shape.png') }}" alt="">
                                         </div>
@@ -259,18 +316,17 @@
                                     <div class="content">
                                         <span class="boder"></span>
                                         <div class="content-inner">
-                                            <h5 class="heading"><a href="./project-list.html">Zombie plant 2</a></h5>
-                                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                                Praesent varius risus sed pellentesque</p>
+                                            <h5 class="heading"><a href="#">INSHOW</a></h5>
+                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Pengenalan Entah Melalui Campus Tour, Talk Show Teknik Instrumentasi </p>
                                         </div>
                                     </div>
-                                    <a href="project-list.html" class="tf-button style1">
+                                    <a href="#" class="tf-button style1">
                                         EXPLORE
                                     </a>
                                 </div>
                             </div>
                         </div>
-           
+                        
                     </div>
                     <div class="next_slider-2 next_slider"><svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1.5 8H16.5M16.5 8L9.75 1.25M16.5 8L9.75 14.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -287,57 +343,9 @@
     </div>
 </section>
 
-<section class="tf-section project_3">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="tf-title" data-aos="fade-up" data-aos-duration="800">
-                    <h2 class="title">
-                        Easy to join IGO <br class="show-destop">  with 3 steps
-                    </h2>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="project-box-style2_wrapper">
-                    <div class="project-box-style2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-                        <div class="image">
-                            <img src="{{ asset('assets/images/common/project_5.png') }}" alt="">
-                        </div>
-                        <div class="content">
-                            <h5>Submit KYC</h5>
-                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non ligula suscipit tincidunt at sit amet nunc.</p>
-                            <p class="number">01</p>
-                        </div>
 
-                    </div>
-                    <div class="project-box-style2" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-                        <div class="image">
-                            <img src="./assets/images/common/project_6.png" alt="">
-                        </div>
-                        <div class="content">
-                            <h5>Verify Wallet</h5>
-                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non ligula suscipit tincidunt at sit amet nunc.</p>
-                            <p class="number">02</p>
-                        </div>
 
-                    </div>
-                    <div class="project-box-style2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
-                        <div class="image">
-                            <img src="./assets/images/common/project_7.png" alt="">
-                        </div>
-                        <div class="content">
-                            <h5>Start Staking</h5>
-                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at nunc non ligula suscipit tincidunt at sit amet nunc.</p>
-                            <p class="number">03</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="tf-section tf_partner">
+{{-- <section class="tf-section tf_partner">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -402,27 +410,23 @@
                     <a href="home-02.html" class="image style">
                     </a>
                 </div>
-              
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 <section class="tf-section tf_CTA">
-
-    <div class="container relative">
-        <div class="overlay">
-        </div>
+    <div class="container" style="margin-top: 17%">
         <div class="row">
             <div class="col-md-6">
                 <div class="tf-title left mt58" data-aos="fade-up" data-aos-duration="800">
                     <h2 class="title">
-                        Launch on Risebot
+                        Terjadi ERROR? atau Kebingungan?
                     </h2>
-                    <p class="sub">Full support in project incubation</p>
+                    <p class="sub">Isi Formulir Di Kontak Kami Yaa...</p>
                     <div class="wrap-btn">
-                        <a href="submit-IGO-on-chain.html" class="tf-button style3">
-                            Apply Now
+                        <a href="/contact" class="tf-button style3">
+                            Kontak
                         </a>
                     </div>
                 </div>

@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="{{ asset('assets/main/app/dist/app.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/main/aset/font/font-awesome.css') }}">    
     <link rel="stylesheet" href="{{ asset('assets/main/aset/font/risebot.css') }}" />
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Favicon and Touch Icons  -->
     <link rel="shortcut icon" href="{{ asset('assets/main/images/favicon.png') }}">
     <link rel="apple-touch-icon-precomposed" href="{{ asset('assets/main/images/favicon.png') }}">
     <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <style>
         @font-face {
     font-family: "resobot-bold";
@@ -316,6 +319,13 @@
     background-size: cover;
     opacity: 0.9;
 }
+.tf-section.tf_CTA .overlay {
+    /* background: url("{{ asset('assets/images/backgroup/CTA.png') }}"), center, center,
+        no-repeat; */
+    background-size: cover;
+    mix-blend-mode: luminosity;
+    opacity: 0.7;
+}
     </style>
 </head>
 <body class="header-fixed main home1 counter-scroll">
@@ -336,7 +346,7 @@
                 </div>
                 <nav id="main-nav" class="main-nav">
                     <ul id="menu-primary-menu" class="menu">
-                        <li class="menu-item current-menu-item">
+                        <li class="menu-item">
                             <a href="/">Home</a>
                         </li>
 

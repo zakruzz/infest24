@@ -13,6 +13,7 @@
                     <img
                         class="icon icon_2"
                         src="./assets/images/common/icon2_slider_2.png"
+                        style="height: auto; width: 10%; top: 12.5%;"
                         alt=""
                     />
                     <img
@@ -115,10 +116,10 @@
                                 <div class="icon-box">
                                     <div class="top">
                                         <div class="icon">
-                                            <img
-                                                src="./assets/images/common/icon_1.png"
-                                                alt=""
-                                            />
+                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"
+                                            style="fill:#40C057;">
+                                            <g fill="#40c057" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.683,0 -23,10.317 -23,23c0,12.683 10.317,23 23,23c12.683,0 23,-10.317 23,-23c0,-4.56 -1.33972,-8.81067 -3.63672,-12.38867l-1.36914,1.61719c1.895,3.154 3.00586,6.83148 3.00586,10.77148c0,11.579 -9.421,21 -21,21c-11.579,0 -21,-9.421 -21,-21c0,-11.579 9.421,-21 21,-21c5.443,0 10.39391,2.09977 14.12891,5.50977l1.30859,-1.54492c-4.085,-3.705 -9.5025,-5.96484 -15.4375,-5.96484zM43.23633,7.75391l-19.32227,22.80078l-8.13281,-7.58594l-1.36328,1.46289l9.66602,9.01563l20.67969,-24.40039z"></path></g></g>
+                                            </svg>
                                         </div>
                                         <div class="content">
                                             <h5><a href="#">Daftar</a></h5>
@@ -142,10 +143,10 @@
                                 <div class="icon-box">
                                     <div class="top">
                                         <div class="icon">
-                                            <img
-                                                src="./assets/images/common/icon_2.png"
-                                                alt=""
-                                            />
+                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"
+                                            style="fill:#40C057;">
+                                            <g fill="#40c057" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.683,0 -23,10.317 -23,23c0,12.683 10.317,23 23,23c12.683,0 23,-10.317 23,-23c0,-4.56 -1.33972,-8.81067 -3.63672,-12.38867l-1.36914,1.61719c1.895,3.154 3.00586,6.83148 3.00586,10.77148c0,11.579 -9.421,21 -21,21c-11.579,0 -21,-9.421 -21,-21c0,-11.579 9.421,-21 21,-21c5.443,0 10.39391,2.09977 14.12891,5.50977l1.30859,-1.54492c-4.085,-3.705 -9.5025,-5.96484 -15.4375,-5.96484zM43.23633,7.75391l-19.32227,22.80078l-8.13281,-7.58594l-1.36328,1.46289l9.66602,9.01563l20.67969,-24.40039z"></path></g></g>
+                                            </svg>
                                         </div>
                                         <div class="content">
                                             <h5>
@@ -173,14 +174,14 @@
                                 <div class="icon-box">
                                     <div class="top">
                                         <div class="icon">
-                                            <img
-                                                src="./assets/images/common/icon_3.png"
-                                                alt=""
-                                            />
+                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"
+                                            style="fill:#40C057;">
+                                            <g fill="#40c057" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.683,0 -23,10.317 -23,23c0,12.683 10.317,23 23,23c12.683,0 23,-10.317 23,-23c0,-4.56 -1.33972,-8.81067 -3.63672,-12.38867l-1.36914,1.61719c1.895,3.154 3.00586,6.83148 3.00586,10.77148c0,11.579 -9.421,21 -21,21c-11.579,0 -21,-9.421 -21,-21c0,-11.579 9.421,-21 21,-21c5.443,0 10.39391,2.09977 14.12891,5.50977l1.30859,-1.54492c-4.085,-3.705 -9.5025,-5.96484 -15.4375,-5.96484zM43.23633,7.75391l-19.32227,22.80078l-8.13281,-7.58594l-1.36328,1.46289l9.66602,9.01563l20.67969,-24.40039z"></path></g></g>
+                                            </svg>
                                         </div>
                                         <div class="content">
                                             <h5>
-                                                <a href="project-list.html"
+                                                <a href="#"
                                                     >Lengkapi
                                                     Persyaratan-Persyaratan</a
                                                 >
@@ -205,14 +206,14 @@
                                 <div class="icon-box">
                                     <div class="top">
                                         <div class="icon">
-                                            <img
-                                                src="./assets/images/common/icon_3.png"
-                                                alt=""
-                                            />
+                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"
+                                            style="fill:#40C057;">
+                                            <g fill="#40c057" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.683,0 -23,10.317 -23,23c0,12.683 10.317,23 23,23c12.683,0 23,-10.317 23,-23c0,-4.56 -1.33972,-8.81067 -3.63672,-12.38867l-1.36914,1.61719c1.895,3.154 3.00586,6.83148 3.00586,10.77148c0,11.579 -9.421,21 -21,21c-11.579,0 -21,-9.421 -21,-21c0,-11.579 9.421,-21 21,-21c5.443,0 10.39391,2.09977 14.12891,5.50977l1.30859,-1.54492c-4.085,-3.705 -9.5025,-5.96484 -15.4375,-5.96484zM43.23633,7.75391l-19.32227,22.80078l-8.13281,-7.58594l-1.36328,1.46289l9.66602,9.01563l20.67969,-24.40039z"></path></g></g>
+                                            </svg>
                                         </div>
                                         <div class="content">
                                             <h5>
-                                                <a href="project-list.html"
+                                                <a href="#"
                                                     >Kirim
                                                     Persyaratan-Persyaratan</a
                                                 >
@@ -237,14 +238,14 @@
                                 <div class="icon-box">
                                     <div class="top">
                                         <div class="icon">
-                                            <img
-                                                src="./assets/images/common/icon_3.png"
-                                                alt=""
-                                            />
+                                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"
+                                            style="fill:#40C057;">
+                                            <g fill="#40c057" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.683,0 -23,10.317 -23,23c0,12.683 10.317,23 23,23c12.683,0 23,-10.317 23,-23c0,-4.56 -1.33972,-8.81067 -3.63672,-12.38867l-1.36914,1.61719c1.895,3.154 3.00586,6.83148 3.00586,10.77148c0,11.579 -9.421,21 -21,21c-11.579,0 -21,-9.421 -21,-21c0,-11.579 9.421,-21 21,-21c5.443,0 10.39391,2.09977 14.12891,5.50977l1.30859,-1.54492c-4.085,-3.705 -9.5025,-5.96484 -15.4375,-5.96484zM43.23633,7.75391l-19.32227,22.80078l-8.13281,-7.58594l-1.36328,1.46289l9.66602,9.01563l20.67969,-24.40039z"></path></g></g>
+                                            </svg>
                                         </div>
                                         <div class="content">
                                             <h5>
-                                                <a href="project-list.html"
+                                                <a href="#"
                                                     >Masuk WhatsApp Grup</a
                                                 >
                                             </h5>
@@ -313,7 +314,7 @@
     </div>
     --}}
 
-    <section class="tf-section technology">
+    {{-- <section class="tf-section technology">
         <div class="container w_1490">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
@@ -461,7 +462,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section class="tf-section roadmap">
         <div class="container w_1850">
@@ -990,7 +991,7 @@
                                         data-aos="fade-up"
                                         data-aos-duration="800"
                                     >
-                                        <div class="flat-toggle active">
+                                        {{-- <div class="flat-toggle active">
                                             <div class="h7 toggle-title">
                                                 <span class="icon-Icon"> </span>
                                                 <span>Guide Book</span>
@@ -1001,7 +1002,7 @@
                                             >
                                                 404 Not Found
                                             </p>
-                                        </div>
+                                        </div> --}}
                                         <div class="flat-toggle">
                                             <div class="h7 toggle-title">
                                                 <span class="icon-Icon"> </span>
@@ -1064,277 +1065,27 @@
                                             <h6 class="title mb30">
                                                 Jalur Pendaftaran
                                             </h6>
-                                            <div class="form-inner">
-                                              <ul class="list w50">
-                                                  <li class="list__item">
-                                                      <input
-                                                          type="radio"
-                                                          class="radio-btn"
-                                                          name="choice"
-                                                          id="5-opt"
-                                                      />
-                                                      <label
-                                                          for="5-opt"
-                                                          class="label"
-                                                          >Umum</label
-                                                      >
-                                                  </li>
-
-                                                  <li class="list__item">
-                                                      <input
-                                                          type="radio"
-                                                          class="radio-btn"
-                                                          name="choice"
-                                                          id="6-opt"
-                                                      />
-                                                      <label
-                                                          for="6-opt"
-                                                          class="label"
-                                                          >Undangan</label
-                                                      >
-                                                  </li>
-                                              </ul>
-                                          </div>
+                                            
+                                            <div
+                                            class="wrap-btn d-grid gap-2 d-md-flex justify-content-md-center"
+                                        >
+                                            <a
+                                                href="/odlumum"
+                                                class="tf-button style2 me-md-2"
+                                            >
+                                                Umum
+                                            </a>
+                                            <a
+                                                href="/odlundangan"
+                                                class="tf-button style2 me-md-2"
+                                            >
+                                                Undangan
+                                            </a>
                                         </div>
-                                        <div class="project-info-form">
-                                            <h6 class="title">
-                                                Lengkapi Persyaratan (Khusus
-                                                Undangan Harap Mengisi Semua
-                                                Sebanyak 10x)
-                                            </h6>
-                                            <div class="form-inner">
-                                                <fieldset>
-                                                    <label> 1. Nama </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nama Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label>
-                                                        1. Nomor WhatsApp
-                                                    </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label> 2. Nama </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nama Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label>
-                                                        2. Nomor WhatsApp
-                                                    </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label> 3. Nama </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nama Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label>
-                                                        3. Nomor WhatsApp
-                                                    </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label> 4. Nama </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nama Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label>
-                                                        4. Nomor WhatsApp
-                                                    </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label> 5. Nama </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nama Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label>
-                                                        5. Nomor WhatsApp
-                                                    </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label> 6. Nama </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nama Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label>
-                                                        6. Nomor WhatsApp
-                                                    </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label> 7. Nama </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nama Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label>
-                                                        7. Nomor WhatsApp
-                                                    </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label> 8. Nama </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nama Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label>
-                                                        8. Nomor WhatsApp
-                                                    </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label> 9. Nama </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nama Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label>
-                                                        9. Nomor WhatsApp
-                                                    </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label> 10. Nama </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nama Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label>
-                                                        10. Nomor WhatsApp
-                                                    </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
-                                                    />
-                                                </fieldset>
-                                                <fieldset>
-                                                    <label>
-                                                        Nama Sekolah Asal
-                                                    </label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Masukkan Nama Sekolah Asal Anda..."
-                                                        required
-                                                    />
-                                                </fieldset>
-                                            </div>
-                                        </div>
-                                        <div class="project-info-form">
-                                            <h6 class="title">Upload Bukti Follow</h6>
-                                            <div class="form-inner">
-                                              <div class="upload-img mb22">
-                                                <div class="col img_1"> 
-                                                    <div class="box"> 
-                                                        <input type="file" name="file-1[]" id="file-1" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="">
-                                                        <label for="file-1">
-                                                            <img src="./assets/images/common/upload.png" alt="">
-                                                            <span>Drag and drop <br> images</span>
-                                                            <span class="file"></span>
-                                                        </label>
-                                                    </div>
-                                                    <p>Bukti Follow Instagram Infest</p>
-                                                </div>
-                                                <div class="col img_2">
-                                                    <div class="box"> 
-                                                        <input type="file" name="file-2[]" id="file-2" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="">
-                                                        <label for="file-2">
-                                                            <img src="./assets/images/common/upload.png" alt="">
-                                                            <span>Drag and drop <br> images</span>
-                                                            <span class="file"></span>
-                                                        </label>
-                                                    </div>
-                                                    <p>Bukti Follow Instagram Lab IC</p>
-                                                </div>
-                                                <div class="col img_3">
-                                                    <div class="box"> 
-                                                        <input type="file" name="file-3[]" id="file-3" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="">
-                                                        <label for="file-3">
-                                                            <img src="./assets/images/common/upload.png" alt="">
-                                                            <span>Drag and drop <br> images</span>
-                                                            <span class="file"></span>
-                                                        </label>
-                                                    </div>
-                                                    <p>Selfie Bukti Follow Instgram Lab Pengukuran</p>
-                                                </div>
-                                                <div class="col img_3">
-                                                    <div class="box"> 
-                                                        <input type="file" name="file-3[]" id="file-3" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="">
-                                                        <label for="file-3">
-                                                            <img src="./assets/images/common/upload.png" alt="">
-                                                            <span>Drag and drop <br> images</span>
-                                                            <span class="file"></span>
-                                                        </label>
-                                                    </div>
-                                                    <p>Selfie Bukti Follow Instgram Lab SIS</p>
-                                                </div>
                                             </div>
                                             </div>
                                         </div>
                                       
-                                        <div class="wrap-btn">
-                                            <button
-                                                type="submit"
-                                                class="tf-button style2"
-                                            >
-                                                Kirim
-                                            </button>
-                                        </div>
                                     </form>
                                 </div>
                             </div>

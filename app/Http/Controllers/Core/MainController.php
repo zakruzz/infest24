@@ -31,6 +31,12 @@ class MainController extends Controller{
     public function odl(){
         return view('main.event.odl');
     }
+    public function odlumum(){
+        return view('main.event.odlumum');
+    }
+    public function odlundangan(){
+        return view('main.event.odlundangan');
+    }
     public function talkshow(){
         return view('main.event.talkshow');
     }

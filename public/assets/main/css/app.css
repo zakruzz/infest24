@@ -893,19 +893,25 @@ form button {
 .box-slider .image .icon {
     position: absolute;
 }
-.box-slider .image .icon.icon1 {
+.box-slider .image .icon .icon1 {
+    height: auto;
+    width: 25%;
     top: 34%;
     right: -58px;
 }
-.box-slider .image .icon.icon1 img {
+.box-slider .image .icon .icon1 img {
     animation: move3 5s infinite linear;
     -webkit-animation: move3 5s infinite linear;
 }
-.box-slider .image .icon.icon2 {
+.box-slider .image .icon .icon2 {
+    height: auto;
+    width: 25%;
     top: 24%;
     left: 20%;
 }
-.box-slider .image .icon.icone {
+.box-slider .image .icon .icon3 {
+    height: auto;
+    width: 25%;
     bottom: -20px;
     left: -40px;
 }
@@ -1032,21 +1038,21 @@ form button {
     position: absolute;
     z-index: 1;
 }
-.main .page-title .slider-st2 .icon.icon_1 {
+.main .page-title .slider-st2 .icon .icon_1 {
     top: 25%;
     left: 20%;
     animation: move2 5s infinite linear;
     -webkit-animation: move2 5s infinite linear;
 }
-.main .page-title .slider-st2 .icon.icon_2 {
+.main .page-title .slider-st2 .icon .icon_2 {
     top: 20%;
     left: 45%;
     animation: move3 5s infinite linear;
     -webkit-animation: move3 5s infinite linear;
 }
-.main .page-title .slider-st2 .icon.icon_3 {
+.main .page-title .slider-st2 .icon .icon_3 {
     top: 30%;
-    right: 20%;
+    right: 25%;
     animation: move4 5s infinite linear;
     -webkit-animation: move4 5s infinite linear;
 }
@@ -2843,8 +2849,8 @@ form button {
 .project-box .image img.mask {
     width: 112px;
     height: 112px;
-    -webkit-mask-image: url("./../../assets/images/common/project_1.png");
-    mask-image: url("./../../assets/images/common/project_1.png");
+    /* -webkit-mask-image: url("./../../assets/images/common/project_1.png");
+    mask-image: url("./../../assets/images/common/project_1.png"); */
     -webkit-mask-position: center center;
     mask-position: center center;
     -webkit-mask-repeat: no-repeat;
@@ -7018,13 +7024,6 @@ form button {
     height: 100%;
     width: 100%;
 }
-.tf-section.tf_CTA .overlay {
-    background: url("./../../assets/images/backgroup/CTA.png"), center, center,
-        no-repeat;
-    background-size: cover;
-    mix-blend-mode: luminosity;
-    opacity: 0.7;
-}
 .tf-section.tf_CTA .image_cta {
     margin-top: -74px;
 }
@@ -9268,4 +9267,3 @@ img.mfp-img {
         width: calc((100% - 30px) / 2) !important;
     }
 } /*# sourceMappingURL=app.css.map */
-
