@@ -466,7 +466,7 @@
                     </div>
                     <nav id="main-nav" class="main-nav">
                         <ul id="menu-primary-menu" class="menu">
-                            <li class="menu-item current-menu-item">
+                            <li class="menu-item">
                                 <a href="/">Home</a>
                             </li>
                             {{-- <li class="menu-item menu-item-has-children"><a href="/inskill">INSKILL</a></li> --}}
