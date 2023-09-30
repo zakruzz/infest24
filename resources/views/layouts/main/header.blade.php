@@ -66,8 +66,6 @@
             font-size: 24px;
             margin-bottom: 0;
         }
-
-<<<<<<< HEAD
         .team-details .content .position {
             font-weight: bold;
             font-family: "resobot-bold";
@@ -351,7 +349,6 @@
             background-size: cover;
             opacity: 0.9;
         }
-=======
 .project-info-form.form-login {
     background-image: url("{{ asset('assets/images/backgroup/bg_login.png') }}");
     background-color: transparent;
@@ -448,7 +445,6 @@
     mix-blend-mode: luminosity;
     opacity: 0.7;
 }
->>>>>>> b8ececbb344b0191765fac19b0da2d5cfaab36e2
     </style>
 </head>
 
@@ -470,7 +466,7 @@
                     </div>
                     <nav id="main-nav" class="main-nav">
                         <ul id="menu-primary-menu" class="menu">
-                            <li class="menu-item current-menu-item">
+                            <li class="menu-item">
                                 <a href="/">Home</a>
                             </li>
                             {{-- <li class="menu-item menu-item-has-children"><a href="/inskill">INSKILL</a></li> --}}
@@ -489,13 +485,13 @@
                             <li class="menu-item menu-item-has-children"><a href="/instraining">INSTRAINING</a></li> --}}
 
                             <li class="menu-item ">
-                                <a href="/contact">Contact</a>
+                                <a href="https://wa.me/+62">Contact</a>
                             </li>
                         </ul>
                     </nav><!-- /#main-nav -->
-                    <a href="/loginuser" class="tf-button style1">
+                    {{-- <a href="/loginuser" class="tf-button style1">
                         Login
-                    </a>
+                    </a> --}}
                     <div class="mobile-button"><span></span></div><!-- /.mobile-button -->
                 </div>
             </div>

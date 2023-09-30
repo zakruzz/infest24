@@ -247,16 +247,13 @@
                             <div class="swiper-slide">
                                 <div class="project-box">
                                     <div class="image">
-                                        <img class="mask" src="{{ asset('assets/images/common/project_1.png') }}" alt="">
-                                        <div class="shape">
-                                            <img src="{{ asset('assets/images/common/shape.png') }}" alt="">
-                                        </div>
+                                        <img class="mask1" src="{{ asset('assets/images/common/project_income.png') }}" alt="">
                                     </div>
                                     <div class="content">
                                         <span class="boder"></span>
                                         <div class="content-inner">
                                             <h5 class="heading"><a href="#">INSPECTION</a></h5>
-                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Karya Tulis Ilmiah Khusus Untuk Siswa SMK Berkelompok [3 Orang/Kelompok]</p>
+                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Karya Tulis Ilmiah Khusus Untuk Siswa SMK Berkelompok <br>[3 Orang/Kelompok]</p>
                                         </div>
                                     </div>
                                     <a href="#" class="tf-button style1">
@@ -267,10 +264,7 @@
                             <div class="swiper-slide">
                                 <div class="project-box">
                                     <div class="image">
-                                        <img class="mask" src="{{ asset('assets/images/common/project_1.png') }}" alt="">
-                                        <div class="shape">
-                                            <img src="{{ asset('assets/images/common/shape.png') }}" alt="">
-                                        </div>
+                                        <img class="mask1" src="{{ asset('assets/images/common/project_inshow.png') }}" alt="">
                                     </div>
                                     <div class="content">
                                         <span class="boder"></span>
@@ -287,10 +281,7 @@
                             <div class="swiper-slide">
                                 <div class="project-box">
                                     <div class="image">
-                                        <img class="mask" src="{{ asset('assets/images/common/project_2.png') }}" alt="">
-                                        <div class="shape">
-                                            <img src="{{ asset('assets/images/common/shape.png') }}" alt="">
-                                        </div>
+                                        <img class="mask2" src="{{ asset('assets/images/common/project_instraining.png') }}" alt="">
                                     </div>
                                     <div class="content">
                                         <span class="boder"></span>
@@ -308,10 +299,7 @@
                             <div class="swiper-slide">
                                 <div class="project-box">
                                     <div class="image">
-                                        <img class="mask" src="{{ asset('assets/images/common/project_3.png') }}" alt="">
-                                        <div class="shape">
-                                            <img src="{{ asset('assets/images/common/shape.png') }}" alt="">
-                                        </div>
+                                        <img class="mask3" src="{{ asset('assets/images/common/project_inshow.png') }}" alt="">
                                     </div>
                                     <div class="content">
                                         <span class="boder"></span>

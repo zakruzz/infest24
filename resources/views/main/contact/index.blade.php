@@ -27,7 +27,12 @@
                         </div>
                         <div class="content">
                             <p>Address</p>
-                            <p class="white">1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+                            <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6704046170007!2d112.79054184228602!3d-7.278292796285293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa16b44ff3e7%3A0x7ef77086cc2efb44!2sDepartemen+Teknik+Instrumentasi+ITS!5e0!3m2!1sen!2sus!4v1539063689843"
+                            width="100%"
+                            height="150"
+                            style="justify-content: center"
+                        ></iframe>
                         </div>
                     </li>
                     <li>

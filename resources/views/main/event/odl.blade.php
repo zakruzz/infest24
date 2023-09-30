@@ -813,8 +813,8 @@
                             Departemen Teknik Instrumentasi.
                         </p>
                     </div>
-                    <div class="flat-toggle active">
-                        <div class="h7 toggle-title active">
+                    <div class="flat-toggle">
+                        <div class="h7 toggle-title">
                             <span class="icon-Icon"> </span>
                             <span
                                 >Kapan dan di mana One Day Lecturer
@@ -955,7 +955,7 @@
                         Tombol Dibawah Ini
                     </p>
                     <div class="wrap-btn">
-                        <a href="/contact" class="tf-button style1">Contact</a>
+                        <a href="https://" class="tf-button style1">Contact</a>
                     </div>
                 </div>
             </div>
