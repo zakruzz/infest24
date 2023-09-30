@@ -485,7 +485,7 @@
                             <li class="menu-item menu-item-has-children"><a href="/instraining">INSTRAINING</a></li> --}}
 
                             <li class="menu-item ">
-                                <a href="/contact">Contact</a>
+                                <a href="https://wa.me/+62">Contact</a>
                             </li>
                         </ul>
                     </nav><!-- /#main-nav -->
