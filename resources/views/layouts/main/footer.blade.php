@@ -28,17 +28,7 @@
                         </li>
                         <li class="email">
                             <p>Email</p>
-                            <a href="#">risebot@support.com</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="widget support">
-                    <h5 class="widget-title">
-                        Support
-                    </h5>
-                    <ul class="widget-link">
-                        <li>
-                            <a href="contact.html">Contact</a>
+                            <a href="https://mail.google.com/mail/u/infesthimatekinsits@gmail.com/#inbox?compose=new">infesthimatekinsits@gmail.com</a>
                         </li>
                     </ul>
                 </div>
