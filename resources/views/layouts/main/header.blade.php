@@ -12,7 +12,8 @@
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Favicon and Touch Icons  -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/main/images/favicon.png') }}">
+    <link rel="shortcut icon" href="{{ asset('assets/main/images/favicon.png') }}">
+    <link rel="apple-touch-icon-precomposed" href="{{ asset('assets/main/images/favicon.png') }}">
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <style>
