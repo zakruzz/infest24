@@ -22,23 +22,9 @@
                             style="justify-content: center"
                         ></iframe>
                         </li>
-                        <li>
-                            <p>Nara Hubung</p>
-                            <a href="#">+62 </a>
-                        </li>
                         <li class="email">
                             <p>Email</p>
-                            <a href="#">risebot@support.com</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="widget support">
-                    <h5 class="widget-title">
-                        Support
-                    </h5>
-                    <ul class="widget-link">
-                        <li>
-                            <a href="contact.html">Contact</a>
+                            <a style="text-decoration: none" href="https://mail.google.com/mail/u/infesthimatekinsits@gmail.com/#inbox?compose=new">infest email</a>
                         </li>
                     </ul>
                 </div>

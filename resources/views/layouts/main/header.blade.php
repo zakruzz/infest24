@@ -483,10 +483,6 @@
                             </li>
                             {{-- <li class="menu-item menu-item-has-children"><a href="/inspection">INSPECTION</a></li>
                             <li class="menu-item menu-item-has-children"><a href="/instraining">INSTRAINING</a></li> --}}
-
-                            <li class="menu-item ">
-                                <a href="https://wa.me/+62">Contact</a>
-                            </li>
                         </ul>
                     </nav><!-- /#main-nav -->
                     {{-- <a href="/loginuser" class="tf-button style1">
