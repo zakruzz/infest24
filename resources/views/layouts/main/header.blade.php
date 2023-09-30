@@ -66,8 +66,6 @@
             font-size: 24px;
             margin-bottom: 0;
         }
-
-<<<<<<< HEAD
         .team-details .content .position {
             font-weight: bold;
             font-family: "resobot-bold";
@@ -351,7 +349,6 @@
             background-size: cover;
             opacity: 0.9;
         }
-=======
 .project-info-form.form-login {
     background-image: url("{{ asset('assets/images/backgroup/bg_login.png') }}");
     background-color: transparent;
@@ -448,7 +445,6 @@
     mix-blend-mode: luminosity;
     opacity: 0.7;
 }
->>>>>>> b8ececbb344b0191765fac19b0da2d5cfaab36e2
     </style>
 </head>
 

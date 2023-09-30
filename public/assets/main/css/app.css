@@ -2837,27 +2837,6 @@ form button {
 .project-box {
     position: relative;
 }
-.project-box .image {
-    position: relative;
-    height: 112px;
-    width: 112px;
-    margin: 0 auto;
-    z-index: 99;
-    background: url("./../../assets/images/common/project_1.png") center center
-        no-repeat;
-}
-.project-box .image img.mask {
-    width: 112px;
-    height: 112px;
-    /* -webkit-mask-image: url("./../../assets/images/common/project_1.png");
-    mask-image: url("./../../assets/images/common/project_1.png"); */
-    -webkit-mask-position: center center;
-    mask-position: center center;
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-    text-align: center;
-    overflow: hidden;
-}
 .project-box .image .shape {
     position: absolute;
     right: 2px;
