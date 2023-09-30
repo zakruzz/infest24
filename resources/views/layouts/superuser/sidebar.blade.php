@@ -111,6 +111,30 @@
                             <span class="nav-main-link-name">FAQ</span>
                         </a>
                     </li>
+                    <li class="nav-main-heading">Event</li>
+                    <li class="nav-main-item {{ (request()->is('superuser/odl') || request()->is('superuser/odl/*')) ? 'open' : '' }}">
+                        <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu"
+                           aria-haspopup="true" aria-expanded="true" href="#">
+                            <i class="nav-main-link-icon fa fa-calendar"></i>
+                            <span class="nav-main-link-name">ODL</span>
+                        </a>
+                        <ul class="nav-main-submenu">
+                            <li class="nav-main-item">
+                                <a class="nav-main-link {{ (request()->is('superuser/event') || request()->is('superuser/odl/odl_umum')) ? 'active' : '' }}"
+                                   href="{{ route('superuser.odl_umum.index') }}">
+                                    <span class="nav-main-link-name">Peserta Umum</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav-main-submenu">
+                            <li class="nav-main-item">
+                                <a class="nav-main-link {{ (request()->is('superuser/event') || request()->is('superuser/odl/odl_undangan')) ? 'active' : '' }}"
+                                   href="{{ route('superuser.odl_undangan.index') }}">
+                                    <span class="nav-main-link-name">Peserta Undangan</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                     <li class="nav-main-heading">Lainnya</li>
                     <li class="nav-main-item">
                         <a class="nav-main-link {{ (request()->is('superuser/admin') || request()->is('superuser/admin/*')) ? 'active' : '' }}"

@@ -49,8 +49,8 @@ class FaqIndex extends Component
 
         if ($this->filterFaq){
 
-            if (array_key_exists("query", $this->filterfaq)){
-                $faqs->where('name','like', '%' . $this->filterfaq['query'] . '%');
+            if (array_key_exists("query", $this->filterFaq)){
+                $faqs->where('name','like', '%' . $this->filterFaq['query'] . '%');
             }
 
             if (array_key_exists("order", $this->filterFaq) && $this->filterFaq['order']){

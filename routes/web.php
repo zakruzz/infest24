@@ -76,6 +76,18 @@ Route::group(['middleware' => 'auth', 'prefix' => 'superuser', 'as' => 'superuse
         Route::get('sunting/{id}', \App\Http\Livewire\Superuser\FAQ\FaqContent::class)->name('edit');
     });
 
+    Route::group(['prefix' => 'odl_undangan', 'as' => 'odl_undangan.'], function () {
+        Route::get('/', \App\Http\Livewire\Superuser\ODL\ODLUndanganIndex::class)->name('index');
+        // Route::get('buat', \App\Http\Livewire\Superuser\FAQ\FaqContent::class)->name('create');
+        // Route::get('sunting/{id}', \App\Http\Livewire\Superuser\FAQ\FaqContent::class)->name('edit');
+    });
+
+    Route::group(['prefix' => 'odl_umum', 'as' => 'odl_umum.'], function () {
+        Route::get('/', \App\Http\Livewire\Superuser\ODL\ODLUmumIndex::class)->name('index');
+        // Route::get('buat', \App\Http\Livewire\Superuser\FAQ\FaqContent::class)->name('create');
+        // Route::get('sunting/{id}', \App\Http\Livewire\Superuser\FAQ\FaqContent::class)->name('edit');
+    });
+
     Route::get('admin', \App\Http\Livewire\Superuser\Admin\AdminIndex::class)->name('admin');
 
     Route::group(['prefix' => 'statistik', 'as' => 'statistics.'], function () {
