@@ -32,7 +32,11 @@ Route::get('superuser/logout', [\App\Http\Controllers\Auth\LoginController::clas
 //}else{
 
     Route::get('/', [\App\Http\Controllers\Core\MainController::class, 'index'])->name('home');
-    Route::get('/event', [\App\Http\Controllers\Core\MainController::class, 'event'])->name('event');
+    Route::get('/inskill', [\App\Http\Controllers\Core\MainController::class, 'inskill'])->name('inskill');
+    Route::get('/odl', [\App\Http\Controllers\Core\MainController::class, 'odl'])->name('odl');
+    Route::get('/talkshow', [\App\Http\Controllers\Core\MainController::class, 'talkshow'])->name('talkshow');
+    Route::get('/instraining', [\App\Http\Controllers\Core\MainController::class, 'instraining'])->name('instraining');
+    Route::get('/inspection', [\App\Http\Controllers\Core\MainController::class, 'inspection'])->name('inspection');
     Route::get('/loginuser', [\App\Http\Controllers\Core\MainController::class, 'loginuser'])->name('loginuser');
     Route::get('/registeruser', [\App\Http\Controllers\Core\MainController::class, 'registeruser'])->name('registeruser');
     Route::get('/contact', [\App\Http\Controllers\Core\MainController::class, 'contact'])->name('contact');

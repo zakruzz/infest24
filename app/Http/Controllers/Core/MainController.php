@@ -25,8 +25,20 @@ class MainController extends Controller{
     public function underMaintenance(){
         return view('errors.maintenance');
     }
-    public function event(){
-        return view('main.event.index');
+    public function inskill(){
+        return view('main.event.inskill');
+    }
+    public function odl(){
+        return view('main.event.odl');
+    }
+    public function talkshow(){
+        return view('main.event.talkshow');
+    }
+    public function instraining(){
+        return view('main.event.instraining');
+    }
+    public function inspection(){
+        return view('main.event.inspection');
     }
     public function loginuser(){
         return view('main.loginuser.index');

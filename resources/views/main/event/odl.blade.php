@@ -1,0 +1,1350 @@
+@extends('layouts.main.app') @section('style') @endsection @section('content')
+<section class="page-title">
+    <div class="swiper-container slider-main">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="slider-st2">
+                    <img
+                        class="icon icon_1"
+                        src="./assets/images/common/Robot1.png"
+                        style="height: auto; width: 10%"
+                        alt=""
+                    />
+                    <img
+                        class="icon icon_2"
+                        src="./assets/images/common/icon2_slider_2.png"
+                        alt=""
+                    />
+                    <img
+                        class="icon icon_3"
+                        src="./assets/images/common/Robot2.png"
+                        style="height: auto; width: 10%"
+                        alt=""
+                    />
+                    <div class="overlay">
+                        <img
+                            src="{{
+                                asset('assets/images/backgroup/bg-odl3.png')
+                            }}"
+                            alt=""
+                        />
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="box-slider">
+                                    <div class="content-box">
+                                        <h1 class="title">
+                                            "One Day Lecture at Instrumentation
+                                            Engineering ITS"
+                                        </h1>
+                                        <p class="sub-title">
+                                            adalah serangkaian kegiatan yang
+                                            dirancang khusus untuk
+                                            memperkenalkan Departemen Teknik
+                                            Instrumentasi, Institut Teknologi
+                                            Sepuluh Nopember. Acara ini tidak
+                                            hanya berfokus pada lecture, tetapi
+                                            juga memberikan kesempatan besar
+                                            untuk siswa dan siswi SMA/SMK di
+                                            Jawa Timur, untuk belajar di
+                                            laboratorium Teknik Instrumentasi
+                                            ITS dan pengalaman seru menjelajahi
+                                            kampus ITS!.
+                                        </p>
+                                        <div
+                                            class="wrap-btn d-grid gap-2 d-md-flex justify-content-md-center"
+                                        >
+                                            <a
+                                                href="#"
+                                                data-toggle="modal"
+                                                data-target="#popup_bid2"
+                                                class="tf-button style2 me-md-2"
+                                            >
+                                                Daftar
+                                            </a>
+                                            <a
+                                                href="#"
+                                                data-toggle="modal"
+                                                data-target="#popup_bid1"
+                                                class="tf-button style2 me-md-2"
+                                            >
+                                                Guide Book/Poster
+                                            </a>
+                                            <a
+                                                href="#faq"
+                                                class="tf-button style2 me-md-2"
+                                            >
+                                                Frequently Asked Questions
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{--
+        <div class="btn-next-main"><i class="far fa-angle-right"></i></div>
+        <div class="btn-prev-main"><i class="far fa-angle-left"></i></div>
+        <div class="swiper-pagination"></div>
+        --}}
+    </div>
+</section>
+<section class="tf-section fueture">
+    <div class="container w_1320">
+        <div class="row">
+            <div class="col-md-12">
+                <div
+                    class="tf-title"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                >
+                    <h2 class="title">Alur Pendaftaran</h2>
+                </div>
+                <div class="container_inner">
+                    <div
+                        class="swiper-container slider-10"
+                        data-aos="fade-in"
+                        data-aos-duration="1000"
+                    >
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="icon-box">
+                                    <div class="top">
+                                        <div class="icon">
+                                            <img
+                                                src="./assets/images/common/icon_1.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="content">
+                                            <h5><a href="#">Daftar</a></h5>
+                                            <p>
+                                                Klik Tombol Daftar Pada Website,
+                                                Yang Nanti Akan Diarahkan Ke
+                                                Formulir Pendaftaran.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <img
+                                            src="./assets/images/backgroup/bg_bt_box_1.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="number">1</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="icon-box">
+                                    <div class="top">
+                                        <div class="icon">
+                                            <img
+                                                src="./assets/images/common/icon_2.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="content">
+                                            <h5>
+                                                <a href="#"
+                                                    >Pilih Jalur Umum atau
+                                                    Undangan</a
+                                                >
+                                            </h5>
+                                            <p>
+                                                Pada Formulir Silahkan Pilih
+                                                Jalur Yang Sesuai.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <img
+                                            src="./assets/images/backgroup/bg_bt_box_1.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="number">2</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="icon-box">
+                                    <div class="top">
+                                        <div class="icon">
+                                            <img
+                                                src="./assets/images/common/icon_3.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="content">
+                                            <h5>
+                                                <a href="project-list.html"
+                                                    >Lengkapi
+                                                    Persyaratan-Persyaratan</a
+                                                >
+                                            </h5>
+                                            <p>
+                                                Lengkapi Persyaratan-Persyaratan
+                                                Yang Telah Ditentukan Oleh
+                                                Panitia.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <img
+                                            src="./assets/images/backgroup/bg_bt_box_1.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="number">3</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="icon-box">
+                                    <div class="top">
+                                        <div class="icon">
+                                            <img
+                                                src="./assets/images/common/icon_3.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="content">
+                                            <h5>
+                                                <a href="project-list.html"
+                                                    >Kirim
+                                                    Persyaratan-Persyaratan</a
+                                                >
+                                            </h5>
+                                            <p>
+                                                Klik Tombol Kirim Yang Telah
+                                                Tertera Pada Formulir Website
+                                                Untuk Menyelesaikan Pendaftaran.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <img
+                                            src="./assets/images/backgroup/bg_bt_box_1.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="number">4</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="icon-box">
+                                    <div class="top">
+                                        <div class="icon">
+                                            <img
+                                                src="./assets/images/common/icon_3.png"
+                                                alt=""
+                                            />
+                                        </div>
+                                        <div class="content">
+                                            <h5>
+                                                <a href="project-list.html"
+                                                    >Masuk WhatsApp Grup</a
+                                                >
+                                            </h5>
+                                            <p>
+                                                Masuk WhatsApp Grup Yang Telah
+                                                Disediakan Panitia Sehabis
+                                                Mengirim Formulir dan
+                                                Persyaratan.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <img
+                                            src="./assets/images/backgroup/bg_bt_box_1.png"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="number">5</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next_slider-10 next_slider">
+                        <svg
+                            width="18"
+                            height="16"
+                            viewBox="0 0 18 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M1.5 8H16.5M16.5 8L9.75 1.25M16.5 8L9.75 14.75"
+                                stroke="white"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </div>
+                    <div class="prev_slider-10 prev_slider">
+                        <svg
+                            width="18"
+                            height="16"
+                            viewBox="0 0 18 16"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M16.5 8H1.5M1.5 8L8.25 1.25M1.5 8L8.25 14.75"
+                                stroke="white"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="bg_body">
+    {{--
+    <div class="bg_h2">
+        <img src="{{ asset('assets/images/backgroup/bg_home2.png') }}" alt="" />
+    </div>
+    --}}
+
+    <section class="tf-section technology">
+        <div class="container w_1490">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div
+                        class="tf-title"
+                        data-aos="fade-right"
+                        data-aos-duration="800"
+                    >
+                        <div class="img_technology">
+                            <img
+                                src="./assets/images/common/img_technology1.png"
+                                alt=""
+                            />
+                            <img
+                                class="coin coin_1"
+                                src="./assets/images/common/coin1.png"
+                                alt=""
+                            />
+                            <img
+                                class="coin coin_2"
+                                src="./assets/images/common/coin2.png"
+                                alt=""
+                            />
+                            <img
+                                class="coin coin_3"
+                                src="./assets/images/common/coin3.png"
+                                alt=""
+                            />
+                            <img
+                                class="coin coin_4"
+                                src="./assets/images/common/coin4.png"
+                                alt=""
+                            />
+                            <img
+                                class="coin coin_5"
+                                src="./assets/images/common/coin5.png"
+                                alt=""
+                            />
+                            <img
+                                class="coin coin_6"
+                                src="./assets/images/common/coin6.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div
+                        class="content_technology"
+                        data-aos="fade-up"
+                        data-aos-duration="800"
+                    >
+                        <div class="tf-title left">
+                            <h2 class="title mb20">
+                                Our technology supports multiple platforms
+                            </h2>
+                        </div>
+                        <p class="sub_technology">
+                            Cras molestie ullamcorper augue nec pulvinar. Ut
+                            suscipit tempor justo, sed aliquet eros ultricies
+                            eu. Nam mollis sapien ut sapien gravida
+                            sollicitudin. Mauris vel nisl quis dolor accumsan
+                            luctus.
+                        </p>
+                        <div class="swiper-container slider-6">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img
+                                        src="./assets/images/common/logo_tech_1.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="./assets/images/common/logo_tech_2.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="./assets/images/common/logo_tech_3.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="./assets/images/common/logo_tech_4.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="./assets/images/common/logo_tech_5.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="./assets/images/common/logo_tech_6.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="./assets/images/common/logo_tech_4.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="./assets/images/common/logo_tech_5.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="./assets/images/common/logo_tech_6.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="./assets/images/common/logo_tech_1.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="./assets/images/common/logo_tech_2.png"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img
+                                        src="./assets/images/common/logo_tech_3.png"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+                            <div
+                                class="swiper-pagination pagination_slider-6"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tf-section roadmap">
+        <div class="container w_1850">
+            <div class="row">
+                <div class="col-md-12">
+                    <div
+                        class="tf-title"
+                        data-aos="fade-up"
+                        data-aos-duration="800"
+                    >
+                        <h2 class="title">Roadmap</h2>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="container_inner roadmap_boder">
+                        <div
+                            class="roadmap-wrapper"
+                            data-aos="fade-in"
+                            data-aos-duration="1000"
+                        >
+                            <div class="swiper-container slider-7">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="roadmap-box active">
+                                            <div class="icon">
+                                                <img
+                                                    src="./assets/images/common/icon_roadmap.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="content">
+                                                <h6 class="date">
+                                                    April 16, 2022
+                                                </h6>
+                                                <ul>
+                                                    <li>
+                                                        Cras molestie
+                                                        ullamcorper augue nec
+                                                        pulvinar
+                                                    </li>
+                                                    <li>
+                                                        Nam mollis sapien ut
+                                                        sapien gravida
+                                                        sollicitudin
+                                                    </li>
+                                                    <li>
+                                                        Mauris vel nisl quis
+                                                        dolor accumsan luctus
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="roadmap-box active">
+                                            <div class="icon">
+                                                <img
+                                                    src="./assets/images/common/icon_roadmap.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="content">
+                                                <h6 class="date">
+                                                    April 16, 2022
+                                                </h6>
+                                                <ul>
+                                                    <li>
+                                                        Cras molestie
+                                                        ullamcorper augue nec
+                                                        pulvinar
+                                                    </li>
+                                                    <li>
+                                                        Nam mollis sapien ut
+                                                        sapien gravida
+                                                        sollicitudin
+                                                    </li>
+                                                    <li>
+                                                        Mauris vel nisl quis
+                                                        dolor accumsan luctus
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="roadmap-box active">
+                                            <div class="icon">
+                                                <img
+                                                    src="./assets/images/common/icon_roadmap.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="content">
+                                                <h6 class="date">
+                                                    April 16, 2022
+                                                </h6>
+                                                <ul>
+                                                    <li>
+                                                        Cras molestie
+                                                        ullamcorper augue nec
+                                                        pulvinar
+                                                    </li>
+                                                    <li>
+                                                        Nam mollis sapien ut
+                                                        sapien gravida
+                                                        sollicitudin
+                                                    </li>
+                                                    <li>
+                                                        Mauris vel nisl quis
+                                                        dolor accumsan luctus
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="roadmap-box active">
+                                            <div class="icon">
+                                                <img
+                                                    src="./assets/images/common/icon_roadmap.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="content">
+                                                <h6 class="date">
+                                                    April 16, 2022
+                                                </h6>
+                                                <ul>
+                                                    <li>
+                                                        Cras molestie
+                                                        ullamcorper augue nec
+                                                        pulvinar
+                                                    </li>
+                                                    <li>
+                                                        Nam mollis sapien ut
+                                                        sapien gravida
+                                                        sollicitudin
+                                                    </li>
+                                                    <li>
+                                                        Mauris vel nisl quis
+                                                        dolor accumsan luctus
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="roadmap-box">
+                                            <div class="icon">
+                                                <img
+                                                    src="./assets/images/common/icon_roadmap.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="content">
+                                                <h6 class="date">
+                                                    April 16, 2022
+                                                </h6>
+                                                <ul>
+                                                    <li>
+                                                        Cras molestie
+                                                        ullamcorper augue nec
+                                                        pulvinar
+                                                    </li>
+                                                    <li>
+                                                        Nam mollis sapien ut
+                                                        sapien gravida
+                                                        sollicitudin
+                                                    </li>
+                                                    <li>
+                                                        Mauris vel nisl quis
+                                                        dolor accumsan luctus
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="roadmap-box">
+                                            <div class="icon">
+                                                <img
+                                                    src="./assets/images/common/icon_roadmap.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="content">
+                                                <h6 class="date">
+                                                    April 16, 2022
+                                                </h6>
+                                                <ul>
+                                                    <li>
+                                                        Cras molestie
+                                                        ullamcorper augue nec
+                                                        pulvinar
+                                                    </li>
+                                                    <li>
+                                                        Nam mollis sapien ut
+                                                        sapien gravida
+                                                        sollicitudin
+                                                    </li>
+                                                    <li>
+                                                        Mauris vel nisl quis
+                                                        dolor accumsan luctus
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="roadmap-box">
+                                            <div class="icon">
+                                                <img
+                                                    src="./assets/images/common/icon_roadmap.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="content">
+                                                <h6 class="date">
+                                                    April 16, 2022
+                                                </h6>
+                                                <ul>
+                                                    <li>
+                                                        Cras molestie
+                                                        ullamcorper augue nec
+                                                        pulvinar
+                                                    </li>
+                                                    <li>
+                                                        Nam mollis sapien ut
+                                                        sapien gravida
+                                                        sollicitudin
+                                                    </li>
+                                                    <li>
+                                                        Mauris vel nisl quis
+                                                        dolor accumsan luctus
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="roadmap-box">
+                                            <div class="icon">
+                                                <img
+                                                    src="./assets/images/common/icon_roadmap.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="content">
+                                                <h6 class="date">
+                                                    April 16, 2022
+                                                </h6>
+                                                <ul>
+                                                    <li>
+                                                        Cras molestie
+                                                        ullamcorper augue nec
+                                                        pulvinar
+                                                    </li>
+                                                    <li>
+                                                        Nam mollis sapien ut
+                                                        sapien gravida
+                                                        sollicitudin
+                                                    </li>
+                                                    <li>
+                                                        Mauris vel nisl quis
+                                                        dolor accumsan luctus
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="next_slider-7 next_slider">
+                            <svg
+                                width="18"
+                                height="16"
+                                viewBox="0 0 18 16"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M1.5 8H16.5M16.5 8L9.75 1.25M16.5 8L9.75 14.75"
+                                    stroke="white"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
+                        <div class="prev_slider-7 prev_slider">
+                            <svg
+                                width="18"
+                                height="16"
+                                viewBox="0 0 18 16"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M16.5 8H1.5M1.5 8L8.25 1.25M1.5 8L8.25 14.75"
+                                    stroke="white"
+                                    stroke-width="1.5"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<section class="tf-section FAQs" id="faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div
+                    class="tf-title"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                >
+                    <h2 class="title">frequently asked questions</h2>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div
+                    class="flat-accordion aos-init aos-animate"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                >
+                    <div class="flat-toggle">
+                        <div class="h7 toggle-title">
+                            <span class="icon-Icon"> </span>
+                            <span
+                                >Apa itu One Day Lecturer Instrumentation
+                                Engineering?</span
+                            >
+                        </div>
+                        <p class="toggle-content" style="display: none">
+                            One Day Lecture Instrumentation Engineering
+                            merupakan salah satu rangkaian dari kegiatan
+                            Instrumentation Festival yang memberikan sebuah
+                            pengalaman baru kepada siswa/siswi SMA/sederajat
+                            untuk menjadi Mahasiswa di Departemen Teknik
+                            Instrumentasi dan mengunjungi Lab yang ada di
+                            Departemen Teknik Instrumentasi.
+                        </p>
+                    </div>
+                    <div class="flat-toggle active">
+                        <div class="h7 toggle-title active">
+                            <span class="icon-Icon"> </span>
+                            <span
+                                >Kapan dan di mana One Day Lecturer
+                                Instrumentation Engineering ini akan
+                                berlangsung?</span
+                            >
+                        </div>
+                        <p class="toggle-content" style="display: none">
+                            Kegiatan ini akan berlangsung pada tanggal 4,5,dan
+                            18 November tahun 2024. Kegiatan ini akan
+                            dilaksanakan di kawasan Departemen Teknik
+                            Instrumentasi dan Kampus ITS Sukolilo Surabaya.
+                        </p>
+                    </div>
+                    <div class="flat-toggle">
+                        <div class="h7 toggle-title">
+                            <span class="icon-Icon"> </span>
+                            <span
+                                >Di mana letak Departemen Teknik Instrumentasi
+                                ITS?
+                            </span>
+                        </div>
+                        <p class="toggle-content" style="display: none">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.6704046170007!2d112.79054184228602!3d-7.278292796285293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa16b44ff3e7%3A0x7ef77086cc2efb44!2sDepartemen+Teknik+Instrumentasi+ITS!5e0!3m2!1sen!2sus!4v1539063689843"
+                                width="100%"
+                                height="450"
+                                style="justify-content: center"
+                            ></iframe>
+                        </p>
+                    </div>
+                    <div class="flat-toggle">
+                        <div class="h7 toggle-title">
+                            <span class="icon-Icon"> </span>
+                            <span
+                                >Siapa yang dapat mengikuti One Day Lecturer
+                                Instrumentation Engineering?</span
+                            >
+                        </div>
+                        <p class="toggle-content" style="display: none">
+                            Kegiatan ini dapat diikuti oleh semua pelajar
+                            SMA/sederajat dari seluruh Indonesia.
+                        </p>
+                    </div>
+                    <div class="flat-toggle">
+                        <div class="h7 toggle-title">
+                            <span class="icon-Icon"> </span>
+                            <span
+                                >Adakah biaya yang harus dikeluarkan untuk
+                                mengikuti Day Lecturer Instrumentation
+                                Engineering?</span
+                            >
+                        </div>
+                        <p class="toggle-content" style="display: none">
+                            Kegiatan One Day Lecturer Instrumentation
+                            Engineering ini dapat diikuti tanpa perlu
+                            mengeluarkan biaya [Gratis].
+                        </p>
+                    </div>
+                    <div class="flat-toggle">
+                        <div class="h7 toggle-title">
+                            <span class="icon-Icon"> </span>
+                            <span
+                                >Pakaian apa yang dikenakan selama acara One Day
+                                Lecturer Instrumentation Engineering?</span
+                            >
+                        </div>
+                        <p class="toggle-content" style="display: none">
+                            Selama kegiatan peserta dapat menggunakan seragam
+                            identitas masing-masing sekolahnya, maupun
+                            menggunakan seragam bengkel dari SMK.
+                        </p>
+                    </div>
+                    <div class="flat-toggle">
+                        <div class="h7 toggle-title">
+                            <span class="icon-Icon"> </span>
+                            <span
+                                >Barang apa yang perlu dibawa saat One Day
+                                Lecturer Instrumentation Engineering?</span
+                            >
+                        </div>
+                        <p class="toggle-content" style="display: none">
+                            Selama kegiatan peserta dapat menggunakan seragam
+                            identitas masing-masing sekolahnya, maupun
+                            menggunakan seragam bengkel dari SMK.
+                        </p>
+                    </div>
+                    <div class="flat-toggle">
+                        <div class="h7 toggle-title">
+                            <span class="icon-Icon"> </span>
+                            <span
+                                >Bagaimana saya bisa menghubungi panitia jika
+                                memiliki pertanyaan tambahan?</span
+                            >
+                        </div>
+                        <p class="toggle-content" style="display: none">
+                            Jika peserta kegiatan memiliki pertanyaan tambahan,
+                            maka dapat langsung menghubungi Contact Person yang
+                            tertera pada poster kegiatan.
+                        </p>
+                    </div>
+                    <div class="flat-toggle">
+                        <div class="h7 toggle-title">
+                            <span class="icon-Icon"> </span>
+                            <span
+                                >Apakah bisa mendapatkan pasangan dengan
+                                mengikuti One Day Lecturer Instrumentation
+                                Engineering?</span
+                            >
+                        </div>
+                        <p class="toggle-content" style="display: none">
+                            Tentu saja bisa, jangankan pasangan, pada kegiatan
+                            ini kalian akan mendapatkan banyak sekali teman baru
+                            dari berbagai wilayah.
+                        </p>
+                    </div>
+                    <div class="flat-toggle">
+                        <div class="h7 toggle-title">
+                            <span class="icon-Icon"> </span>
+                            <span
+                                >Dengan mengikuti One Day Lecturer
+                                Instrumentation apakah bisa langsung diterima
+                                menjadi mahasiswa ITS?</span
+                            >
+                        </div>
+                        <p class="toggle-content" style="display: none">
+                            Jelas bisa doooong, cuma harus usaha aja, belajar
+                            dan jangan lupa berdoa agar bisa diterima ITS
+                            terutama jurusan Teknik Instrumentasi
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="content_faq text-center">
+                    <p>
+                        Masih Dibingungkan Perihal One Day Lecture Ini? Klik
+                        Tombol Dibawah Ini
+                    </p>
+                    <div class="wrap-btn">
+                        <a href="/contact" class="tf-button style1">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div
+    class="modal fade popup"
+    id="popup_bid1"
+    tabindex="-1"
+    role="dialog"
+    aria-hidden="true"
+>
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="close icon" data-dismiss="modal" aria-label="Close">
+                <img src="./assets/images/backgroup/bg_close.png" alt="" />
+            </div>
+            <div class="header-popup">
+                <h5>Guide Book/Poster</h5>
+                <div class="spacing"></div>
+            </div>
+
+            <div class="modal-body center">
+                <div class="connect-wallet">
+                    <section class="tf-section FAQs">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div
+                                        class="flat-accordion aos-init aos-animate"
+                                        data-aos="fade-up"
+                                        data-aos-duration="800"
+                                    >
+                                        <div class="flat-toggle active">
+                                            <div class="h7 toggle-title">
+                                                <span class="icon-Icon"> </span>
+                                                <span>Guide Book</span>
+                                            </div>
+                                            <p
+                                                class="toggle-content"
+                                                style="display: none"
+                                            >
+                                                404 Not Found
+                                            </p>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <div class="h7 toggle-title">
+                                                <span class="icon-Icon"> </span>
+                                                <span>Poster</span>
+                                            </div>
+                                            <p
+                                                class="toggle-content"
+                                                style="display: none"
+                                            >
+                                                <img
+                                                    src="{{
+                                                        asset(
+                                                            'assets/event/PosterODL.jpg'
+                                                        )
+                                                    }}"
+                                                    alt=""
+                                                    srcset=""
+                                                    class="justify-content-center"
+                                                />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div
+    class="modal fade popup"
+    id="popup_bid2"
+    tabindex="-1"
+    role="dialog"
+    aria-hidden="true"
+>
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="close icon" data-dismiss="modal" aria-label="Close">
+                <img src="./assets/images/backgroup/bg_close.png" alt="" />
+            </div>
+            <div class="header-popup">
+                <h5>Form Pendaftaran</h5>
+                <div class="spacing"></div>
+            </div>
+
+            <div class="modal-body center">
+                <div class="connect-wallet">
+                    <section class="tf-section project-info pt60 pb60">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <form action="#">
+                                        <div
+                                            class="project-info-form check-radio"
+                                        >
+                                            <h6 class="title mb30">
+                                                Jalur Pendaftaran
+                                            </h6>
+                                            <div class="form-inner">
+                                              <ul class="list w50">
+                                                  <li class="list__item">
+                                                      <input
+                                                          type="radio"
+                                                          class="radio-btn"
+                                                          name="choice"
+                                                          id="5-opt"
+                                                      />
+                                                      <label
+                                                          for="5-opt"
+                                                          class="label"
+                                                          >Umum</label
+                                                      >
+                                                  </li>
+
+                                                  <li class="list__item">
+                                                      <input
+                                                          type="radio"
+                                                          class="radio-btn"
+                                                          name="choice"
+                                                          id="6-opt"
+                                                      />
+                                                      <label
+                                                          for="6-opt"
+                                                          class="label"
+                                                          >Undangan</label
+                                                      >
+                                                  </li>
+                                              </ul>
+                                          </div>
+                                        </div>
+                                        <div class="project-info-form">
+                                            <h6 class="title">
+                                                Lengkapi Persyaratan (Khusus
+                                                Undangan Harap Mengisi Semua
+                                                Sebanyak 10x)
+                                            </h6>
+                                            <div class="form-inner">
+                                                <fieldset>
+                                                    <label> 1. Nama </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nama Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label>
+                                                        1. Nomor WhatsApp
+                                                    </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label> 2. Nama </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nama Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label>
+                                                        2. Nomor WhatsApp
+                                                    </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label> 3. Nama </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nama Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label>
+                                                        3. Nomor WhatsApp
+                                                    </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label> 4. Nama </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nama Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label>
+                                                        4. Nomor WhatsApp
+                                                    </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label> 5. Nama </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nama Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label>
+                                                        5. Nomor WhatsApp
+                                                    </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label> 6. Nama </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nama Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label>
+                                                        6. Nomor WhatsApp
+                                                    </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label> 7. Nama </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nama Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label>
+                                                        7. Nomor WhatsApp
+                                                    </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label> 8. Nama </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nama Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label>
+                                                        8. Nomor WhatsApp
+                                                    </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label> 9. Nama </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nama Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label>
+                                                        9. Nomor WhatsApp
+                                                    </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label> 10. Nama </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nama Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label>
+                                                        10. Nomor WhatsApp
+                                                    </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nomor WhatsApp Anda..."
+                                                    />
+                                                </fieldset>
+                                                <fieldset>
+                                                    <label>
+                                                        Nama Sekolah Asal
+                                                    </label>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Masukkan Nama Sekolah Asal Anda..."
+                                                        required
+                                                    />
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                        <div class="project-info-form">
+                                            <h6 class="title">Upload Bukti Follow</h6>
+                                            <div class="form-inner">
+                                              <div class="upload-img mb22">
+                                                <div class="col img_1"> 
+                                                    <div class="box"> 
+                                                        <input type="file" name="file-1[]" id="file-1" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="">
+                                                        <label for="file-1">
+                                                            <img src="./assets/images/common/upload.png" alt="">
+                                                            <span>Drag and drop <br> images</span>
+                                                            <span class="file"></span>
+                                                        </label>
+                                                    </div>
+                                                    <p>Bukti Follow Instagram Infest</p>
+                                                </div>
+                                                <div class="col img_2">
+                                                    <div class="box"> 
+                                                        <input type="file" name="file-2[]" id="file-2" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="">
+                                                        <label for="file-2">
+                                                            <img src="./assets/images/common/upload.png" alt="">
+                                                            <span>Drag and drop <br> images</span>
+                                                            <span class="file"></span>
+                                                        </label>
+                                                    </div>
+                                                    <p>Bukti Follow Instagram Lab IC</p>
+                                                </div>
+                                                <div class="col img_3">
+                                                    <div class="box"> 
+                                                        <input type="file" name="file-3[]" id="file-3" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="">
+                                                        <label for="file-3">
+                                                            <img src="./assets/images/common/upload.png" alt="">
+                                                            <span>Drag and drop <br> images</span>
+                                                            <span class="file"></span>
+                                                        </label>
+                                                    </div>
+                                                    <p>Selfie Bukti Follow Instgram Lab Pengukuran</p>
+                                                </div>
+                                                <div class="col img_3">
+                                                    <div class="box"> 
+                                                        <input type="file" name="file-3[]" id="file-3" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" multiple="">
+                                                        <label for="file-3">
+                                                            <img src="./assets/images/common/upload.png" alt="">
+                                                            <span>Drag and drop <br> images</span>
+                                                            <span class="file"></span>
+                                                        </label>
+                                                    </div>
+                                                    <p>Selfie Bukti Follow Instgram Lab SIS</p>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                      
+                                        <div class="wrap-btn">
+                                            <button
+                                                type="submit"
+                                                class="tf-button style2"
+                                            >
+                                                Kirim
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a id="scroll-top"></a>
+@endsection
