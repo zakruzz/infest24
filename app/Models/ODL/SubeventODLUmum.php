@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class SubeventODLUmum extends Model
 {
     use HasFactory;
+
+    protected $table = "subevent_odl_undangan";
 }

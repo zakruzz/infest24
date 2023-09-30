@@ -20,9 +20,6 @@
             @include('sections.table.superuser.odl-undangan')
         </div>
     </div>
-    <a href="{{ route('superuser.odl-undangan.create') }}" class="btn-float">
-        <i class="fa fa-plus btn-float-inner"></i>
-    </a>
 </div>
 @section('scripts')
     @include('packages.js.form-plugins')

@@ -18,8 +18,8 @@ class SubeventContent extends Component
         'subevent.event_id' => 'required',
         'subevent.name' => 'required',
         'subevent.desc' => 'required',
-        'subevent.guide_book' => 'required',
-        'subevent.poster' => 'required',
+        'subeventGuideBook' => 'mimes:pdf|max:20000',
+        'subeventPoster' => 'mimes:pdf|max:20000',
         'subeventLogo' => 'mimes:jpeg,jpg,png|max:5000',
         'subeventBackground' => 'mimes:jpeg,jpg,png|max:5000',
         'subevent.regist_open' => 'required',
@@ -44,17 +44,29 @@ class SubeventContent extends Component
     public function save(){
         $this->rules['subeventLogo'] = $this->editMode ? 'nullable' : 'required'.'|'.$this->rules['subeventLogo'];
         $this->rules['subeventBackground'] = $this->editMode ? 'nullable' : 'required'.'|'.$this->rules['subeventBackground'];
+        $this->rules['subeventGuideBook'] = $this->editMode ? 'nullable' : 'required'.'|'.$this->rules['subeventGuideBook'];
+        $this->rules['subeventPoster'] = $this->editMode ? 'nullable' : 'required'.'|'.$this->rules['subeventPoster'];
         $this->validate();
 
         try {
             if ($this->subeventLogo){
-                $uploadImage = $this->uploadFile('Subevent/', $this->subeventLogo, 'SUBEVENTLOGO');
+                $uploadImage = $this->uploadFile('Subevent/Logo/', $this->subeventLogo, 'SUBEVENTLOGO');
                 $this->subevent->logo = $uploadImage;
             }
 
             if ($this->subeventBackground){
-                $uploadImage = $this->uploadFile('Subevent/', $this->subeventBackground, 'SUBEVENTBG');
+                $uploadImage = $this->uploadFile('Subevent/Background/', $this->subeventBackground, 'SUBEVENTBG');
                 $this->subevent->background = $uploadImage;
+            }
+
+            if ($this->subeventGuideBook){
+                $uploadFile = $this->uploadFile('Subevent/GuideBook/', $this->subeventGuideBook, 'SUBEVENTGB');
+                $this->subevent->guide_book = $uploadFile;
+            }
+
+            if ($this->subeventPoster){
+                $uploadFile = $this->uploadFile('Subevent/Poster/', $this->subeventPoster, 'SUBEVENTPOSTER');
+                $this->subevent->poster = $uploadFile;
             }
 
             $this->subevent->slug = Str::slug($this->subevent->name).'-'.rand(0000, 9999);

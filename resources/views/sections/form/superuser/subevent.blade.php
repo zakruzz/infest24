@@ -70,32 +70,30 @@
     </div>
     <div class="col-lg-12">
         <div class="row mb-4">
-            <label class="col-lg-2 form-label" for="field-guideBook-subevent">Link Guide Book <span class="text-danger">*</span></label>
-            <div class="col-lg-10">
-                <input type="text" class="form-control @error('subevent.guide_book') is-invalid @enderror"
-                       id="field-guideBook-subevent"
-                       wire:model.defer="subevent.guide_book"
-                       placeholder="Lorem Ipsum Sit Dolor Amit">
-                @error('subevent.poster')
-                    <span class="invalid-feedback">
+            <label class="col-lg-2 form-label" for="field-guideBook-subevent">Guide Book <span class="text-danger">*</span></label>
+            <div class="col-lg-8">
+                <input class="form-control @error('subeventGuideBook') is-invalid @enderror" type="file" id="field-guideBook-subevent"
+                       wire:model="subeventGuideBook" wire:loading.attr="disabled" accept=".pdf">
+                <small class="text-muted"> <i class="fa fa-info-circle"></i> Maksimum file 20MB (.pdf)</small>
+                @error('subeventGuideBook')
+                     <span class="invalid-feedback">
                         {{ $message }}
-                     </span>
+                    </span>
                 @enderror
             </div>
         </div>
     </div>
     <div class="col-lg-12">
         <div class="row mb-4">
-            <label class="col-lg-2 form-label" for="field-poster-subevent">Link Poster <span class="text-danger">*</span></label>
-            <div class="col-lg-10">
-                <input type="text" class="form-control @error('subevent.poster') is-invalid @enderror"
-                       id="field-poster-subevent"
-                       wire:model.defer="subevent.poster"
-                       placeholder="Lorem Ipsum Sit Dolor Amit">
-                @error('subevent.poster')
-                    <span class="invalid-feedback">
+            <label class="col-lg-2 form-label" for="field-poster-subevent">Poster <span class="text-danger">*</span></label>
+            <div class="col-lg-8">
+                <input class="form-control @error('subeventPoster') is-invalid @enderror" type="file" id="field-poster-subevent"
+                       wire:model="subeventPoster" wire:loading.attr="disabled" accept=".pdf">
+                <small class="text-muted"> <i class="fa fa-info-circle"></i> Maksimum file 20MB (.pdf)</small>
+                @error('subeventPoster')
+                     <span class="invalid-feedback">
                         {{ $message }}
-                     </span>
+                    </span>
                 @enderror
             </div>
         </div>
