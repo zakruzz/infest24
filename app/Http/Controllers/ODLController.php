@@ -94,7 +94,7 @@ class ODLController extends Controller
         $writer = new Xlsx($spreadsheet);
 
         // Simpan file Excel ke dalam storage atau Anda bisa mengirimkannya sebagai respons HTTP langsung
-        $filename = 'Daftar Undangan.xlsx';
+        $filename = 'Daftar Umum.xlsx';
         $writer->save(storage_path('app/public/' . $filename));
 
         return response()->download(storage_path('app/public/' . $filename))->deleteFileAfterSend(true);

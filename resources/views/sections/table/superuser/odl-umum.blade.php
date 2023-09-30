@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-lg-4 mb-3">
-        <button type="submit" class="btn btn-success w-50">Export Excel</button>
+        <a href="{{ route('odlUmum.export') }}" class="btn btn-success w-50">Export Excel</a>
     </div>
 </div>
 <div class="row">

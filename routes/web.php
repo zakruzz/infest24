@@ -37,6 +37,7 @@ Route::get('superuser/logout', [\App\Http\Controllers\Auth\LoginController::clas
     Route::get('/odlumum', [\App\Http\Controllers\Core\MainController::class, 'odlumum'])->name('odlumum');
     Route::post('/odl/regist', [\App\Http\Controllers\ODLController::class, 'save'])->name('odl.regist');
     Route::get('/exportUndangan', [\App\Http\Controllers\ODLController::class, 'exportUndangan'])->name('odlUndangan.export');
+    Route::get('/exportUmum', [\App\Http\Controllers\ODLController::class, 'exportUmum'])->name('odlUmum.export');
     Route::get('/odlundangan', [\App\Http\Controllers\Core\MainController::class, 'odlundangan'])->name('odlundangan');
     Route::get('/talkshow', [\App\Http\Controllers\Core\MainController::class, 'talkshow'])->name('talkshow');
     Route::get('/instraining', [\App\Http\Controllers\Core\MainController::class, 'instraining'])->name('instraining');
