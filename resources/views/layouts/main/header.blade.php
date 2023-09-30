@@ -489,9 +489,9 @@
                             </li>
                         </ul>
                     </nav><!-- /#main-nav -->
-                    <a href="/loginuser" class="tf-button style1">
+                    {{-- <a href="/loginuser" class="tf-button style1">
                         Login
-                    </a>
+                    </a> --}}
                     <div class="mobile-button"><span></span></div><!-- /.mobile-button -->
                 </div>
             </div>
