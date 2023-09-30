@@ -33,7 +33,7 @@ class ODLController extends Controller
                 "image_milab" => "abc",
             ]);
 
-            return redirect()->away('https://wa.me/085251497372');
+            return redirect()->away('https://chat.whatsapp.com/Cjl087nTIpc8eECZ6G5vI7');
         }elseif($request->tipe_pendaftaran == "undangan") {
             $daftar_nama = [];
             $daftar_wa = [];
@@ -58,7 +58,7 @@ class ODLController extends Controller
                 "image_milab" => "abc",
             ]);
 
-            return redirect()->away('https://wa.me/085251497372');
+            return redirect()->away('https://chat.whatsapp.com/BSWhe5kHZK56COBGbFaSWy');
         }
 
     }

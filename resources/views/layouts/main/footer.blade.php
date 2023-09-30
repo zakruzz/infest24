@@ -22,13 +22,9 @@
                             style="justify-content: center"
                         ></iframe>
                         </li>
-                        <li>
-                            <p>Nara Hubung</p>
-                            <a href="#">+62 </a>
-                        </li>
                         <li class="email">
                             <p>Email</p>
-                            <a href="https://mail.google.com/mail/u/infesthimatekinsits@gmail.com/#inbox?compose=new">infesthimatekinsits@gmail.com</a>
+                            <a style="text-decoration: none" href="https://mail.google.com/mail/u/infesthimatekinsits@gmail.com/#inbox?compose=new">infest email</a>
                         </li>
                     </ul>
                 </div>

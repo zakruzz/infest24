@@ -955,7 +955,7 @@
                         Tombol Dibawah Ini
                     </p>
                     <div class="wrap-btn">
-                        <a href="https://" class="tf-button style1">Contact</a>
+                        <a href="https://wa.me/+62895396254665" class="tf-button style1">Contact</a>
                     </div>
                 </div>
             </div>
