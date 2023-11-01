@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="footer-logo">
                     <div class="logo_footer">
-                        <img src="{{ asset('public/assets/images/logo/logofooter.png') }}" alt="">
+                        <img src="{{ asset('assets/images/logo/logofooter.png') }}" alt="">
                     </div>
                     <p>Make Future By Adventure.</p>
                 </div>
