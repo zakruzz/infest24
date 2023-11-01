@@ -15,6 +15,7 @@ class SubeventODLUmum extends Model
         "nama",
         "no_wa",
         "asal_sekolah",
+        "link_drive",
         "image_ig",
         "image_ic",
         "image_sis",

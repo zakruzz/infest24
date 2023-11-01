@@ -6,26 +6,26 @@
                 <div class="slider-st2">
                     <img
                         class="icon icon_1"
-                        src="./assets/images/common/Robot1.png"
+                        src="public/assets/images/common/Robot1.png"
                         style="height: auto; width: 10%"
                         alt=""
                     />
                     <img
                         class="icon icon_2"
-                        src="./assets/images/common/icon2_slider_2.png"
+                        src="public/assets/images/common/icon2_slider_2.png"
                         style="height: auto; width: 10%; top: 12.5%;"
                         alt=""
                     />
                     <img
                         class="icon icon_3"
-                        src="./assets/images/common/Robot2.png"
+                        src="public/assets/images/common/Robot2.png"
                         style="height: auto; width: 10%"
                         alt=""
                     />
                     <div class="overlay">
                         <img
                             src="{{
-                                asset('assets/images/backgroup/bg-odl3.png')
+                                asset('public/assets/images/backgroup/bg-odl3.png')
                             }}"
                             alt=""
                         />
@@ -56,14 +56,13 @@
                                         <div
                                             class="wrap-btn d-grid gap-2 d-md-flex justify-content-md-center"
                                         >
-                                            <a
-                                                href="#"
-                                                data-toggle="modal"
-                                                data-target="#popup_bid2"
-                                                class="tf-button style2 me-md-2"
-                                            >
-                                                Daftar
-                                            </a>
+                                            <!-- <a-->
+                                            <!--    href="#"-->
+                                            <!--    data-toggle="modal"-->
+                                            <!--    data-target="#popup_bid2"-->
+                                            <!--    class="tf-button style2 me-md-2"-->
+                                            <!--    Daftar-->
+                                            <!--</a>-->
                                             <a
                                                 href="#"
                                                 data-toggle="modal"
@@ -132,7 +131,7 @@
                                     </div>
                                     <div class="bottom">
                                         <img
-                                            src="./assets/images/backgroup/bg_bt_box_1.png"
+                                            src="public/assets/images/backgroup/bg_bt_box_1.png"
                                             alt=""
                                         />
                                     </div>
@@ -163,7 +162,7 @@
                                     </div>
                                     <div class="bottom">
                                         <img
-                                            src="./assets/images/backgroup/bg_bt_box_1.png"
+                                            src="public/assets/images/backgroup/bg_bt_box_1.png"
                                             alt=""
                                         />
                                     </div>
@@ -195,7 +194,7 @@
                                     </div>
                                     <div class="bottom">
                                         <img
-                                            src="./assets/images/backgroup/bg_bt_box_1.png"
+                                            src="public/assets/images/backgroup/bg_bt_box_1.png"
                                             alt=""
                                         />
                                     </div>
@@ -227,7 +226,7 @@
                                     </div>
                                     <div class="bottom">
                                         <img
-                                            src="./assets/images/backgroup/bg_bt_box_1.png"
+                                            src="public/assets/images/backgroup/bg_bt_box_1.png"
                                             alt=""
                                         />
                                     </div>
@@ -259,7 +258,7 @@
                                     </div>
                                     <div class="bottom">
                                         <img
-                                            src="./assets/images/backgroup/bg_bt_box_1.png"
+                                            src="public/assets/images/backgroup/bg_bt_box_1.png"
                                             alt=""
                                         />
                                     </div>
@@ -310,7 +309,7 @@
 <div class="bg_body">
     {{--
     <div class="bg_h2">
-        <img src="{{ asset('assets/images/backgroup/bg_home2.png') }}" alt="" />
+        <img src="{{ asset('public/assets/images/backgroup/bg_home2.png') }}" alt="" />
     </div>
     --}}
 
@@ -325,37 +324,37 @@
                     >
                         <div class="img_technology">
                             <img
-                                src="./assets/images/common/img_technology1.png"
+                                src="public/assets/images/common/img_technology1.png"
                                 alt=""
                             />
                             <img
                                 class="coin coin_1"
-                                src="./assets/images/common/coin1.png"
+                                src="public/assets/images/common/coin1.png"
                                 alt=""
                             />
                             <img
                                 class="coin coin_2"
-                                src="./assets/images/common/coin2.png"
+                                src="public/assets/images/common/coin2.png"
                                 alt=""
                             />
                             <img
                                 class="coin coin_3"
-                                src="./assets/images/common/coin3.png"
+                                src="public/assets/images/common/coin3.png"
                                 alt=""
                             />
                             <img
                                 class="coin coin_4"
-                                src="./assets/images/common/coin4.png"
+                                src="public/assets/images/common/coin4.png"
                                 alt=""
                             />
                             <img
                                 class="coin coin_5"
-                                src="./assets/images/common/coin5.png"
+                                src="public/assets/images/common/coin5.png"
                                 alt=""
                             />
                             <img
                                 class="coin coin_6"
-                                src="./assets/images/common/coin6.png"
+                                src="public/assets/images/common/coin6.png"
                                 alt=""
                             />
                         </div>
@@ -383,73 +382,73 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <img
-                                        src="./assets/images/common/logo_tech_1.png"
+                                        src="public/assets/images/common/logo_tech_1.png"
                                         alt=""
                                     />
                                 </div>
                                 <div class="swiper-slide">
                                     <img
-                                        src="./assets/images/common/logo_tech_2.png"
+                                        src="public/assets/images/common/logo_tech_2.png"
                                         alt=""
                                     />
                                 </div>
                                 <div class="swiper-slide">
                                     <img
-                                        src="./assets/images/common/logo_tech_3.png"
+                                        src="public/assets/images/common/logo_tech_3.png"
                                         alt=""
                                     />
                                 </div>
                                 <div class="swiper-slide">
                                     <img
-                                        src="./assets/images/common/logo_tech_4.png"
+                                        src="public/assets/images/common/logo_tech_4.png"
                                         alt=""
                                     />
                                 </div>
                                 <div class="swiper-slide">
                                     <img
-                                        src="./assets/images/common/logo_tech_5.png"
+                                        src="public/assets/images/common/logo_tech_5.png"
                                         alt=""
                                     />
                                 </div>
                                 <div class="swiper-slide">
                                     <img
-                                        src="./assets/images/common/logo_tech_6.png"
+                                        src="public/assets/images/common/logo_tech_6.png"
                                         alt=""
                                     />
                                 </div>
                                 <div class="swiper-slide">
                                     <img
-                                        src="./assets/images/common/logo_tech_4.png"
+                                        src="public/assets/images/common/logo_tech_4.png"
                                         alt=""
                                     />
                                 </div>
                                 <div class="swiper-slide">
                                     <img
-                                        src="./assets/images/common/logo_tech_5.png"
+                                        src="public/assets/images/common/logo_tech_5.png"
                                         alt=""
                                     />
                                 </div>
                                 <div class="swiper-slide">
                                     <img
-                                        src="./assets/images/common/logo_tech_6.png"
+                                        src="public/assets/images/common/logo_tech_6.png"
                                         alt=""
                                     />
                                 </div>
                                 <div class="swiper-slide">
                                     <img
-                                        src="./assets/images/common/logo_tech_1.png"
+                                        src="public/assets/images/common/logo_tech_1.png"
                                         alt=""
                                     />
                                 </div>
                                 <div class="swiper-slide">
                                     <img
-                                        src="./assets/images/common/logo_tech_2.png"
+                                        src="public/assets/images/common/logo_tech_2.png"
                                         alt=""
                                     />
                                 </div>
                                 <div class="swiper-slide">
                                     <img
-                                        src="./assets/images/common/logo_tech_3.png"
+                                        src="public/assets/images/common/logo_tech_3.png"
                                         alt=""
                                     />
                                 </div>
@@ -464,317 +463,317 @@
         </div>
     </section> --}}
 
-    <section class="tf-section roadmap">
-        <div class="container w_1850">
-            <div class="row">
-                <div class="col-md-12">
-                    <div
-                        class="tf-title"
-                        data-aos="fade-up"
-                        data-aos-duration="800"
-                    >
-                        <h2 class="title">Roadmap</h2>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="container_inner roadmap_boder">
-                        <div
-                            class="roadmap-wrapper"
-                            data-aos="fade-in"
-                            data-aos-duration="1000"
-                        >
-                            <div class="swiper-container slider-7">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="roadmap-box active">
-                                            <div class="icon">
-                                                <img
-                                                    src="./assets/images/common/icon_roadmap.svg"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="date">
-                                                    April 16, 2022
-                                                </h6>
-                                                <ul>
-                                                    <li>
-                                                        Cras molestie
-                                                        ullamcorper augue nec
-                                                        pulvinar
-                                                    </li>
-                                                    <li>
-                                                        Nam mollis sapien ut
-                                                        sapien gravida
-                                                        sollicitudin
-                                                    </li>
-                                                    <li>
-                                                        Mauris vel nisl quis
-                                                        dolor accumsan luctus
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="roadmap-box active">
-                                            <div class="icon">
-                                                <img
-                                                    src="./assets/images/common/icon_roadmap.svg"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="date">
-                                                    April 16, 2022
-                                                </h6>
-                                                <ul>
-                                                    <li>
-                                                        Cras molestie
-                                                        ullamcorper augue nec
-                                                        pulvinar
-                                                    </li>
-                                                    <li>
-                                                        Nam mollis sapien ut
-                                                        sapien gravida
-                                                        sollicitudin
-                                                    </li>
-                                                    <li>
-                                                        Mauris vel nisl quis
-                                                        dolor accumsan luctus
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="roadmap-box active">
-                                            <div class="icon">
-                                                <img
-                                                    src="./assets/images/common/icon_roadmap.svg"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="date">
-                                                    April 16, 2022
-                                                </h6>
-                                                <ul>
-                                                    <li>
-                                                        Cras molestie
-                                                        ullamcorper augue nec
-                                                        pulvinar
-                                                    </li>
-                                                    <li>
-                                                        Nam mollis sapien ut
-                                                        sapien gravida
-                                                        sollicitudin
-                                                    </li>
-                                                    <li>
-                                                        Mauris vel nisl quis
-                                                        dolor accumsan luctus
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="roadmap-box active">
-                                            <div class="icon">
-                                                <img
-                                                    src="./assets/images/common/icon_roadmap.svg"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="date">
-                                                    April 16, 2022
-                                                </h6>
-                                                <ul>
-                                                    <li>
-                                                        Cras molestie
-                                                        ullamcorper augue nec
-                                                        pulvinar
-                                                    </li>
-                                                    <li>
-                                                        Nam mollis sapien ut
-                                                        sapien gravida
-                                                        sollicitudin
-                                                    </li>
-                                                    <li>
-                                                        Mauris vel nisl quis
-                                                        dolor accumsan luctus
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="roadmap-box">
-                                            <div class="icon">
-                                                <img
-                                                    src="./assets/images/common/icon_roadmap.svg"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="date">
-                                                    April 16, 2022
-                                                </h6>
-                                                <ul>
-                                                    <li>
-                                                        Cras molestie
-                                                        ullamcorper augue nec
-                                                        pulvinar
-                                                    </li>
-                                                    <li>
-                                                        Nam mollis sapien ut
-                                                        sapien gravida
-                                                        sollicitudin
-                                                    </li>
-                                                    <li>
-                                                        Mauris vel nisl quis
-                                                        dolor accumsan luctus
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="roadmap-box">
-                                            <div class="icon">
-                                                <img
-                                                    src="./assets/images/common/icon_roadmap.svg"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="date">
-                                                    April 16, 2022
-                                                </h6>
-                                                <ul>
-                                                    <li>
-                                                        Cras molestie
-                                                        ullamcorper augue nec
-                                                        pulvinar
-                                                    </li>
-                                                    <li>
-                                                        Nam mollis sapien ut
-                                                        sapien gravida
-                                                        sollicitudin
-                                                    </li>
-                                                    <li>
-                                                        Mauris vel nisl quis
-                                                        dolor accumsan luctus
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="roadmap-box">
-                                            <div class="icon">
-                                                <img
-                                                    src="./assets/images/common/icon_roadmap.svg"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="date">
-                                                    April 16, 2022
-                                                </h6>
-                                                <ul>
-                                                    <li>
-                                                        Cras molestie
-                                                        ullamcorper augue nec
-                                                        pulvinar
-                                                    </li>
-                                                    <li>
-                                                        Nam mollis sapien ut
-                                                        sapien gravida
-                                                        sollicitudin
-                                                    </li>
-                                                    <li>
-                                                        Mauris vel nisl quis
-                                                        dolor accumsan luctus
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="roadmap-box">
-                                            <div class="icon">
-                                                <img
-                                                    src="./assets/images/common/icon_roadmap.svg"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="date">
-                                                    April 16, 2022
-                                                </h6>
-                                                <ul>
-                                                    <li>
-                                                        Cras molestie
-                                                        ullamcorper augue nec
-                                                        pulvinar
-                                                    </li>
-                                                    <li>
-                                                        Nam mollis sapien ut
-                                                        sapien gravida
-                                                        sollicitudin
-                                                    </li>
-                                                    <li>
-                                                        Mauris vel nisl quis
-                                                        dolor accumsan luctus
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="next_slider-7 next_slider">
-                            <svg
-                                width="18"
-                                height="16"
-                                viewBox="0 0 18 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M1.5 8H16.5M16.5 8L9.75 1.25M16.5 8L9.75 14.75"
-                                    stroke="white"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                />
-                            </svg>
-                        </div>
-                        <div class="prev_slider-7 prev_slider">
-                            <svg
-                                width="18"
-                                height="16"
-                                viewBox="0 0 18 16"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M16.5 8H1.5M1.5 8L8.25 1.25M1.5 8L8.25 14.75"
-                                    stroke="white"
-                                    stroke-width="1.5"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!--<section class="tf-section roadmap">-->
+    <!--    <div class="container w_1850">-->
+    <!--        <div class="row">-->
+    <!--            <div class="col-md-12">-->
+    <!--                <div-->
+    <!--                    class="tf-title"-->
+    <!--                    data-aos="fade-up"-->
+    <!--                    data-aos-duration="800"-->
+    <!--                >-->
+    <!--                    <h2 class="title">Time Line</h2>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <div class="col-md-12">-->
+    <!--                <div class="container_inner roadmap_boder">-->
+    <!--                    <div-->
+    <!--                        class="roadmap-wrapper"-->
+    <!--                        data-aos="fade-in"-->
+    <!--                        data-aos-duration="1000"-->
+    <!--                    >-->
+    <!--                        <div class="swiper-container slider-7">-->
+    <!--                            <div class="swiper-wrapper">-->
+    <!--                                <div class="swiper-slide">-->
+    <!--                                    <div class="roadmap-box active">-->
+    <!--                                        <div class="icon">-->
+    <!--                                            <img-->
+    <!--                                                src="public/assets/images/common/icon_roadmap.svg"-->
+    <!--                                                alt=""-->
+    <!--                                            />-->
+    <!--                                        </div>-->
+    <!--                                        <div class="content">-->
+    <!--                                            <h6 class="date">-->
+    <!--                                                April 16, 2022-->
+    <!--                                            </h6>-->
+    <!--                                            <ul>-->
+    <!--                                                <li>-->
+    <!--                                                    Cras molestie-->
+    <!--                                                    ullamcorper augue nec-->
+    <!--                                                    pulvinar-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Nam mollis sapien ut-->
+    <!--                                                    sapien gravida-->
+    <!--                                                    sollicitudin-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Mauris vel nisl quis-->
+    <!--                                                    dolor accumsan luctus-->
+    <!--                                                </li>-->
+    <!--                                            </ul>-->
+    <!--                                        </div>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="swiper-slide">-->
+    <!--                                    <div class="roadmap-box">-->
+    <!--                                        <div class="icon">-->
+    <!--                                            <img-->
+    <!--                                                src="public/assets/images/common/icon_roadmap.svg"-->
+    <!--                                                alt=""-->
+    <!--                                            />-->
+    <!--                                        </div>-->
+    <!--                                        <div class="content">-->
+    <!--                                            <h6 class="date">-->
+    <!--                                                April 16, 2022-->
+    <!--                                            </h6>-->
+    <!--                                            <ul>-->
+    <!--                                                <li>-->
+    <!--                                                    Cras molestie-->
+    <!--                                                    ullamcorper augue nec-->
+    <!--                                                    pulvinar-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Nam mollis sapien ut-->
+    <!--                                                    sapien gravida-->
+    <!--                                                    sollicitudin-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Mauris vel nisl quis-->
+    <!--                                                    dolor accumsan luctus-->
+    <!--                                                </li>-->
+    <!--                                            </ul>-->
+    <!--                                        </div>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="swiper-slide">-->
+    <!--                                    <div class="roadmap-box">-->
+    <!--                                        <div class="icon">-->
+    <!--                                            <img-->
+    <!--                                                src="public/assets/images/common/icon_roadmap.svg"-->
+    <!--                                                alt=""-->
+    <!--                                            />-->
+    <!--                                        </div>-->
+    <!--                                        <div class="content">-->
+    <!--                                            <h6 class="date">-->
+    <!--                                                April 16, 2022-->
+    <!--                                            </h6>-->
+    <!--                                            <ul>-->
+    <!--                                                <li>-->
+    <!--                                                    Cras molestie-->
+    <!--                                                    ullamcorper augue nec-->
+    <!--                                                    pulvinar-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Nam mollis sapien ut-->
+    <!--                                                    sapien gravida-->
+    <!--                                                    sollicitudin-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Mauris vel nisl quis-->
+    <!--                                                    dolor accumsan luctus-->
+    <!--                                                </li>-->
+    <!--                                            </ul>-->
+    <!--                                        </div>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="swiper-slide">-->
+    <!--                                    <div class="roadmap-box">-->
+    <!--                                        <div class="icon">-->
+    <!--                                            <img-->
+    <!--                                                src="public/assets/images/common/icon_roadmap.svg"-->
+    <!--                                                alt=""-->
+    <!--                                            />-->
+    <!--                                        </div>-->
+    <!--                                        <div class="content">-->
+    <!--                                            <h6 class="date">-->
+    <!--                                                April 16, 2022-->
+    <!--                                            </h6>-->
+    <!--                                            <ul>-->
+    <!--                                                <li>-->
+    <!--                                                    Cras molestie-->
+    <!--                                                    ullamcorper augue nec-->
+    <!--                                                    pulvinar-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Nam mollis sapien ut-->
+    <!--                                                    sapien gravida-->
+    <!--                                                    sollicitudin-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Mauris vel nisl quis-->
+    <!--                                                    dolor accumsan luctus-->
+    <!--                                                </li>-->
+    <!--                                            </ul>-->
+    <!--                                        </div>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="swiper-slide">-->
+    <!--                                    <div class="roadmap-box">-->
+    <!--                                        <div class="icon">-->
+    <!--                                            <img-->
+    <!--                                                src="public/assets/images/common/icon_roadmap.svg"-->
+    <!--                                                alt=""-->
+    <!--                                            />-->
+    <!--                                        </div>-->
+    <!--                                        <div class="content">-->
+    <!--                                            <h6 class="date">-->
+    <!--                                                April 16, 2022-->
+    <!--                                            </h6>-->
+    <!--                                            <ul>-->
+    <!--                                                <li>-->
+    <!--                                                    Cras molestie-->
+    <!--                                                    ullamcorper augue nec-->
+    <!--                                                    pulvinar-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Nam mollis sapien ut-->
+    <!--                                                    sapien gravida-->
+    <!--                                                    sollicitudin-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Mauris vel nisl quis-->
+    <!--                                                    dolor accumsan luctus-->
+    <!--                                                </li>-->
+    <!--                                            </ul>-->
+    <!--                                        </div>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="swiper-slide">-->
+    <!--                                    <div class="roadmap-box">-->
+    <!--                                        <div class="icon">-->
+    <!--                                            <img-->
+    <!--                                                src="public/assets/images/common/icon_roadmap.svg"-->
+    <!--                                                alt=""-->
+    <!--                                            />-->
+    <!--                                        </div>-->
+    <!--                                        <div class="content">-->
+    <!--                                            <h6 class="date">-->
+    <!--                                                April 16, 2022-->
+    <!--                                            </h6>-->
+    <!--                                            <ul>-->
+    <!--                                                <li>-->
+    <!--                                                    Cras molestie-->
+    <!--                                                    ullamcorper augue nec-->
+    <!--                                                    pulvinar-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Nam mollis sapien ut-->
+    <!--                                                    sapien gravida-->
+    <!--                                                    sollicitudin-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Mauris vel nisl quis-->
+    <!--                                                    dolor accumsan luctus-->
+    <!--                                                </li>-->
+    <!--                                            </ul>-->
+    <!--                                        </div>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="swiper-slide">-->
+    <!--                                    <div class="roadmap-box">-->
+    <!--                                        <div class="icon">-->
+    <!--                                            <img-->
+    <!--                                                src="public/assets/images/common/icon_roadmap.svg"-->
+    <!--                                                alt=""-->
+    <!--                                            />-->
+    <!--                                        </div>-->
+    <!--                                        <div class="content">-->
+    <!--                                            <h6 class="date">-->
+    <!--                                                April 16, 2022-->
+    <!--                                            </h6>-->
+    <!--                                            <ul>-->
+    <!--                                                <li>-->
+    <!--                                                    Cras molestie-->
+    <!--                                                    ullamcorper augue nec-->
+    <!--                                                    pulvinar-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Nam mollis sapien ut-->
+    <!--                                                    sapien gravida-->
+    <!--                                                    sollicitudin-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Mauris vel nisl quis-->
+    <!--                                                    dolor accumsan luctus-->
+    <!--                                                </li>-->
+    <!--                                            </ul>-->
+    <!--                                        </div>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                                <div class="swiper-slide">-->
+    <!--                                    <div class="roadmap-box">-->
+    <!--                                        <div class="icon">-->
+    <!--                                            <img-->
+    <!--                                                src="public/assets/images/common/icon_roadmap.svg"-->
+    <!--                                                alt=""-->
+    <!--                                            />-->
+    <!--                                        </div>-->
+    <!--                                        <div class="content">-->
+    <!--                                            <h6 class="date">-->
+    <!--                                                April 16, 2022-->
+    <!--                                            </h6>-->
+    <!--                                            <ul>-->
+    <!--                                                <li>-->
+    <!--                                                    Cras molestie-->
+    <!--                                                    ullamcorper augue nec-->
+    <!--                                                    pulvinar-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Nam mollis sapien ut-->
+    <!--                                                    sapien gravida-->
+    <!--                                                    sollicitudin-->
+    <!--                                                </li>-->
+    <!--                                                <li>-->
+    <!--                                                    Mauris vel nisl quis-->
+    <!--                                                    dolor accumsan luctus-->
+    <!--                                                </li>-->
+    <!--                                            </ul>-->
+    <!--                                        </div>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                    <div class="next_slider-7 next_slider">-->
+    <!--                        <svg-->
+    <!--                            width="18"-->
+    <!--                            height="16"-->
+    <!--                            viewBox="0 0 18 16"-->
+    <!--                            fill="none"-->
+    <!--                            xmlns="http://www.w3.org/2000/svg"-->
+    <!--                        >-->
+    <!--                            <path-->
+    <!--                                d="M1.5 8H16.5M16.5 8L9.75 1.25M16.5 8L9.75 14.75"-->
+    <!--                                stroke="white"-->
+    <!--                                stroke-width="1.5"-->
+    <!--                                stroke-linecap="round"-->
+    <!--                                stroke-linejoin="round"-->
+    <!--                            />-->
+    <!--                        </svg>-->
+    <!--                    </div>-->
+    <!--                    <div class="prev_slider-7 prev_slider">-->
+    <!--                        <svg-->
+    <!--                            width="18"-->
+    <!--                            height="16"-->
+    <!--                            viewBox="0 0 18 16"-->
+    <!--                            fill="none"-->
+    <!--                            xmlns="http://www.w3.org/2000/svg"-->
+    <!--                        >-->
+    <!--                            <path-->
+    <!--                                d="M16.5 8H1.5M1.5 8L8.25 1.25M1.5 8L8.25 14.75"-->
+    <!--                                stroke="white"-->
+    <!--                                stroke-width="1.5"-->
+    <!--                                stroke-linecap="round"-->
+    <!--                                stroke-linejoin="round"-->
+    <!--                            />-->
+    <!--                        </svg>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--</section>-->
 </div>
 
 <section class="tf-section FAQs" id="faq">
@@ -973,7 +972,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="close icon" data-dismiss="modal" aria-label="Close">
-                <img src="./assets/images/backgroup/bg_close.png" alt="" />
+                <img src="public/assets/images/backgroup/bg_close.png" alt="" />
             </div>
             <div class="header-popup">
                 <h5>Guide Book/Poster</h5>
@@ -1015,7 +1014,7 @@
                                                 <img
                                                     src="{{
                                                         asset(
-                                                            'assets/event/PosterODL.jpg'
+                                                            'public/assets/event/PosterODL.png'
                                                         )
                                                     }}"
                                                     alt=""
@@ -1045,7 +1044,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="close icon" data-dismiss="modal" aria-label="Close">
-                <img src="./assets/images/backgroup/bg_close.png" alt="" />
+                <img src="public/assets/images/backgroup/bg_close.png" alt="" />
             </div>
             <div class="header-popup">
                 <h5>Form Pendaftaran</h5>
@@ -1070,10 +1069,11 @@
                                             class="wrap-btn d-grid gap-2 d-md-flex justify-content-md-center"
                                         >
                                             <a
-                                                href="/odlumum"
-                                                class="tf-button style2 me-md-2"
+                                                href="#"
+                                                class="tf-button style1 me-md-2" disabled="disabled"
+                                                style="pointer: none;"
                                             >
-                                                Umum
+                                                Tutup
                                             </a>
                                             <a
                                                 href="/odlundangan"

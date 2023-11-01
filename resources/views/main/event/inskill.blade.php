@@ -7,9 +7,9 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="slider-st2">
-            <img class="icon icon_1" src="./assets/images/common/icon1_slider_2.png" alt="" />
-            <img class="icon icon_2" src="./assets/images/common/icon2_slider_2.png" alt="" />
-            <img class="icon icon_3" src="./assets/images/common/icon3_slider_2.png" alt="" />
+            <img class="icon icon_1" src="public/assets/images/common/icon1_slider_2.png" alt="" />
+            <img class="icon icon_2" src="public/assets/images/common/icon2_slider_2.png" alt="" />
+            <img class="icon icon_3" src="public/assets/images/common/icon3_slider_2.png" alt="" />
             <div class="overlay">
               <img src="./assets/images//backgroup/bg-slider2.png" alt="" />
             </div>

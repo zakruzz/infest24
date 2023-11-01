@@ -36,14 +36,24 @@
                     </div>
 
                     <div class="project-info-form style">
-                        <h6 class="title mb30">Step 2 : Upload Document</h6>
+                        <h6 class="title mb30">Step 2 : Upload Document </h6>
                         <div class="form-inner">
-                            <div class="upload-img mb22">
+                        
+                                <label for="pilihan">Pilih Opsi:</label>
+                                    <select id="pilihan">
+                                        <option value="-">Pilih Opsi</option>
+                                        <option value="option1">Upload Dokumen dengan Drag and Drop</option>
+                                        <option value="option2">Link Drive</option>
+                                    </select>
+                        <br>
+                        
+                        <div id="pengisian" style="display: none;">
+                            <div class="upload-img mb22" id="input0">
                                 <div class="col img_1"> 
                                     <div class="box"> 
                                         <input type="file" name="image_ig" id="file-1" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                         <label for="file-1">
-                                            <img src="./assets/images/common/upload.png" alt="">
+                                            <img src="{{asset('public/assets/images/common/upload.png')}}" alt="">
                                             <span>Drag and drop <br> images</span>
                                             <span class="file"></span>
                                         </label>
@@ -54,7 +64,7 @@
                                     <div class="box"> 
                                         <input type="file" name="image_ic" id="file-2" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                         <label for="file-2">
-                                            <img src="./assets/images/common/upload.png" alt="">
+                                            <img src="{{asset('public/assets/images/common/upload.png')}}" alt="">
                                             <span>Drag and drop <br> images</span>
                                             <span class="file"></span>
                                         </label>
@@ -62,12 +72,12 @@
                                     <p>Bukti Follow Instagram Laboratorium IC (@iclab_its)</p>
                                 </div>
                             </div>
-                            <div class="upload-img mb22">
+                            <div class="upload-img mb22" id="input1">
                                         <div class="col img_3">
                                             <div class="box"> 
                                                 <input type="file" name="image_sis" id="file-3" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                                 <label for="file-3">
-                                                    <img src="./assets/images/common/upload.png" alt="">
+                                                    <img src="{{asset('public/assets/images/common/upload.png')}}" alt="">
                                                     <span>Drag and drop <br> images</span>
                                                     <span class="file"></span>
                                                 </label>
@@ -78,19 +88,32 @@
                                             <div class="box"> 
                                                 <input type="file" name="image_milab" id="file-4" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                                 <label for="file-4">
-                                                    <img src="./assets/images/common/upload.png" alt="">
+                                                    <img src="{{asset('public/assets/images/common/upload.png')}}" alt="">
                                                     <span>Drag and drop <br> images</span>
                                                     <span class="file"></span>
                                                 </label>
                                             </div>
                                             <p>Bukti Follow Instagram Laboratorium Pengukuran (@milabits_)</p>
                                         </div>
-                                
-                            </div>
+                                    </div>
+                            <p class="note" id="inputnote">Note: Kita Hanya Mendukung File JPEG, PNG, dan JPG dengan Max. 25 MB</p>
+                            <fieldset id="input2">
+                                <label >
+                                    Link Drive
+                                </label>
+                                <input type="text" placeholder="Silahkan Isi Dengan Link Drive Anda..." name="link_drive">
+                            </fieldset>
+                        </div>
 
-                            <p class="note">Note: Kita Hanya Mendukung File JPEG, PNG, dan JPG dengan Max. 25 MB</p>
+                        <h6 class="subtitle mb30 text-danger">pilih opsi terlebih dahulu, dapat menggunakan fitur drag and drop atau mencantumkan link gdrive yang berisikan required document.</h6>
+                            
+                    <!--<div class="project-info-form">-->
+                    <!--    <div class="form-inner">-->
+                    <!--    </div>-->
+                    <!--</div>-->
                         </div>
                     </div>  
+
 
                     <div class="wrap-btn">
                         <button type="submit" class="tf-button style2">
@@ -134,17 +157,40 @@
         });
         }
 </script> 
-{{-- <script>
-        function berhasil() {
-        Swal.fire({
-  iconHtml: '<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50" style="fill:#40C057;"> <path d="M 25 2 C 12.317 2 2 12.317 2 25 C 2 37.683 12.317 48 25 48 C 37.683 48 48 37.683 48 25 C 48 20.44 46.660281 16.189328 44.363281 12.611328 L 42.994141 14.228516 C 44.889141 17.382516 46 21.06 46 25 C 46 36.579 36.579 46 25 46 C 13.421 46 4 36.579 4 25 C 4 13.421 13.421 4 25 4 C 30.443 4 35.393906 6.0997656 39.128906 9.5097656 L 40.4375 7.9648438 C 36.3525 4.2598437 30.935 2 25 2 z M 43.236328 7.7539062 L 23.914062 30.554688 L 15.78125 22.96875 L 14.417969 24.431641 L 24.083984 33.447266 L 44.763672 9.046875 L 43.236328 7.7539062 z"></path> </svg>',
-  title: 'Berhasil!',
-  allowOutsideClick: false,
-  showConfirmButton: false,
-  html: '<p>Pengiriman Formulir Berhasil! Silahkan Masuk Kedalam Grup WhatsApp</p> <br> <a class="tf-button style2 me-md-2" href="https://chat.whatsapp.com/Cjl087nTIpc8eECZ6G5vI7">Masuk Grup WhatsApp</a>'
-})
+<script>
+// Ambil elemen-elemen yang diperlukan dari HTML
+const pilihan = document.getElementById('pilihan');
+const pengisian = document.getElementById('pengisian');
+const input0 = document.getElementById('input0');
+const input1 = document.getElementById('input1');
+const input2 = document.getElementById('input2');
+const inputnote = document.getElementById('inputnote');
+
+// Tambahkan event listener untuk perubahan pilihan
+pilihan.addEventListener('change', function () {
+    // Dapatkan nilai yang dipilih
+    const selectedOption = pilihan.value;
+
+    // Sembunyikan semua pengisian
+    input0.style.display = 'none';
+    input1.style.display = 'none';
+    input2.style.display = 'none';
+    inputnote.style.display = 'none';
+
+    // Tampilkan pengisian yang sesuai dengan pilihan
+    if (selectedOption === 'option1') {
+        input0.style.display = 'flex';
+        input1.style.display = 'flex';
+        inputnote.style.display = 'block';
+    } else if (selectedOption === 'option2') {
+        input2.style.display = 'block';
     }
-</script> --}}
- <script src="{{ asset('assets/main/app/js/input-file.js') }}"></script>
+
+    // Atur tampilan pengisian
+    pengisian.style.display = 'block';
+});
+
+</script>
+ <script src="{{ asset('public/assets/main/app/js/input-file.js') }}"></script>
  <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>  
 @endsection

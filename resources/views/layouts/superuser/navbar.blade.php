@@ -1,9 +1,11 @@
 <header id="page-header">
     <div class="content-header">
         <div class="space-x-1">
-            <button type="button" class="btn btn-sm btn-alt-secondary" data-toggle="layout" data-action="sidebar_toggle">
-                <i class="fa fa-fw fa-bars"></i>
-            </button>
+            @if (Auth::user()->hasRole('Superuser'))
+                <button type="button" class="btn btn-sm btn-alt-secondary" data-toggle="layout" data-action="sidebar_toggle">
+                    <i class="fa fa-fw fa-bars"></i>
+                </button>
+            @endif
         </div>
 
         <div class="space-x-1">
@@ -71,9 +73,11 @@
                     </div>
                 </div>
             </div>
-            <button type="button" class="btn btn-sm btn-alt-secondary" data-toggle="layout" data-action="side_overlay_toggle">
-                <i class="fa fa-fw fa-stream"></i>
-            </button>
+            @if (Auth::user()->hasRole('Superuser'))
+                <button type="button" class="btn btn-sm btn-alt-secondary" data-toggle="layout" data-action="side_overlay_toggle">
+                    <i class="fa fa-fw fa-stream"></i>
+                </button>
+            @endif
         </div>
     </div>
     <div id="page-header-loader" class="overlay-header bg-primary">

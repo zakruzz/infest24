@@ -16,24 +16,41 @@ class ODLController extends Controller
             $image = $request->file('image_sis');
             $imageSIS = "IMAGESIS" . time() . '.' . $image->getClientOriginalExtension();
             $image->storeAs('ODL/Image/SIS/', $imageSIS); // Simpan gambar ke direktori penyimpanan
+        }else{
+            $imageSIS = "";
         }
+        
 
         if ($request->image_ic) {
             $image = $request->file('image_ic');
             $imageIC = "IMAGEIC" . time() . '.' . $image->getClientOriginalExtension();
             $image->storeAs('ODL/Image/IC/', $imageIC); // Simpan gambar ke direktori penyimpanan
+        }else{
+            $imageIC = "";
         }
+        
 
         if ($request->image_milab) {
             $image = $request->file('image_milab');
             $imageMILAB = "IMAGEMILAB" . time() . '.' . $image->getClientOriginalExtension();
             $image->storeAs('ODL/Image/MILAB/', $imageMILAB); // Simpan gambar ke direktori penyimpanan
+        }else{
+            $imageMILAB = "";
         }
+        
 
         if ($request->image_ig) {
             $image = $request->file('image_ig');
             $imageIG = "IMAGEIG" . time() . '.' . $image->getClientOriginalExtension();
-            $image->storeAs('ODL/Image/IG/', $imageMILAB); // Simpan gambar ke direktori penyimpanan
+            $image->storeAs('ODL/Image/IG/', $imageIG); // Simpan gambar ke direktori penyimpanan
+        }else{
+            $imageIG = "";
+        }
+        
+        if ($request->link_drive) {
+            $link_drive = $request->link_drive;
+        }else {
+            $link_drive = "";
         }
 
         if($request->tipe_pendaftaran == "umum") {
@@ -41,10 +58,6 @@ class ODLController extends Controller
                 "nama" => "required",
                 "no_wa" => "required",
                 "asal_sekolah" => "required",
-                "image_ig" => "mimes:jpeg,jpg,png|max:5000",
-                "image_ic" => "mimes:jpeg,jpg,png|max:5000",
-                "image_sis" => "mimes:jpeg,jpg,png|max:5000",
-                "image_milab" => "mimes:jpeg,jpg,png|max:5000",
             ]);
             
     
@@ -52,6 +65,7 @@ class ODLController extends Controller
                 "nama" => $request->nama,
                 "no_wa" => $request->no_wa,
                 "asal_sekolah" => $request->asal_sekolah,
+                "link_drive" => $link_drive,
                 "image_ig" => $imageIG,
                 "image_ic" => $imageIC,
                 "image_sis" => $imageSIS,
@@ -77,6 +91,7 @@ class ODLController extends Controller
                 "asal_sekolah" => $request->asal_sekolah,
                 "nama_guru" => $request->nama_guru,
                 "wa_guru" => $request->wa_guru,
+                "link_drive" => $link_drive,
                 "image_ig" => $imageIG,
                 "image_ic" => $imageIC,
                 "image_sis" => $imageSIS,

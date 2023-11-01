@@ -54,7 +54,7 @@
             {{-- <div class="swiper-slide">
                 <div class="slider-st1">
                     <div class="overlay">
-                        <img src="./assets/images//backgroup/bg-slider.png" alt="">
+                        <img src="{{ asset('assets/images/backgroup/bg-slider.png') }}" alt="">
                     </div>
                     <div class="container">
                         <div class="row">
@@ -70,7 +70,7 @@
                                         </div> 
                                     </div>
                                     <div class="image">
-                                        <img class="img_main" src="assets/images/slider/Furore.png" alt="">
+                                        <img class="img_main" src="asset{{asset('assets/images/slider/Furore.png')}}" alt="">
                                         <div class="icon icon1">
                                             <img src="{{ asset('assets/images/slider/icon_1.png') }}" alt="">
                                         </div>
@@ -264,7 +264,7 @@
                             <div class="swiper-slide">
                                 <div class="project-box">
                                     <div class="image">
-                                        <img class="mask1" src="{{ asset('assets/images/common/project_inshow.png') }}" alt="">
+                                        <img class="mask1" src="{{ asset('assets/images/common/project_income.png') }}" alt="">
                                     </div>
                                     <div class="content">
                                         <span class="boder"></span>
@@ -413,7 +413,7 @@
                     </h2>
                     <p class="sub">Isi Formulir Di Kontak Kami Yaa...</p>
                     <div class="wrap-btn">
-                        <a href="/contact" class="tf-button style3">
+                        <a href="#" class="tf-button style3">
                             Kontak
                         </a>
                     </div>
@@ -421,7 +421,7 @@
             </div>
             <div class="col-md-6">
               <div class="image_cta" data-aos="fade-left" data-aos-duration="1200">
-                <img class="move4" src="./assets/images/common/img_cta.png" alt="">
+                <img class="move4" src="{{asset('assets/images/common/img_cta.png')}}" alt="">
               </div>
             </div>
         </div>

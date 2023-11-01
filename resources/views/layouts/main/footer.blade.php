@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="footer-logo">
                     <div class="logo_footer">
-                        <img src="{{ asset('assets/images/logo/logo2@2x.png') }}" alt="">
+                        <img src="{{ asset('public/assets/images/logo/logofooter.png') }}" alt="">
                     </div>
                     <p>Make Future By Adventure.</p>
                 </div>
@@ -22,19 +22,19 @@
                             style="justify-content: center"
                         ></iframe>
                         </li>
-                        <li class="email">
-                            <p>Email</p>
-                            <a style="text-decoration: none" href="https://mail.google.com/mail/u/infesthimatekinsits@gmail.com/#inbox?compose=new">infest email</a>
-                        </li>
+                        <!--<li class="email">-->
+                        <!--    <p>Email</p>-->
+                        <!--    <a style="text-decoration: none" href="https://mail.google.com/mail/u/infesthimatekinsits@gmail.com/#inbox?compose=new">infest email</a>-->
+                        <!--</li>-->
                     </ul>
                 </div>
                 <div class="widget link">
                     <h5 class="widget-title">
-                        Quick Link
+                        Pintasan
                     </h5>
                     <ul class="widget-link">
                         <li>
-                            <a href="/">Home</a>
+                            <a href="/">Beranda</a>
                         </li>
                         <li>
                             <a href="/odl">ODL</a>

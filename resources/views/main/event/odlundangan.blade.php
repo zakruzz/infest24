@@ -103,7 +103,7 @@
                                     <div class="box"> 
                                         <input type="file" name="image_ig" id="file-1" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                         <label for="file-1">
-                                            <img src="./assets/images/common/upload.png" alt="">
+                                            <img src="{{asset('public/assets/images/common/upload.png')}}" alt="">
                                             <span>Drag and drop <br> images</span>
                                             <span class="file"></span>
                                         </label>
@@ -114,7 +114,7 @@
                                     <div class="box"> 
                                         <input type="file" name="image_ic" id="file-2" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                         <label for="file-2">
-                                            <img src="./assets/images/common/upload.png" alt="">
+                                            <img src="{{asset('public/assets/images/common/upload.png')}}" alt="">
                                             <span>Drag and drop <br> images</span>
                                             <span class="file"></span>
                                         </label>
@@ -127,7 +127,7 @@
                                             <div class="box"> 
                                                 <input type="file" name="image_sis" id="file-3" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                                 <label for="file-3">
-                                                    <img src="./assets/images/common/upload.png" alt="">
+                                                    <img src="{{asset('public/assets/images/common/upload.png')}}" alt="">
                                                     <span>Drag and drop <br> images</span>
                                                     <span class="file"></span>
                                                 </label>
@@ -138,7 +138,7 @@
                                             <div class="box"> 
                                                 <input type="file" name="image_milab" id="file-4" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                                 <label for="file-4">
-                                                    <img src="./assets/images/common/upload.png" alt="">
+                                                    <img src="{{asset('public/assets/images/common/upload.png')}}" alt="">
                                                     <span>Drag and drop <br> images</span>
                                                     <span class="file"></span>
                                                 </label>
@@ -205,6 +205,6 @@
 })
     }
 </script> --}}
- <script src="{{ asset('assets/main/app/js/input-file.js') }}"></script>  
+ <script src="{{ asset('public/assets/main/app/js/input-file.js') }}"></script>  
  <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 @endsection
