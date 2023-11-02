@@ -15,7 +15,7 @@
                     <h6 class="title">Register</h6>
                     <h6 class="title show-mobie"><a href="/loginuser">Login</a></h6>
                     <h6 class="title link"><a href="/loginuser">Login</a></h6>
-                    <p>Welcome to Risebot, please enter your details</p>
+                    <p>Selamat Datang Di Infest 2024</p>
                     <div class="form-inner"> 
                         <fieldset>
                             <label>
@@ -31,17 +31,17 @@
                         </fieldset> 
                         <fieldset class="mb19">
                             <label>
-                                Confirm password *
+                                Confirm password*
                             </label>
                             <input type="password" placeholder="Confirm password" required>
                         </fieldset> 
-                        <fieldset class="checkbox"> 
+                        {{-- <fieldset class="checkbox"> 
                             <input type="checkbox" id="checkbox" name="checkbox" >
                             <label for="checkbox" class="icon"></label>
                             <label for="checkbox">
                                 I accept the Term of Conditions and Privacy Policy
                             </label>
-                        </fieldset>
+                        </fieldset> --}}
                     </div>
                 </div> 
 
