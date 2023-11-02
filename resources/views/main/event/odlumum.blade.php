@@ -7,7 +7,7 @@
     <div class="container"> 
         <div class="row">
             <div class="col-md-12">
-                <form action="{{ route('odl.regist') }}" method="POST">
+                <form action="{{ route('odl.regist') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <input type="hidden" name="tipe_pendaftaran" value="umum">
                     <h3 class="my-5 text-center">Formulir One Day Lecture Umum</h3>
@@ -41,7 +41,7 @@
                             <div class="upload-img mb22">
                                 <div class="col img_1"> 
                                     <div class="box"> 
-                                        <input type="file" name="image-ig" id="file-1" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
+                                        <input type="file" name="image_ig" id="file-1" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                         <label for="file-1">
                                             <img src="./assets/images/common/upload.png" alt="">
                                             <span>Drag and drop <br> images</span>
@@ -52,7 +52,7 @@
                                 </div>
                                 <div class="col img_2">
                                     <div class="box"> 
-                                        <input type="file" name="image-ic" id="file-2" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
+                                        <input type="file" name="image_ic" id="file-2" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                         <label for="file-2">
                                             <img src="./assets/images/common/upload.png" alt="">
                                             <span>Drag and drop <br> images</span>
@@ -65,7 +65,7 @@
                             <div class="upload-img mb22">
                                         <div class="col img_3">
                                             <div class="box"> 
-                                                <input type="file" name="image-sis" id="file-3" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
+                                                <input type="file" name="image_sis" id="file-3" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                                 <label for="file-3">
                                                     <img src="./assets/images/common/upload.png" alt="">
                                                     <span>Drag and drop <br> images</span>
@@ -76,7 +76,7 @@
                                         </div>
                                         <div class="col img_3">
                                             <div class="box"> 
-                                                <input type="file" name="image-milab" id="file-4" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
+                                                <input type="file" name="image_milab" id="file-4" class="inputfile inputfile-1" data-multiple-caption="{count} files selected" accept="image/*">
                                                 <label for="file-4">
                                                     <img src="./assets/images/common/upload.png" alt="">
                                                     <span>Drag and drop <br> images</span>

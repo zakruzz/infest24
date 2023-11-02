@@ -7,7 +7,7 @@
     <div class="container"> 
         <div class="row">
             <div class="col-md-12">
-                <form action="{{ route('odl.regist') }}" method="POST">
+                <form action="{{ route('odl.regist') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <input type="hidden" name="tipe_pendaftaran" value="undangan">
                     <h3 class="my-5 text-center">Formulir One Day Lecture Umum</h3>

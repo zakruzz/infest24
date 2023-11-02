@@ -12,6 +12,30 @@ class ODLController extends Controller
 {
     public function save(Request $request) {
 
+        if ($request->image_sis) {
+            $image = $request->file('image_sis');
+            $imageSIS = "IMAGESIS" . time() . '.' . $image->getClientOriginalExtension();
+            $image->storeAs('ODL/Image/SIS/', $imageSIS); // Simpan gambar ke direktori penyimpanan
+        }
+
+        if ($request->image_ic) {
+            $image = $request->file('image_ic');
+            $imageIC = "IMAGEIC" . time() . '.' . $image->getClientOriginalExtension();
+            $image->storeAs('ODL/Image/IC/', $imageIC); // Simpan gambar ke direktori penyimpanan
+        }
+
+        if ($request->image_milab) {
+            $image = $request->file('image_milab');
+            $imageMILAB = "IMAGEMILAB" . time() . '.' . $image->getClientOriginalExtension();
+            $image->storeAs('ODL/Image/MILAB/', $imageMILAB); // Simpan gambar ke direktori penyimpanan
+        }
+
+        if ($request->image_ig) {
+            $image = $request->file('image_ig');
+            $imageIG = "IMAGEIG" . time() . '.' . $image->getClientOriginalExtension();
+            $image->storeAs('ODL/Image/IG/', $imageMILAB); // Simpan gambar ke direktori penyimpanan
+        }
+
         if($request->tipe_pendaftaran == "umum") {
             $request->validate([
                 "nama" => "required",
@@ -22,15 +46,16 @@ class ODLController extends Controller
                 "image_sis" => "mimes:jpeg,jpg,png|max:5000",
                 "image_milab" => "mimes:jpeg,jpg,png|max:5000",
             ]);
+            
     
             SubeventODLUmum::create([
                 "nama" => $request->nama,
                 "no_wa" => $request->no_wa,
                 "asal_sekolah" => $request->asal_sekolah,
-                "image_ig" => "abc",
-                "image_ic" => "abc",
-                "image_sis" => "abc",
-                "image_milab" => "abc",
+                "image_ig" => $imageIG,
+                "image_ic" => $imageIC,
+                "image_sis" => $imageSIS,
+                "image_milab" => $imageMILAB,
             ]);
 
             return redirect()->away('https://chat.whatsapp.com/Cjl087nTIpc8eECZ6G5vI7');
@@ -52,10 +77,10 @@ class ODLController extends Controller
                 "asal_sekolah" => $request->asal_sekolah,
                 "nama_guru" => $request->nama_guru,
                 "wa_guru" => $request->wa_guru,
-                "image_ig" => "abc",
-                "image_ic" => "abc",
-                "image_sis" => "abc",
-                "image_milab" => "abc",
+                "image_ig" => $imageIG,
+                "image_ic" => $imageIC,
+                "image_sis" => $imageSIS,
+                "image_milab" => $imageMILAB,
             ]);
 
             return redirect()->away('https://chat.whatsapp.com/BSWhe5kHZK56COBGbFaSWy');
