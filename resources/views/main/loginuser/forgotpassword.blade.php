@@ -13,13 +13,13 @@
             <form action="#">
                 <div class="project-info-form forget-form">
                     <h4 class="title">Forget Password</h4> 
-                    <p>enter your email address in the form below and we will send you further instructions on how to reset your password</p>
+                    <p>Masukkan emailmu, untuk nanti dikirimkan link untuk reset password.</p>
                     <div class="form-inner"> 
                         <fieldset>
                             <label >
-                                Email address
+                                Email
                             </label>
-                            <input type="email" placeholder="Your email" required>
+                            <input type="email" placeholder="Masukkan Emailmu yang Sebelumnya Telah Terdaftar." required>
                         </fieldset> 
                     </div>
                     <div class="bottom">
