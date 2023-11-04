@@ -779,17 +779,15 @@
                     <div class="flat-toggle">
                         <div class="h7 toggle-title">
                             <span class="icon-Icon"> </span>
-                            <span
-                                >Bagaimana Alur Pendaftaran INSPECTION?</span
-                            >
+                            <span>Bagaimana Tata Cara Pendaftaran INSPECTION?</span>
                         </div>
                         <p class="toggle-content" style="display: none">
                             <b>1. Daftar</b> <br><br>Klik Tombol Daftar Pada Website,
                             Yang Nanti Akan Diarahkan Ke
                             Halaman Login. <br><br>
-                            <b>2. Login/Register</b> <br><br>Jika Sudah Memiliki Akun Silahkan Langsung Login dengan Akun yang Telah Terdaftar Sebelumnya, Jika Belum Mempunyai Akun Silahkan Klik Tulisan "Register" yang Ada Pada Halaman Login, dan Buatlah Akunnya Dengan Mengisi Kolom Formulir yang Telah Disediakan Panitia, Kemudian Klik Tombol Register. <br><br>
-                            <b>3. Lengkapi Persyaratan-Persyaratan</b> <br><br> Setelah Login Peserta Akan Diarahkan Ke Halaman Dashboard dan Pilih Kolom Event Pada Navbar Sebelah Kiri, Kemudian Pilih "INSPECTION", dan Lanjut dengan  Melengkapi Persyaratan-Persyaratan Yang Telah Ditentukan Oleh Panitia. <br><br>
-                            <b>4. Masuk WhatsApp Grup</b> <br><br> Masuk WhatsApp Grup Yang Telah Disediakan Panitia Sehabis Mengirim Formulir dan Persyaratan.
+                            <b>2.1 Login</b> <br><br>Jika Sudah Memiliki Akun Silahkan Langsung Login dengan Akun yang Telah Terdaftar Sebelumnya<br><br>
+                            <b>2.2 Register</b> <br><br>Jika Belum Mempunyai Akun Silahkan Klik Tulisan "Register" yang Ada Pada Halaman Login, dan Buatlah Akunnya Dengan Mengisi Kolom Formulir yang Telah Disediakan Panitia, Kemudian Klik Tombol Register, Setelah itu akan di direct Link Grup WhatsApp Peserta [Semua Peserta Wajib Gabung Ke WhatsApp Grup] yang Menandakan Bahwa Registrasi Berhasil, dan Silahkan Kembali Ke Halaman Login Untuk Memasukkan Akun yang Telah Terdaftar. <br><br>
+                            <b>3. Pengumpulan Abstrak </b> <br><br> Jika Peserta Telah Massuk/Login Maka Peserta Akan Diarahkan Ke Halaman Dashboard, dan Jika Peserta Hendak Mengumpulkan Abstrak Silahkan Klik "Pengumpulan Abstrak" yang Ada di Tampilan Utama Dashboard, Kemudian Klik 
                         </p>
                     </div>
                     <div class="flat-toggle">
