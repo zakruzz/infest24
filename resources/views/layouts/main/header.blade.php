@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="{{ asset('assets/main/app/dist/app.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/main/aset/font/font-awesome.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/main/aset/font/risebot.css') }}" />
-    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Favicon and Touch Icons  -->
     <link rel="shortcut icon" href="{{ asset('assets/main/images/favicon.png') }}">
@@ -467,7 +467,7 @@
                     <nav id="main-nav" class="main-nav">
                         <ul id="menu-primary-menu" class="menu">
                             <li class="menu-item">
-                                <a href="/">Beranda</a>
+                                <a href="/">Home</a>
                             </li>
                             {{-- <li class="menu-item menu-item-has-children"><a href="/inskill">INSKILL</a></li> --}}
                             <li class="menu-item menu-item-has-children">
@@ -476,18 +476,41 @@
                                     <li class="menu-item">
                                         <a href="/odl">One Day Lecture</a>
                                     </li>
-                                    <!--<li class="menu-item">-->
-                                    <!--    <a href="/talkshow">Talk Show</a>-->
-                                    <!--</li>-->
+                                    <li class="menu-item">
+                                        <a href="/talkshow">Talk Show</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">INCOME</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="/inspection">INSPECTION</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="/inskill">INSKILL</a>
+                                    </li>
                                 </ul>
                             </li>
                             {{-- <li class="menu-item menu-item-has-children"><a href="/inspection">INSPECTION</a></li>
                             <li class="menu-item menu-item-has-children"><a href="/instraining">INSTRAINING</a></li> --}}
                         </ul>
                     </nav><!-- /#main-nav -->
-                    {{-- <a href="/loginuser" class="tf-button style1">
-                        Login
-                    </a> --}}
+                    @if (Auth::check())
+                        @if (Auth::user()->hasAnyRole('Inspection', 'Inskill'))
+                            <a href="/income/beranda" class="tf-button style1">
+                                Dashboard
+                            </a>
+                        @elseif (Auth::user()->hasRole('Superuser'))
+                            <a href="/superuser/beranda" class="tf-button style1">
+                                Dashboard
+                            </a>
+                        @endif
+                    @else
+                        <a href="/login" class="tf-button style1">
+                            Login
+                        </a>
+                    @endif
                     <div class="mobile-button"><span></span></div><!-- /.mobile-button -->
                 </div>
             </div>

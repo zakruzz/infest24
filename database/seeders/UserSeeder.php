@@ -50,8 +50,8 @@ class UserSeeder extends Seeder
         ]);
 
         $superuser->assignRole('Superuser');
-        $inskill->assignRole('INSKILL');
-        $inspection->assignRole('INSPECTION');
+        $inskill->assignRole('Inskill');
+        $inspection->assignRole('Inspection');
 
     }
 }

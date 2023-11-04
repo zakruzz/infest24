@@ -54,7 +54,7 @@
             {{-- <div class="swiper-slide">
                 <div class="slider-st1">
                     <div class="overlay">
-                        <img src="{{ asset('assets/images/backgroup/bg-slider.png') }}" alt="">
+                        <img src="./assets/images//backgroup/bg-slider.png" alt="">
                     </div>
                     <div class="container">
                         <div class="row">
@@ -70,7 +70,7 @@
                                         </div> 
                                     </div>
                                     <div class="image">
-                                        <img class="img_main" src="asset{{asset('assets/images/slider/Furore.png')}}" alt="">
+                                        <img class="img_main" src="assets/images/slider/Furore.png" alt="">
                                         <div class="icon icon1">
                                             <img src="{{ asset('assets/images/slider/icon_1.png') }}" alt="">
                                         </div>
@@ -253,10 +253,10 @@
                                         <span class="boder"></span>
                                         <div class="content-inner">
                                             <h5 class="heading"><a href="#">INSPECTION</a></h5>
-                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Karya Tulis Ilmiah Khusus Untuk Siswa SMK Berkelompok <br>[3 Orang/Kelompok]</p>
+                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Karya Tulis Ilmiah Khusus Untuk Siswa SMA/MA/SMK Berkelompok <br>[3 Orang/Kelompok]</p>
                                         </div>
                                     </div>
-                                    <a href="#" class="tf-button style1">
+                                    <a href="/inspection" class="tf-button style1">
                                         EXPLORE
                                     </a>
                                 </div>
@@ -273,7 +273,7 @@
                                             <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Lomba Programmable Logic Controller untuk Siswa/Siswi Yang Terampil</p>
                                         </div>
                                     </div>
-                                    <a href="#" class="tf-button style1">
+                                    <a href="/inskill" class="tf-button style1">
                                         EXPLORE
                                     </a>
                                 </div>
@@ -304,8 +304,25 @@
                                     <div class="content">
                                         <span class="boder"></span>
                                         <div class="content-inner">
-                                            <h5 class="heading"><a href="#">INSHOW</a></h5>
-                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Pengenalan Entah Melalui Campus Tour, Talk Show Teknik Instrumentasi </p>
+                                            <h5 class="heading"><a href="#">One Day Lecture</a></h5>
+                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Pengenalan Melalui One Day Lecture Teknik Instrumentasi </p>
+                                        </div>
+                                    </div>
+                                    <a href="/odl" class="tf-button style1">
+                                        EXPLORE
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="project-box">
+                                    <div class="image">
+                                        <img class="mask3" src="{{ asset('assets/images/common/project_inshow.png') }}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <span class="boder"></span>
+                                        <div class="content-inner">
+                                            <h5 class="heading"><a href="#">Talk Show</a></h5>
+                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Pengenalan Melalui Talk Show Teknik Instrumentasi </p>
                                         </div>
                                     </div>
                                     <a href="#" class="tf-button style1">
@@ -413,7 +430,7 @@
                     </h2>
                     <p class="sub">Isi Formulir Di Kontak Kami Yaa...</p>
                     <div class="wrap-btn">
-                        <a href="#" class="tf-button style3">
+                        <a href="/contact" class="tf-button style3">
                             Kontak
                         </a>
                     </div>
@@ -421,7 +438,7 @@
             </div>
             <div class="col-md-6">
               <div class="image_cta" data-aos="fade-left" data-aos-duration="1200">
-                <img class="move4" src="{{asset('assets/images/common/img_cta.png')}}" alt="">
+                <img class="move4" src="./assets/images/common/img_cta.png" alt="">
               </div>
             </div>
         </div>

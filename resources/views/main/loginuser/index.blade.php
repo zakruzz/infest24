@@ -2,38 +2,47 @@
 @section('style')
 @endsection
 @section('content')
-<div id="wrapper">
-    <section class="page-title">
-        <div class="overlay"></div> 
-    </section>
-</div>
-<section class="tf-section project-info">
+<section class="tf-section project-info" style="padding-top: 10%">
     <div class="container"> 
         <div class="row">
             <div class="col-md-12">
-                <form action="#">
+                <form action="{{ route('login') }}" method="POST">
+                    @csrf
                     <div class="project-info-form form-login">
                         <h6 class="title">Login</h6>
-                        <h6 class="title show-mobie"><a href="/registeruser">Register</a></h6>
-                        <h6 class="title link"><a href="/registeruser">Register</a></h6>
-                        <p>Enter your credentials to access your account</p>
+                        <h6 class="title show-mobie"><a href="/register">Register</a></h6>
+                        <h6 class="title link"><a href="/register">Register</a></h6>
+                        <p>Login dengan Akun Anda yang Telah Terdaftar Sebelumnya</p>
                         <div class="form-inner"> 
                             <fieldset>
                                 <label>
-                                    Email address *
+                                    Email<span class="text-danger">*</span>
                                 </label>
-                                <input type="email" placeholder="Your email" required>
+                                <input type="text" class="@error('email') is-invalid @enderror" id="login-email"
+                                name="email" value="{{old('email')}}" placeholder="Masukkan emailmu..." required>
+                                @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </fieldset>
                             <fieldset>
                                 <label>
-                                    Password *
+                                    Password<span class="text-danger">*</span>
                                 </label>
-                                <input type="password" placeholder="Your password" required>
+                                <input type="password" class="@error('password') is-invalid @enderror" id="login-password"
+                                name="password" placeholder="Masukkan passwordmu..." required>
+                                @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </fieldset> 
                         </div>
-                        <a href="/forgetpassword" class="fogot-pass">Fogot password?</a>
+                        <a href="/forgetpassword" class="fogot-pass">Lupa Password</a>
                     </div> 
 
+                    
                     <div class="wrap-btn">
                         <button type="submit" class="tf-button style2">
                             Login

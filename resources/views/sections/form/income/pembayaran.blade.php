@@ -8,7 +8,7 @@
         <label class="form-label" for="field-image-pembayaran">Pembayaran <span class="text-danger">*</span></label>
         <input class="form-control @error('filePembayaran') is-invalid @enderror" type="file" id="field-image-pembayaran"
                wire:model="filePembayaran" wire:loading.attr="disabled" accept="image/*">
-        <small class="text-muted"> <i class="fa fa-info-circle"></i> Maksimum size 5MB (.pdf)</small>
+        <small class="text-muted"> <i class="fa fa-info-circle"></i> Maksimum size 5MB (.png/ .jpg/ .jpeg)</small>
         @error('filePembayaran')
         <span class="invalid-feedback">
             {{ $message }}

@@ -49,7 +49,7 @@ class MainController extends Controller{
     public function loginuser(){
         return view('main.loginuser.index');
     }
-    public function registeruser(){
+    public function register(){
         return view('main.loginuser.register');
     }
     public function contact(){

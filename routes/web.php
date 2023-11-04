@@ -32,6 +32,7 @@ Route::get('/logout', [\App\Http\Controllers\Auth\LoginController::class, 'logou
 //    Route::get('/', [\App\Http\Controllers\Core\MainController::class, 'underMaintenance'])->name('home');
 //}else{
 
+    Route::post('/income/regist', [\App\Http\Controllers\IncomeController::class, 'save'])->name('income.regist');
     Route::get('/', [\App\Http\Controllers\Core\MainController::class, 'index'])->name('home');
     Route::get('/inskill', [\App\Http\Controllers\Core\MainController::class, 'inskill'])->name('inskill');
     Route::get('/odl', [\App\Http\Controllers\Core\MainController::class, 'odl'])->name('odl');
@@ -44,7 +45,7 @@ Route::get('/logout', [\App\Http\Controllers\Auth\LoginController::class, 'logou
     Route::get('/instraining', [\App\Http\Controllers\Core\MainController::class, 'instraining'])->name('instraining');
     Route::get('/inspection', [\App\Http\Controllers\Core\MainController::class, 'inspection'])->name('inspection');
     Route::get('/loginuser', [\App\Http\Controllers\Core\MainController::class, 'loginuser'])->name('loginuser');
-    Route::get('/registeruser', [\App\Http\Controllers\Core\MainController::class, 'registeruser'])->name('registeruser');
+    Route::get('/register', [\App\Http\Controllers\Core\MainController::class, 'register'])->name('register');
     Route::get('/contact', [\App\Http\Controllers\Core\MainController::class, 'contact'])->name('contact');
     Route::get('/forgetpassword', [\App\Http\Controllers\Core\MainController::class, 'forgetpassword'])->name('forgetpassword');
 //}
@@ -110,6 +111,4 @@ Route::group(['middleware' => ['auth', 'role:Superuser'], 'prefix' => 'superuser
 Route::group(['middleware' => ['auth', 'role:Inspection,Inskill,Superuser'], 'prefix' => 'income', 'as' => 'income.'], function () {
 
     Route::get('beranda', \App\Http\Livewire\Income\Dashboard\DashboardIndex::class)->name('dashboard');
-
-    Route::post('/uploadAbstrak', [\App\Http\Livewire\Income\Dashboard\DashboardIndex::class, 'uploadAbstrak'])->name('abstrak');
 });
