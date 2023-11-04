@@ -1,5 +1,8 @@
 @section('title', 'Beranda')
 <div>
+    @include('sections.modal.income.abstrak')
+    @include('sections.modal.income.pembayaran')
+
     <div wire:poll.2s class="row">
         <div class="col-lg-8">
             <div class="block block-rounded bg-gd-primary text-white">
@@ -32,20 +35,63 @@
         <div class="col-lg-12">
             <h2 class="content-heading pt-0">Pintasan</h2>
         </div>
-        <div class="col">
-            <a class="block block-rounded block-link-shadow" href="{{ route('home') }}" target="_blank">
-                <div class="block-content block-content-full text-center">
-                    <div class="p-3 mb-1">
-                        <i class="fa fa-3x fa-globe text-earth"></i>
-                    </div>
-                    <p class="fs-sm fw-medium text-muted mb-0">
-                        Lihat
-                    </p>
-                    <p class="fs-lg fw-semibold mb-0">
-                        Website
-                    </p>
+        <div class="row">
+            @if (Auth::user()->hasAnyRole('Inspection','Superuser'))
+                <div class="col-lg-12">
+                    <h2 class="pt-0">Inspection</h2>
                 </div>
-            </a>
+                <div class="col-3">
+                    <a wire:click="showModalAbstrak" class="block block-rounded block-link-shadow" target="_blank">
+                        <div class="block-content block-content-full text-center">
+                            <div class="p-3 mb-1">
+                                <i class="fa fa-3x fa-file text-secondary"></i>
+                            </div>
+                            <p class="fs-lg fw-semibold mb-0">
+                                Pengumpulan Abstrak
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-9">
+                </div>
+            @endif
+            @if (Auth::user()->hasAnyRole('Inskill', 'Superuser'))
+                <div class="col-lg-12">
+                    <h2 class="pt-0">Inskill</h2>
+                </div>
+                <div class="col-3">
+                    <a wire:click="showModalPembayaran" class="block block-rounded block-link-shadow" target="_blank">
+                        <div class="block-content block-content-full text-center">
+                            <div class="p-3 mb-1">
+                                <i class="fa fa-3x fa-credit-card text-secondary"></i>
+                            </div>
+                            <p class="fs-lg fw-semibold mb-0">
+                                Pembayaran
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-9">
+
+                </div>
+            @endif
+        </div>
+        <div class="row">
+            <div class="col">
+                <a class="block block-rounded block-link-shadow" href="{{ route('home') }}" target="_blank">
+                    <div class="block-content block-content-full text-center">
+                        <div class="p-3 mb-1">
+                            <i class="fa fa-3x fa-globe text-earth"></i>
+                        </div>
+                        <p class="fs-sm fw-medium text-muted mb-0">
+                            Lihat
+                        </p>
+                        <p class="fs-lg fw-semibold mb-0">
+                            Beranda
+                        </p>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </div>

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -48,7 +49,7 @@ Route::get('/logout', [\App\Http\Controllers\Auth\LoginController::class, 'logou
     Route::get('/forgetpassword', [\App\Http\Controllers\Core\MainController::class, 'forgetpassword'])->name('forgetpassword');
 //}
 
-Route::group(['middleware' => 'auth', 'prefix' => 'superuser', 'as' => 'superuser.'], function () {
+Route::group(['middleware' => ['auth', 'role:Superuser'], 'prefix' => 'superuser', 'as' => 'superuser.', ['role:Superuser']], function () {
 
     Route::get('beranda', \App\Http\Livewire\Superuser\Dashboard\DashboardIndex::class)->name('dashboard');
 
@@ -103,4 +104,12 @@ Route::group(['middleware' => 'auth', 'prefix' => 'superuser', 'as' => 'superuse
 
     Route::get('logs', [\Rap2hpoutre\LaravelLogViewer\LogViewerController::class, 'index']);
 
+});
+
+
+Route::group(['middleware' => ['auth', 'role:Inspection,Inskill,Superuser'], 'prefix' => 'income', 'as' => 'income.'], function () {
+
+    Route::get('beranda', \App\Http\Livewire\Income\Dashboard\DashboardIndex::class)->name('dashboard');
+
+    Route::post('/uploadAbstrak', [\App\Http\Livewire\Income\Dashboard\DashboardIndex::class, 'uploadAbstrak'])->name('abstrak');
 });

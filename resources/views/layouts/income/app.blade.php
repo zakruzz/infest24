@@ -11,7 +11,7 @@
 
 @yield('modal')
 
-<div id="page-container" class="sidebar-o enable-page-overlay side-scroll page-header-modern main-content-boxed @if(auth()->user()->is_darkmode) sidebar-dark page-header-dark dark-mode @endif">
+<div id="page-container" class="enable-page-overlay side-scroll page-header-modern main-content-boxed @if(auth()->user()->is_darkmode) sidebar-dark page-header-dark dark-mode @endif">
 
     @include('layouts.income.navbar')
 

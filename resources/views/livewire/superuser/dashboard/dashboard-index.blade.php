@@ -1,6 +1,5 @@
 @section('title', 'Beranda')
 <div>
-    @include('sections.modal.superuser.dashboard')
 
     <div wire:poll.2s class="row">
         <div class="col-lg-8">
@@ -36,21 +35,6 @@
         </div>
         <div class="row">
             <div class="col">
-                <a wire:click="create" class="block block-rounded block-link-shadow" target="_blank">
-                    <div class="block-content block-content-full text-center">
-                        <div class="p-3 mb-1">
-                            <i class="fa fa-3x fa-globe text-earth"></i>
-                        </div>
-                        <p class="fs-sm fw-medium text-muted mb-0">
-                            Lihat
-                        </p>
-                        <p class="fs-lg fw-semibold mb-0">
-                            Website
-                        </p>
-                    </div>
-                </a>
-            </div>
-            <div class="col">
                 <a class="block block-rounded block-link-shadow" href="{{ route('home') }}" target="_blank">
                     <div class="block-content block-content-full text-center">
                         <div class="p-3 mb-1">
@@ -60,39 +44,7 @@
                             Lihat
                         </p>
                         <p class="fs-lg fw-semibold mb-0">
-                            Website
-                        </p>
-                    </div>
-                </a>
-            </div>
-            <div class="col">
-                <a class="block block-rounded block-link-shadow" href="{{ route('home') }}" target="_blank">
-                    <div class="block-content block-content-full text-center">
-                        <div class="p-3 mb-1">
-                            <i class="fa fa-3x fa-globe text-earth"></i>
-                        </div>
-                        <p class="fs-sm fw-medium text-muted mb-0">
-                            Lihat
-                        </p>
-                        <p class="fs-lg fw-semibold mb-0">
-                            Website
-                        </p>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <a class="block block-rounded block-link-shadow" href="{{ route('home') }}" target="_blank">
-                    <div class="block-content block-content-full text-center">
-                        <div class="p-3 mb-1">
-                            <i class="fa fa-3x fa-globe text-earth"></i>
-                        </div>
-                        <p class="fs-sm fw-medium text-muted mb-0">
-                            Lihat
-                        </p>
-                        <p class="fs-lg fw-semibold mb-0">
-                            Website
+                            Beranda
                         </p>
                     </div>
                 </a>

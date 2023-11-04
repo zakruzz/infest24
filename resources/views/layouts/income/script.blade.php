@@ -55,6 +55,22 @@
         $('#modalBlogCategory').modal('hide')
     });
 
+    window.addEventListener('showModalAbstrak',function(e){
+        $('#modalAbstrak').modal('show')
+    });
+
+    window.addEventListener('hideModalAbstrak',function(e){
+        $('#modalAbstrak').modal('hide')
+    });
+
+    window.addEventListener('showModalPembayaran',function(e){
+        $('#modalPembayaran').modal('show')
+    });
+
+    window.addEventListener('hideModalPembayaran',function(e){
+        $('#modalPembayaran').modal('hide')
+    });
+
     $("input[type=date]").on("change", function() {
         this.setAttribute(
             "data-date",

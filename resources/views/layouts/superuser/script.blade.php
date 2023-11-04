@@ -43,6 +43,10 @@
         $('#modalSlider').modal('show')
     });
 
+    window.addEventListener('showModalAbstrak',function(e){
+        $('#modalAbstrak').modal('show')
+    });
+
     window.addEventListener('hideModalSlider',function(e){
         $('#modalSlider').modal('hide')
     });

@@ -1,9 +1,7 @@
 <header id="page-header">
     <div class="content-header">
         <div class="space-x-1">
-            <button type="button" class="btn btn-sm btn-alt-secondary" data-toggle="layout" data-action="sidebar_toggle">
-                <i class="fa fa-fw fa-bars"></i>
-            </button>
+
         </div>
 
         <div class="space-x-1">
