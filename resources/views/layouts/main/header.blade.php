@@ -476,9 +476,9 @@
                                     <li class="menu-item">
                                         <a href="/odl">One Day Lecture</a>
                                     </li>
-                                    <li class="menu-item">
+                                    {{-- <li class="menu-item">
                                         <a href="/talkshow">Talk Show</a>
-                                    </li>
+                                    </li> --}}
                                 </ul>
                             </li>
                             <li class="menu-item menu-item-has-children">
@@ -488,7 +488,7 @@
                                         <a href="/inspection">INSPECTION</a>
                                     </li>
                                     <li class="menu-item">
-                                        <a href="/#">INSKILL</a>
+                                        <a href="/inskill">INSKILL</a>
                                     </li>
                                 </ul>
                             </li>

@@ -253,10 +253,10 @@
                                         <span class="boder"></span>
                                         <div class="content-inner">
                                             <h5 class="heading"><a href="#">INSPECTION</a></h5>
-                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Karya Tulis Ilmiah Khusus Untuk Siswa SMK Berkelompok <br>[3 Orang/Kelompok]</p>
+                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Karya Tulis Ilmiah Khusus Untuk Siswa SMA/MA/SMK Berkelompok <br>[3 Orang/Kelompok]</p>
                                         </div>
                                     </div>
-                                    <a href="#" class="tf-button style1">
+                                    <a href="/inspection" class="tf-button style1">
                                         EXPLORE
                                     </a>
                                 </div>
@@ -264,7 +264,7 @@
                             <div class="swiper-slide">
                                 <div class="project-box">
                                     <div class="image">
-                                        <img class="mask1" src="{{ asset('assets/images/common/project_inshow.png') }}" alt="">
+                                        <img class="mask1" src="{{ asset('assets/images/common/project_income.png') }}" alt="">
                                     </div>
                                     <div class="content">
                                         <span class="boder"></span>
@@ -273,7 +273,7 @@
                                             <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Lomba Programmable Logic Controller untuk Siswa/Siswi Yang Terampil</p>
                                         </div>
                                     </div>
-                                    <a href="#" class="tf-button style1">
+                                    <a href="/inskill" class="tf-button style1">
                                         EXPLORE
                                     </a>
                                 </div>
@@ -304,8 +304,25 @@
                                     <div class="content">
                                         <span class="boder"></span>
                                         <div class="content-inner">
-                                            <h5 class="heading"><a href="#">INSHOW</a></h5>
-                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Pengenalan Entah Melalui Campus Tour, Talk Show Teknik Instrumentasi </p>
+                                            <h5 class="heading"><a href="#">One Day Lecture</a></h5>
+                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Pengenalan Melalui One Day Lecture Teknik Instrumentasi </p>
+                                        </div>
+                                    </div>
+                                    <a href="/odl" class="tf-button style1">
+                                        EXPLORE
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="project-box">
+                                    <div class="image">
+                                        <img class="mask3" src="{{ asset('assets/images/common/project_inshow.png') }}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <span class="boder"></span>
+                                        <div class="content-inner">
+                                            <h5 class="heading"><a href="#">Talk Show</a></h5>
+                                            <p class="desc">Sebuah Kegiatan Petualang Yang Lebih Berfokus Pada Pengenalan Melalui Talk Show Teknik Instrumentasi </p>
                                         </div>
                                     </div>
                                     <a href="#" class="tf-button style1">

@@ -39,10 +39,12 @@
                                 <div class="box-slider">
                                     <div class="content-box">
                                         <h1 class="title">
-                                            "INSPECTION (Instrumentation Paper Competition)"
+                                            "INSKILL (Instrumentation Skill)"
                                         </h1>
                                         <p class="sub-title">
-                                            merupakan sebuah kompetisi dalam bidang Karya Tulis Ilmiah yang ditujukan kepada siswa/siswi SMA/SMK sederajat untuk meningkatkan kreativitas dan inovasi dalam bidang instrumentasi. INSPECTION membawakan tema “Peran Teknik Instrumentasi Dalam Mewujudkan Indonesia Green Growth and Global Goals 2030” dan dari tema tersebut memiliki beberapa subtema. Perlombaan dilakukan dengan beranggotakan maksimal 3 orang dalam satu tim. Terdapat 2 kategori perlombaan, yaitu Gagasan Tertulis untuk siswa SMA dan Karsa Cipta untuk siswa SMK. Peserta melalui berbagai tahap penilaian mulai dari seleksi abstrak, seleksi full paper, seleksi poster hingga tahap grand final. Pada perlombaan ini, tahap grand final dilakukan secara offline.
+                                            merupakan kompetensi tingkat nasional dalam bidang instrumentasi berupa pemrograman ladder diagram PLC. Tujuan dari kompetisi ini adalah untuk memperkenalkan Teknik Instrumentasi dalam uji sistem kontrol berbasis PLC pada para peserta.
+INSKILL ditujukan pada siswa/siswi SMK dengan setiap tim beranggotakan 2 orang. Peserta melakukan kompetisi dalam bidang sistem kontrol berbasis PLC berupa pemrograman ladder diagram. Peserta diwajibkan melakukan pemrograman sesuai soal yang diberikan oleh panitia. Perlombaan dilakukan secara bertahap, mulai dari babak penyisihan (online), semifinal (online) dan grand final (offline).
+
                                         </p>
                                         <div
                                             class="wrap-btn d-grid gap-2 d-md-flex justify-content-md-center"
@@ -481,14 +483,11 @@
                                             </div>
                                             <div class="content">
                                                 <h6 class="date">
-                                                    1-30 November 2023
+                                                    1 November - 15 Desember 2023
                                                 </h6>
                                                 <ul>
                                                     <li>
-                                                        Pendaftaran
-                                                    </li>
-                                                    <li>
-                                                        Pengumpulan Abstrak
+                                                        Pendaftaran Batch 1
                                                     </li>
                                                 </ul>
                                             </div>
@@ -504,11 +503,11 @@
                                             </div>
                                             <div class="content">
                                                 <h6 class="date">
-                                                    8-21 Desember 2023
+                                                    16-30 Desember 2023
                                                 </h6>
                                                 <ul>
                                                     <li>
-                                                        Seleksi Abstrak
+                                                        Pendaftaran Batch 2
                                                     </li>
                                                 </ul>
                                             </div>
@@ -524,11 +523,11 @@
                                             </div>
                                             <div class="content">
                                                 <h6 class="date">
-                                                    23 Desember 2023
+                                                    8-9 Januari 2024
                                                 </h6>
                                                 <ul>
                                                     <li>
-                                                        Pengumuman Abstrak
+                                                        Batas Akhir Pembayaran
                                                     </li>
                                                 </ul>
                                             </div>
@@ -544,11 +543,11 @@
                                             </div>
                                             <div class="content">
                                                 <h6 class="date">
-                                                    24 Desember 2023 - 6 Januari 2024
+                                                    17 Januari 2024
                                                 </h6>
                                                 <ul>
                                                     <li>
-                                                        Pengumpulan Full Paper Batch 1
+                                                        Technical Meeting Penyisihan
                                                     </li>
                                                 </ul>
                                             </div>
@@ -564,11 +563,11 @@
                                             </div>
                                             <div class="content">
                                                 <h6 class="date">
-                                                    7-16 Januari 2024
+                                                    20-21 Januari 2024
                                                 </h6>
                                                 <ul>
                                                     <li>
-                                                        Pengumpulan Full Paper Batch 2
+                                                        Penyisihan Inskill
                                                     </li>
                                                 </ul>
                                             </div>
@@ -584,11 +583,11 @@
                                             </div>
                                             <div class="content">
                                                 <h6 class="date">
-                                                    9-23 Januari 2024
+                                                    26 Januari 2024
                                                 </h6>
                                                 <ul>
                                                     <li>
-                                                        Penjurian Full Paper
+                                                        Pengumuman Semifinalis
                                                     </li>
                                                 </ul>
                                             </div>
@@ -604,7 +603,47 @@
                                             </div>
                                             <div class="content">
                                                 <h6 class="date">
-                                                    27 Januari 2024
+                                                    31 Januari 2024
+                                                </h6>
+                                                <ul>
+                                                    <li>
+                                                        Technical Meeting Semifinalis
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="roadmap-box">
+                                            <div class="icon">
+                                                <img
+                                                    src="./assets/images/common/icon_roadmap.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="content">
+                                                <h6 class="date">
+                                                    3-4 Februari 2024
+                                                </h6>
+                                                <ul>
+                                                    <li>
+                                                        Semifinalis INSKILL (Online)
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="roadmap-box">
+                                            <div class="icon">
+                                                <img
+                                                    src="./assets/images/common/icon_roadmap.svg"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <div class="content">
+                                                <h6 class="date">
+                                                    8 Februari 2024
                                                 </h6>
                                                 <ul>
                                                     <li>
@@ -624,51 +663,11 @@
                                             </div>
                                             <div class="content">
                                                 <h6 class="date">
-                                                    3 Februari 2024
+                                                    11 Februari 2024
                                                 </h6>
                                                 <ul>
                                                     <li>
-                                                        Technical Meeting
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="roadmap-box">
-                                            <div class="icon">
-                                                <img
-                                                    src="./assets/images/common/icon_roadmap.svg"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="date">
-                                                    4-8 Februari 2024
-                                                </h6>
-                                                <ul>
-                                                    <li>
-                                                        Pengumpulan Poster
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="roadmap-box">
-                                            <div class="icon">
-                                                <img
-                                                    src="./assets/images/common/icon_roadmap.svg"
-                                                    alt=""
-                                                />
-                                            </div>
-                                            <div class="content">
-                                                <h6 class="date">
-                                                    10-15 Februari 2024
-                                                </h6>
-                                                <ul>
-                                                    <li>
-                                                        Vote Poster
+                                                        Technical Meeting Final
                                                     </li>
                                                 </ul>
                                             </div>
@@ -688,7 +687,7 @@
                                                 </h6>
                                                 <ul>
                                                     <li>
-                                                        Grand Final (Presentasi Offline)
+                                                        Grand Final + Awarding
                                                     </li>
                                                 </ul>
                                             </div>
@@ -759,21 +758,21 @@
                     <div class="flat-toggle">
                         <div class="h7 toggle-title">
                             <span class="icon-Icon"> </span>
-                            <span>Apa itu INSPECTION?</span>
+                            <span>Apa itu INSKILL? </span>
                         </div>
                         <p class="toggle-content" style="display: none">
-                            INSPECTION atau Instrumentation Paper Competition merupakan sebuah kompetisi dalam bidang Karya Tulis Ilmiah yang ditujukan kepada siswa/siswi SMA/SMK sederajat untuk meningkatkan kreativitas dan inovasi dalam bidang instrumentasi.
+                            INSKILL atau Instrumentation Skill merupakan kompetensi tingkat nasional dalam bidang instrumentasi berupa pemrograman ladder diagram PLC. Tujuan dari kompetisi ini adalah untuk memperkenalkan Teknik Instrumentasi dalam uji sistem kontrol berbasis PLC pada para peserta.
                         </p>
                     </div>
                     <div class="flat-toggle">
                         <div class="h7 toggle-title">
                             <span class="icon-Icon"> </span>
                             <span
-                                >Kapan dan di mana INSPECTION?</span
+                                >Kapan dan di mana INSKILL ?</span
                             >
                         </div>
                         <p class="toggle-content" style="display: none">
-                            Kegiatan ini akan berlangsung pada tanggal 1 November 2023  – 17 Februari 2024 . Kegiatan ini akan dilaksanakan secara online dan offline di kawasan Departemen Teknik Instrumentasi dan Kampus ITS Sukolilo Surabaya. 
+                            Kegiatan ini akan berlangsung pada tanggal 1 November 2023  – 17 Februari 2024 . Kegiatan ini akan dilaksanakan online dan offline di kawasan Departemen Teknik Instrumentasi dan Kampus ITS Sukolilo Surabaya. 
                         </p>
                     </div>
                     <div class="flat-toggle">
@@ -787,7 +786,7 @@
                             Halaman Login. <br><br>
                             <b>2.1 Login</b> <br><br>Jika Sudah Memiliki Akun Silahkan Langsung Login dengan Akun yang Telah Terdaftar Sebelumnya<br><br>
                             <b>2.2 Register</b> <br><br>Jika Belum Mempunyai Akun Silahkan Klik Tulisan "Register" yang Ada Pada Halaman Login, dan Buatlah Akunnya Dengan Mengisi Kolom Formulir yang Telah Disediakan Panitia, Kemudian Klik Tombol Register, Setelah itu akan di direct Link Grup WhatsApp Peserta [Semua Peserta Wajib Gabung Ke WhatsApp Grup] yang Menandakan Bahwa Registrasi Berhasil, dan Silahkan Kembali Ke Halaman Login Untuk Memasukkan Akun yang Telah Terdaftar. <br><br>
-                            <b>3. Pengumpulan Abstrak </b> <br><br> Jika Peserta Telah Massuk/Login Maka Peserta Akan Diarahkan Ke Halaman Dashboard, dan Jika Peserta Hendak Mengumpulkan Abstrak Silahkan Klik "Pengumpulan Abstrak" yang Ada di Tampilan Utama Dashboard, dan Silahkan Upload Abstraknya Di Kolom Upload yang Sudah Disediakan Panitia
+                            <b>3. Lengkapi Berkas</b> <br><br>Lengkapi Berkas-berkas yang Telah Ditentukan Panitia Di Halaman Dashboard<br><br>
                         </p>
                     </div>
                     <div class="flat-toggle">
@@ -811,11 +810,11 @@
                         <div class="h7 toggle-title">
                             <span class="icon-Icon"> </span>
                             <span
-                                >Siapa yang dapat mengikuti INSPECTION?</span
+                                >Siapa yang dapat mengikuti INSKILL?</span
                             >
                         </div>
                         <p class="toggle-content" style="display: none">
-                            Kegiatan ini dapat diikuti oleh semua siswa/siswi SMA/SMK sederajat dari seluruh Indonesia.
+                            Kegiatan ini dapat diikuti oleh semua siswa/siswi SMK sederajat dari seluruh Indonesia.
                         </p>
                     </div>
                     <div class="flat-toggle">
@@ -826,9 +825,9 @@
                             >
                         </div>
                         <p class="toggle-content" style="display: none">
-                            Untuk tahap pendaftaran tidak dikenakan biaya namun bagi tim yang lolos pada tahap fulpaper dikenai biaya yakni : 
-                            <br>Batch 1 dikenai biaya sebesar Rp. 100.000/Tim.
-                            <br>Batch 2 dikenai biaya sebesar Rp. 130.000/Tim.
+                            Peserta melakukan pembayaran biaya pendaftaran sebesar :
+                            <br>Rp. 70.000/tim untuk Batch 1.
+                            <br>Rp. 90.000/tim untuk Batch 2.
                         </p>
                     </div>
                     <div class="flat-toggle">
@@ -847,11 +846,11 @@
             <div class="col-md-12">
                 <div class="content_faq text-center">
                     <p>
-                        Masih Dibingungkan Perihal Inspection Ini? Klik
+                        Masih Dibingungkan Perihal Inskill Ini? Klik
                         Tombol Dibawah Ini
                     </p>
                     <div class="wrap-btn">
-                        <a href="https://wa.me/+628815090130" class="tf-button style1">Contact</a>
+                        <a href="https://wa.me/+62895396254665" class="tf-button style1">Contact</a>
                     </div>
                 </div>
             </div>
@@ -897,7 +896,7 @@
                                                 style="display: none"
                                             >
                                             <a
-                                                href="https://drive.google.com/file/d/1utGTy4M_fl2QBsX17HmZpd2bWQ7hqHUk/view?usp=sharing"
+                                                href="https://drive.google.com/file/d/1GQYbPgZpueiJVEFpFXpUJ8oovNSxKfyu/view?usp=sharing"
                                                 class="tf-button style2 me-md-2"
                                             >
                                                 Guide Book
@@ -916,7 +915,7 @@
                                                 <img
                                                     src="{{
                                                         asset(
-                                                            'assets/event/PosterINSPECTION.png'
+                                                            'assets/event/PosterINSKILL.png'
                                                         )
                                                     }}"
                                                     alt=""
