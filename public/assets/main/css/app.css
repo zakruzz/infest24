@@ -2596,6 +2596,7 @@ form button {
 .project-info-form.form-login.style2 {
     background-image: url("./../../assets/images/backgroup/bg_login_2.png");
     padding: 20px 30px 35px;
+    background-repeat: no-repeat;
 }
 .project-info-form.form-login.style2 .title.link {
     background-image: url("./../../assets/images/backgroup/bg_link_2.png");
