@@ -2,12 +2,13 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
 use App\Models\Auth\User;
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
-use Illuminate\Database\Eloquent\Relations\HasMany;
+use App\Models\BuktiFollow;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Participant extends Model
 {
@@ -26,5 +27,9 @@ class Participant extends Model
 
     public function user() : HasOne{
         return $this->hasOne(User::class, 'id', 'user_id');
+    }
+
+    public function buktiFollow() : HasOne{
+        return $this->hasOne(BuktiFollow::class, 'participant_id', 'id');
     }
 }

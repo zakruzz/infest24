@@ -63,9 +63,15 @@
                 </td>
                 <td class="fw-semibold text-center">
                     <span>
-                        <button wire:click="bukti_persyaratan({{ $pendaftar->user_id }})"  class="btn btn-large btn-success">
-                            <i class="fa fa-file"></i>
-                        </button>
+                        <span>
+                            @if (!$pendaftar->buktiFollow)
+                                No Data
+                            @else
+                                <button wire:click="bukti_persyaratan({{ $pendaftar->user_id }})"  class="btn btn-large btn-success">
+                                    <i class="fa fa-file"></i>
+                                </button>
+                            @endif
+                        </span>
                     </span>
                 </td>
             </tr>
