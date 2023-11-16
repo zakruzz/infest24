@@ -27,16 +27,4 @@ class Participant extends Model
     public function user() : HasOne{
         return $this->hasOne(User::class, 'id', 'user_id');
     }
-
-    // public function tags() : BelongsToMany{
-    //     return $this->belongsToMany(BlogTag::class, 'blog_tag_relations');
-    // }
-
-    // public function comments() : HasMany{
-    //     return $this->hasMany(BlogComment::class, 'blog_id', 'id');
-    // }
-
-    // public function views() : HasMany{
-    //     return $this->hasMany(WebsiteVisitor::class, 'blog_id', 'id');
-    // }
 }

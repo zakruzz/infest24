@@ -16,7 +16,7 @@
                             <div class="col-lg-12 mb-3">
                                 <label class="form-label" for="ss_infest">Bukti Follow IG INFEST</label>
                                 <div class="col-lg-12 mb-3" id="ss_infest">
-                                    <a href="" target="_blank">{{ @$ss_infest }}</a>
+                                    <a href="{{ asset('storage/bukti_follow/infest') . '/' . @$ss_infest }}" target="_blank">{{ @$ss_infest }}</a>
                                 </div>
                             </div>
                         </div>    
@@ -26,7 +26,7 @@
                             <div class="col-lg-12 mb-3">
                                 <label class="form-label" for="ss_instastory">Bukti Upload Instastory</label>
                                 <div class="col-lg-12 mb-3" id="ss_instastory">
-                                    <a href="" target="_blank">{{ @$ss_instastory }}</a>
+                                    <a href="{{ asset('storage/bukti_follow/instastory') . '/' . @$ss_instastory }}" target="_blank">{{ @$ss_instastory }}</a>
                                 </div>
                             </div>
                         </div>    
@@ -36,7 +36,7 @@
                             <div class="col-lg-12 mb-3">
                                 <label class="form-label" for="ss_poster">Bukti Upload Poster</label>
                                 <div class="col-lg-12 mb-3" id="ss_poster">
-                                    <a href="" target="_blank">{{ @$ss_poster }}</a>
+                                    <a href="{{ asset('storage/bukti_follow/poster') . '/' . @$ss_poster }}" target="_blank">{{ @$ss_poster }}</a>
                                 </div>
                             </div>
                         </div>    
@@ -46,7 +46,7 @@
                             <div class="col-lg-12 mb-3">
                                 <label class="form-label" for="ss_twibbon">Bukti Upload Twibbon</label>
                                 <div class="col-lg-12 mb-3" id="ss_twibbon">
-                                    <a href="" target="_blank">{{ @$ss_twibbon }}</a>
+                                    <a href="{{ asset('storage/bukti_follow/twibbon') . '/' . @$ss_twibbon }}" target="_blank">{{ @$ss_twibbon }}</a>
                                 </div>
                             </div>
                         </div>    
@@ -56,7 +56,7 @@
                             <div class="col-lg-12 mb-3">
                                 <label class="form-label" for="link_drive">Link Bukti Melalui Google Drive</label>
                                 <div class="col-lg-12 mb-3" id="link_drive">
-                                    <a href="" target="_blank">{{ @$link_drive }}</a>
+                                    <a href="{{ @$link_drive }}" target="_blank">Google Drive</a>
                                 </div>
                             </div>
                         </div>    
