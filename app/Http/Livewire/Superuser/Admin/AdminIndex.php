@@ -65,6 +65,7 @@ class AdminIndex extends Component{
             }
 
             $this->admin->save();
+            $this->admin->assignRole("Superuser");
 
             $this->dispatchBrowserEvent('hideModalAccountAdmin');
             return $this->alert('success', 'Akun berhasil dibuat');

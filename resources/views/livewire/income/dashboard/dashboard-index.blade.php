@@ -40,26 +40,29 @@
                 <div class="col-lg-12">
                     <h2 class="pt-0">Inspection</h2>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <a wire:click="showModalAbstrak" class="block block-rounded block-link-shadow" target="_blank">
                         <div class="block-content block-content-full text-center">
                             <div class="p-3 mb-1">
                                 <i class="fa fa-3x fa-file text-secondary"></i>
                             </div>
+                            <p class="fs-sm fw-medium text-muted mb-0">
+                                Pengumpulan
+                            </p>
                             <p class="fs-lg fw-semibold mb-0">
-                                Pengumpulan Abstrak
+                                Abstrak
                             </p>
                         </div>
                     </a>
                 </div>
-                <div class="col-9">
+                <div class="col-6 col-md-9">
                 </div>
             @endif
             @if (Auth::user()->hasAnyRole('Inskill', 'Superuser'))
                 <div class="col-lg-12">
                     <h2 class="pt-0">Inskill</h2>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-md-3">
                     <a wire:click="showModalPembayaran" class="block block-rounded block-link-shadow" target="_blank">
                         <div class="block-content block-content-full text-center">
                             <div class="p-3 mb-1">
@@ -71,7 +74,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-9">
+                <div class="col-6 col-md-9">
 
                 </div>
             @endif

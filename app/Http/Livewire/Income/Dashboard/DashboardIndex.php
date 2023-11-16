@@ -4,11 +4,12 @@ namespace App\Http\Livewire\Income\Dashboard;
 
 use App\Models\Abstrak;
 use Livewire\Component;
+use App\Models\Pembayaran;
+use App\Models\Participant;
 use App\Models\Content\Slider;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 use App\Http\Traits\Support\FileUploadTrait;
-use App\Models\Participant;
-use App\Models\Pembayaran;
 use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 class DashboardIndex extends Component{
@@ -41,14 +42,16 @@ class DashboardIndex extends Component{
         // $this->validate();
 
         $abstrak = Abstrak::where('user_id', Auth::user()->id)->first();
+        $participant = Participant::where('user_id', Auth::user()->id)->first();
+        
         if($abstrak) {
-            unlink(storage_path('app/abstrak/'.$abstrak->filename));
+            unlink(storage_path('app/public/abstrak/'.$abstrak->filename));
             Abstrak::where('user_id', Auth::user()->id)->delete();
         }
 
         $file = $this->fileAbstrak;
-        $fileName = time() . '_' . $file->getClientOriginalName();
-        $filePath = $file->storeAs('abstrak', $fileName);
+        $fileName = 'Abstrak_' . json_decode($participant->name)[0] . '_' . $participant->institusi . '_' . $file->getClientOriginalName();
+        $filePath = $file->storeAs('public/abstrak', $fileName);
 
         $participant = Participant::where('user_id', Auth::user()->id)->first();
         if($participant) {
@@ -66,20 +69,22 @@ class DashboardIndex extends Component{
     }
 
     public function storePembayaran(){
-        $this->rules['filePembayaran'] = $this->editMode ? 'nullable' : 'required'.'|'.$this->rules['filePembayaran'];
-        $this->validate();
+        // $this->rules['filePembayaran'] = $this->editMode ? 'nullable' : 'required'.'|'.$this->rules['filePembayaran'];
+        // $this->validate();
 
         $pembayaran = Pembayaran::where('user_id', Auth::user()->id)->first();
+        $participant = Participant::where('user_id', Auth::user()->id)->first();
+
         if($pembayaran) {
-            unlink(storage_path('app/pembayaran/'.$pembayaran->filename));
+            unlink(storage_path('app/public/pembayaran/'.$pembayaran->filename));
             Pembayaran::where('user_id', Auth::user()->id)->delete();
         }
 
         $file = $this->filePembayaran;
-        $fileName = time() . '_' . $file->getClientOriginalName();
-        $filePath = $file->storeAs('pembayaran', $fileName);
+        $fileName = "Pembayaran_" . json_decode($participant->name)[0] . '_' . $participant->institusi . '.' . $file->getClientOriginalExtension();
+        $filePath = $file->storeAs('public/pembayaran', $fileName);
 
-        $participant = Participant::where('user_id', Auth::user()->id)->first();
+
         if($participant) {
             $participant_id = $participant->id;
         }
@@ -95,7 +100,27 @@ class DashboardIndex extends Component{
     }
 
     public function render(){
-        return view('livewire.income.dashboard.dashboard-index')
+        $pembayaran = Pembayaran::where('user_id', Auth::user()->id)->first();
+        $abstrak = Abstrak::where('user_id', Auth::user()->id)->first();
+
+        if($pembayaran) {
+            $bukti_bayar = $pembayaran->filename;
+        }else {
+            $bukti_bayar = '';
+        }
+
+        if($abstrak) {
+            $abstraks = $abstrak->filename;
+        }else {
+            $abstraks = '';
+        }
+
+        $data = [
+            "bukti_bayar" => $bukti_bayar,
+            "abstraks" => $abstraks,
+        ];
+
+        return view('livewire.income.dashboard.dashboard-index', $data)
             ->extends('layouts.income.app')->section('content');
     }
 

@@ -59,6 +59,14 @@
         $('#modalBlogCategory').modal('hide')
     });
 
+    window.addEventListener('showModalBuktiPersyaratan',function(e){
+        $('#modalBuktiPersyaratan').modal('show')
+    });
+
+    window.addEventListener('hideModalBuktiPersyaratan',function(e){
+        $('#modalBuktiPersyaratan').modal('hide')
+    });
+
     $("input[type=date]").on("change", function() {
         this.setAttribute(
             "data-date",

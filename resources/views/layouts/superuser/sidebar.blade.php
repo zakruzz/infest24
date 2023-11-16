@@ -135,6 +135,60 @@
                             </li>
                         </ul>
                     </li>
+                    <li class="nav-main-item {{ (request()->is('superuser/inspection') || request()->is('superuser/inspection/*')) ? 'open' : '' }}">
+                        <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu"
+                           aria-haspopup="true" aria-expanded="true" href="#">
+                            <i class="nav-main-link-icon fa fa-chalkboard"></i>
+                            <span class="nav-main-link-name">Inspection</span>
+                        </a>
+                        <ul class="nav-main-submenu">
+                            <li class="nav-main-item">
+                                <a class="nav-main-link {{ (request()->is('superuser/inspection') || request()->is('superuser/inspection/*')) ? 'active' : '' }}"
+                                   href="{{ route('superuser.inspection.index') }}">
+                                    <span class="nav-main-link-name">Pendaftar</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav-main-submenu">
+                            <li class="nav-main-item">
+                                <a class="nav-main-link {{ (request()->is('superuser/inspection') || request()->is('superuser/inspection/abstrak')) ? 'active' : '' }}"
+                                   href="{{ route('superuser.inspection.abstrak') }}">
+                                    <span class="nav-main-link-name">Abstrak</span>
+                                </a>
+                            </li>
+                        </ul>
+                        {{-- <ul class="nav-main-submenu">
+                            <li class="nav-main-item">
+                                <a class="nav-main-link {{ (request()->is('superuser/event') || request()->is('superuser/odl/odl_undangan')) ? 'active' : '' }}"
+                                   href="{{ route('superuser.odl_undangan.index') }}">
+                                    <span class="nav-main-link-name">Bukti Bayar</span>
+                                </a>
+                            </li>
+                        </ul> --}}
+                    </li>
+                    <li class="nav-main-item {{ (request()->is('superuser/inskill') || request()->is('superuser/inskill/*')) ? 'open' : '' }}">
+                        <a class="nav-main-link nav-main-link-submenu" data-toggle="submenu"
+                           aria-haspopup="true" aria-expanded="true" href="#">
+                            <i class="nav-main-link-icon fa fa-chalkboard"></i>
+                            <span class="nav-main-link-name">Inskill</span>
+                        </a>
+                        <ul class="nav-main-submenu">
+                            <li class="nav-main-item">
+                                <a class="nav-main-link {{ (request()->is('superuser/inskill') || request()->is('superuser/inskill/inskill')) ? 'active' : '' }}"
+                                   href="{{ route('superuser.inskill.index') }}">
+                                    <span class="nav-main-link-name">Pendaftar</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav-main-submenu">
+                            <li class="nav-main-item">
+                                <a class="nav-main-link {{ (request()->is('superuser/inskill') || request()->is('superuser/inskill/pembayaran')) ? 'active' : '' }}"
+                                   href="{{ route('superuser.inskill.pembayaran') }}">
+                                    <span class="nav-main-link-name">Bukti Bayar</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                     <li class="nav-main-heading">Lainnya</li>
                     <li class="nav-main-item">
                         <a class="nav-main-link {{ (request()->is('superuser/admin') || request()->is('superuser/admin/*')) ? 'active' : '' }}"

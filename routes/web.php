@@ -48,6 +48,8 @@ Route::get('/logout', [\App\Http\Controllers\Auth\LoginController::class, 'logou
     Route::get('/register', [\App\Http\Controllers\Core\MainController::class, 'register'])->name('register');
     Route::get('/contact', [\App\Http\Controllers\Core\MainController::class, 'contact'])->name('contact');
     Route::get('/forgetpassword', [\App\Http\Controllers\Core\MainController::class, 'forgetpassword'])->name('forgetpassword');
+    Route::get('inspection/pendaftar/export', [\App\Http\Controllers\IncomeController::class, 'exportPendaftarInspection'])->name('inspection.pendaftar.export');
+    Route::get('inskill/pendaftar/export', [\App\Http\Controllers\IncomeController::class, 'exportPendaftarInskill'])->name('inskill.pendaftar.export');
 //}
 
 Route::group(['middleware' => ['auth', 'role:Superuser'], 'prefix' => 'superuser', 'as' => 'superuser.', ['role:Superuser']], function () {
@@ -93,6 +95,16 @@ Route::group(['middleware' => ['auth', 'role:Superuser'], 'prefix' => 'superuser
 
     Route::group(['prefix' => 'odl_umum', 'as' => 'odl_umum.'], function () {
         Route::get('/', \App\Http\Livewire\Superuser\ODL\ODLUmumIndex::class)->name('index');
+    });
+
+    Route::group(['prefix' => 'inskill', 'as' => 'inskill.'], function () {
+        Route::get('/', \App\Http\Livewire\Superuser\Inskill\InskillIndex::class)->name('index');
+        Route::get('/pembayaran', \App\Http\Livewire\Superuser\Inskill\PembayaranIndex::class)->name('pembayaran');
+    });
+
+    Route::group(['prefix' => 'inspection', 'as' => 'inspection.'], function () {
+        Route::get('/', \App\Http\Livewire\Superuser\Inspection\InspectionIndex::class)->name('index');
+        Route::get('/abstrak', \App\Http\Livewire\Superuser\Inspection\AbstrakIndex::class)->name('abstrak');
     });
 
     Route::get('admin', \App\Http\Livewire\Superuser\Admin\AdminIndex::class)->name('admin');

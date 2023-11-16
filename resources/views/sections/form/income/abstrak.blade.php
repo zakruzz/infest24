@@ -1,8 +1,20 @@
 <div class="row">
     <div class="col-lg-12 mb-2">
-        <span>Ketentuan (<span class="text-danger">*</span>)</span>
+        <span><strong>INFO</strong></span>
         <br>
-        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium tempore officia sequi possimus ducimus iste debitis illo animi accusantium placeat consectetur hic magnam deleniti qui quas aliquid dicta minus distinctio, fuga delectus laborum quis maxime, omnis voluptas! Ad voluptatum accusantium et facere officiis animi, beatae magnam ratione ex ducimus, sint est repellat sequi provident aliquid vero fuga blanditiis libero deleniti voluptate quidem. Placeat excepturi, minus voluptatem expedita beatae possimus tenetur obcaecati doloribus impedit, quos eum commodi fugiat id! Accusantium facilis aliquam possimus. Enim recusandae necessitatibus quasi, alias, quisquam nulla nihil officia voluptas illum esse molestias doloribus impedit ut mollitia repellendus.</small>
+        <p class="pt-0">
+            File abstrak menggunakan format .pdf
+            <br>
+            Rename file menggunakan judul ilmiah anda <br>
+            <br>
+            CP INSPECTION (LO) 
+            <br>
+            Gisty 0878-4608-6778
+            <br>
+            Tian 0881-5090-130
+
+            
+        </p>
     </div>
     <div class="col-lg-12 mb-3">
         <label class="form-label" for="field-file-abstrak">Abstrak <span class="text-danger">*</span></label>
@@ -14,5 +26,8 @@
             {{ $message }}
         </span>
         @enderror
+    </div>
+    <div class="col-lg-12 mb-3">
+        <a href="{{ asset('storage/abstrak/' . $abstraks)  }}" target="_blank">{{ $abstraks }}</a>
     </div>
 </div>

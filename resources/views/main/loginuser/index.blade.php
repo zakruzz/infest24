@@ -2,17 +2,21 @@
 @section('style')
 @endsection
 @section('content')
-<section class="tf-section project-info" style="padding-top: 10%">
+<section class="page-title">
+
+</section>
+
+<section class="tf-section project-info">
     <div class="container"> 
         <div class="row">
             <div class="col-md-12">
                 <form action="{{ route('login') }}" method="POST">
                     @csrf
-                    <div class="project-info-form form-login">
+                    <div class="project-info-form form-login" style="background-repeat:no-repeat;">
                         <h6 class="title">Login</h6>
-                        <h6 class="title show-mobie"><a href="/register">Register</a></h6>
-                        <h6 class="title link"><a href="/register">Register</a></h6>
-                        <p>Login dengan Akun Anda yang Telah Terdaftar Sebelumnya</p>
+                        <!--<h6 class="title show-mobie"><a href="/register">Register</a></h6>-->
+                        <!--<h6 class="title link" style="font-size: 22px"><a href="/register">Register</a></h6>-->
+                        <p style="margin-top: 7%;">Login dengan Akun Anda yang Telah Terdaftar Sebelumnya</p>
                         <div class="form-inner"> 
                             <fieldset>
                                 <label>
