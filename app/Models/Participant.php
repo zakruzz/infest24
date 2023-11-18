@@ -32,4 +32,8 @@ class Participant extends Model
     public function buktiFollow() : HasOne{
         return $this->hasOne(BuktiFollow::class, 'participant_id', 'id');
     }
+
+    public function pembayaran() : HasOne{
+        return $this->hasOne(Pembayaran::class, 'participant_id', 'id');
+    }
 }

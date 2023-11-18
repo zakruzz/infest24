@@ -50,7 +50,8 @@ class DashboardIndex extends Component{
         }
 
         $file = $this->fileAbstrak;
-        $fileName = 'Abstrak_' . json_decode($participant->name)[0] . '_' . $participant->institusi . '_' . $file->getClientOriginalName();
+        $fileAbstrak = 'Abstrak_' . json_decode($participant->name)[0] . '_' . $participant->institusi . '_' . $file->getClientOriginalName();
+        $fileName = str_replace(' ', '-', $fileAbstrak);
         $filePath = $file->storeAs('public/abstrak', $fileName);
 
         $participant = Participant::where('user_id', Auth::user()->id)->first();
@@ -81,7 +82,8 @@ class DashboardIndex extends Component{
         }
 
         $file = $this->filePembayaran;
-        $fileName = "Pembayaran_" . json_decode($participant->name)[0] . '_' . $participant->institusi . '.' . $file->getClientOriginalExtension();
+        $filePembayaran = "Pembayaran_" . json_decode($participant->name)[0] . '_' . $participant->institusi . '.' . $file->getClientOriginalExtension();
+        $fileName = str_replace(' ', '-', $filePembayaran);
         $filePath = $file->storeAs('public/pembayaran', $fileName);
 
 
