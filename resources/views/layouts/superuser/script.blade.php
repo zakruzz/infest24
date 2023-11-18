@@ -74,6 +74,10 @@
                 .format( this.getAttribute("data-date-format") )
         )
     }).trigger("change")
+
+    function redirectToNewLink($link) {
+        window.location.href = $link;
+    }
 </script>
 
 @yield('scripts')

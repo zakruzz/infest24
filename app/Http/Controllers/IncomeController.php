@@ -10,6 +10,8 @@ use Illuminate\Support\Facades\Hash;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
+use function PHPUnit\Framework\isEmpty;
+
 class IncomeController extends Controller
 {
     public function save(Request $request) {
@@ -35,21 +37,32 @@ class IncomeController extends Controller
                 $daftar_institusi[] = $institusi;
             }
 
-            $file = $request->ss_twibbon;
-            $ss_twibbon = 'Twibbon_' . $request->nama_tim . '.' . $file->getClientOriginalExtension();
-            $file->storeAs('public/bukti_follow/twibbon', $ss_twibbon);
+            if($request->pilihanBukti == 'option1') {
+                $file = $request->ss_twibbon;
+                $ss_twibbon = 'Twibbon_' . $request->nama_tim . '.' . $file->getClientOriginalExtension();
+                $fileName = str_replace(' ', '', $ss_twibbon);
+                $file->storeAs('public/bukti_follow/twibbon', $fileName);
 
-            $file = $request->ss_infest;
-            $ss_infest = 'Infest_' . $request->nama_tim . '.' . $file->getClientOriginalExtension();
-            $file->storeAs('public/bukti_follow/infest', $ss_infest);
+                $file = $request->ss_infest;
+                $ss_infest = 'Infest_' . $request->nama_tim . '.' . $file->getClientOriginalExtension();
+                $fileName = str_replace(' ', '', $ss_infest);
+                $file->storeAs('public/bukti_follow/infest', $fileName);
 
-            $file = $request->ss_poster;
-            $ss_poster = 'Poster_' . $request->nama_tim . '.' . $file->getClientOriginalExtension();
-            $file->storeAs('public/bukti_follow/poster', $ss_poster);
+                $file = $request->ss_poster;
+                $ss_poster = 'Poster_' . $request->nama_tim . '.' . $file->getClientOriginalExtension();
+                $fileName = str_replace(' ', '', $ss_poster);
+                $file->storeAs('public/bukti_follow/poster', $fileName);
 
-            $file = $request->ss_instastory;
-            $ss_instastory = 'Instastory_' . $request->nama_tim .'.' . $file->getClientOriginalExtension();
-            $file->storeAs('public/bukti_follow/instastory', $ss_instastory);
+                $file = $request->ss_instastory;
+                $ss_instastory = 'Instastory_' . $request->nama_tim .'.' . $file->getClientOriginalExtension();
+                $fileName = str_replace(' ', '', $ss_instastory);
+                $file->storeAs('public/bukti_follow/instastory', $fileName);
+            }else {
+                $ss_infest = null;
+                $ss_instastory = null;
+                $ss_twibbon = null;
+                $ss_poster = null;
+            }
 
             $participant = Participant::create([
                 "user_id" => $user->id,

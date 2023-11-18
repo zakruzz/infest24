@@ -121,8 +121,8 @@
                         <h6 class="title mb30">Upload Document </h6>
                         <div class="form-inner">
                         
-                                <label for="pilihan">Pilih Opsi:</label>
-                                    <select id="pilihan">
+                                <label for="pilihanBukti">Pilih Opsi:</label>
+                                    <select id="pilihanBukti">
                                         <option value="-">Pilih Opsi</option>
                                         <option value="option1">Upload Dokumen dengan Drag and Drop</option>
                                         <option value="option2">Link Drive</option>
